@@ -16,6 +16,7 @@
 		<Item Name="test" Type="Folder" URL="../test">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="GetValue.vi" Type="VI" URL="/C/Users/sudarshan.rajkumar/Desktop/Catalst/UI tester/GetValue.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
