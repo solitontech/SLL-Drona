@@ -5,10 +5,20 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Helper" Type="Folder">
+		<Item Name="Helper-SubPanel" Type="Folder">
+			<Item Name="SubVi" Type="Folder">
+				<Item Name="SubPanelVI1.vi" Type="VI" URL="../Helper/Helper-SubPanel/SubVi/SubPanelVI1.vi"/>
+				<Item Name="SubPanelVI2.vi" Type="VI" URL="../Helper/Helper-SubPanel/SubVi/SubPanelVI2.vi"/>
+			</Item>
+			<Item Name="Helper-SubPanel.vi" Type="VI" URL="../Helper/Helper-SubPanel/Helper-SubPanel.vi"/>
+		</Item>
+		<Item Name="HelperVI1-array.vi" Type="VI" URL="../Helper/HelperVI1-array.vi"/>
 		<Item Name="HelperVI1.vi" Type="VI" URL="../Helper/HelperVI1.vi"/>
 	</Item>
+	<Item Name="ArrayControls.vi" Type="VI" URL="../ArrayControls.vi"/>
 	<Item Name="ClusterControls.vi" Type="VI" URL="../ClusterControls.vi"/>
 	<Item Name="ComplexClusterControls.vi" Type="VI" URL="../ComplexClusterControls.vi"/>
+	<Item Name="SubPanelControls.vi" Type="VI" URL="../SubPanelControls.vi"/>
 	<Item Name="TabControls.vi" Type="VI" URL="../TabControls.vi"/>
 	<Item Name="TopLevelControls.vi" Type="VI" URL="../TopLevelControls.vi"/>
 </Library>
