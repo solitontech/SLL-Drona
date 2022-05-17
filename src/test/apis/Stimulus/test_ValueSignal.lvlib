@@ -5,6 +5,14 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Helper" Type="Folder">
+		<Item Name="Helper-Cluster" Type="Folder">
+			<Item Name="Typedef" Type="Folder">
+				<Item Name="BooleanControl.ctl" Type="VI" URL="../Helper/Helper-Cluster/Typedef/BooleanControl.ctl"/>
+				<Item Name="NumberControl.ctl" Type="VI" URL="../Helper/Helper-Cluster/Typedef/NumberControl.ctl"/>
+				<Item Name="OperationControl.ctl" Type="VI" URL="../Helper/Helper-Cluster/Typedef/OperationControl.ctl"/>
+			</Item>
+			<Item Name="Helper-Cluster.vi" Type="VI" URL="../Helper/Helper-Cluster/Helper-Cluster.vi"/>
+		</Item>
 		<Item Name="Helper-SubPanel" Type="Folder">
 			<Item Name="SubVi" Type="Folder">
 				<Item Name="SubPanelVI1.vi" Type="VI" URL="../Helper/Helper-SubPanel/SubVi/SubPanelVI1.vi"/>
