@@ -24,7 +24,6 @@
 		<Item Name="HelperVI1.vi" Type="VI" URL="../Helper/HelperVI1.vi"/>
 	</Item>
 	<Item Name="ArrayControls.vi" Type="VI" URL="../ArrayControls.vi"/>
-	<Item Name="CarWashControls.vi" Type="VI" URL="../CarWashControls.vi"/>
 	<Item Name="Cluster-typedefControls.vi" Type="VI" URL="../Cluster-typedefControls.vi"/>
 	<Item Name="ClusterControls.vi" Type="VI" URL="../ClusterControls.vi"/>
 	<Item Name="ComplexClusterControls.vi" Type="VI" URL="../ComplexClusterControls.vi"/>
