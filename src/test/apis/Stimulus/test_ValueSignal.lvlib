@@ -4,6 +4,15 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="AssertControlValueCompareTest" Type="Folder">
+		<Item Name="AlmostEqualAssertControlValueTest.vi" Type="VI" URL="../AssertControlValueCompareTest/AlmostEqualAssertControlValueTest.vi"/>
+		<Item Name="FalseAssertControlValueTest.vi" Type="VI" URL="../AssertControlValueCompareTest/FalseAssertControlValueTest.vi"/>
+		<Item Name="GreaterAssertControlValueTest.vi" Type="VI" URL="../AssertControlValueCompareTest/GreaterAssertControlValueTest.vi"/>
+		<Item Name="GreaterOrEqualAssertControlValueTest.vi" Type="VI" URL="../AssertControlValueCompareTest/GreaterOrEqualAssertControlValueTest.vi"/>
+		<Item Name="LesserAssertControlValueTest.vi" Type="VI" URL="../AssertControlValueCompareTest/LesserAssertControlValueTest.vi"/>
+		<Item Name="LesserOrEqualAssertControlValueTest.vi" Type="VI" URL="../AssertControlValueCompareTest/LesserOrEqualAssertControlValueTest.vi"/>
+		<Item Name="TrueAssertControlValueTest.vi" Type="VI" URL="../AssertControlValueCompareTest/TrueAssertControlValueTest.vi"/>
+	</Item>
 	<Item Name="Helper" Type="Folder">
 		<Item Name="Helper-Cluster" Type="Folder">
 			<Item Name="Typedef" Type="Folder">
@@ -20,6 +29,7 @@
 			</Item>
 			<Item Name="Helper-SubPanel.vi" Type="VI" URL="../Helper/Helper-SubPanel/Helper-SubPanel.vi"/>
 		</Item>
+		<Item Name="Helper-AssertControlValue.vi" Type="VI" URL="../Helper/Helper-AssertControlValue.vi"/>
 		<Item Name="HelperVI1-array.vi" Type="VI" URL="../Helper/HelperVI1-array.vi"/>
 		<Item Name="HelperVI1.vi" Type="VI" URL="../Helper/HelperVI1.vi"/>
 	</Item>
