@@ -7,11 +7,11 @@
 	<Item Name="Helper" Type="Folder">
 		<Item Name="AssertControlValueHelper.vi" Type="VI" URL="../Helper/AssertControlValueHelper.vi"/>
 	</Item>
-	<Item Name="AlmostEqualTest.vi" Type="VI" URL="../AlmostEqualTest.vi"/>
-	<Item Name="FalseTest.vi" Type="VI" URL="../FalseTest.vi"/>
-	<Item Name="GreaterOrEqualTest.vi" Type="VI" URL="../GreaterOrEqualTest.vi"/>
-	<Item Name="GreaterTest.vi" Type="VI" URL="../GreaterTest.vi"/>
-	<Item Name="LesserOrEquaTest.vi" Type="VI" URL="../LesserOrEquaTest.vi"/>
-	<Item Name="LesserTest.vi" Type="VI" URL="../LesserTest.vi"/>
-	<Item Name="TrueTest.vi" Type="VI" URL="../TrueTest.vi"/>
+	<Item Name="AlmostEqual.vi" Type="VI" URL="../AlmostEqual.vi"/>
+	<Item Name="False.vi" Type="VI" URL="../False.vi"/>
+	<Item Name="Greater.vi" Type="VI" URL="../Greater.vi"/>
+	<Item Name="GreaterOrEqual.vi" Type="VI" URL="../GreaterOrEqual.vi"/>
+	<Item Name="Lesser.vi" Type="VI" URL="../Lesser.vi"/>
+	<Item Name="LesserOrEqual.vi" Type="VI" URL="../LesserOrEqual.vi"/>
+	<Item Name="True.vi" Type="VI" URL="../True.vi"/>
 </Library>

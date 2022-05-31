@@ -23,11 +23,11 @@
 		<Item Name="HelperVI1-array.vi" Type="VI" URL="../Helper/HelperVI1-array.vi"/>
 		<Item Name="HelperVI1.vi" Type="VI" URL="../Helper/HelperVI1.vi"/>
 	</Item>
-	<Item Name="ArrayControls.vi" Type="VI" URL="../ArrayControls.vi"/>
-	<Item Name="Cluster-typedefControls.vi" Type="VI" URL="../Cluster-typedefControls.vi"/>
-	<Item Name="ClusterControls.vi" Type="VI" URL="../ClusterControls.vi"/>
-	<Item Name="ComplexClusterControls.vi" Type="VI" URL="../ComplexClusterControls.vi"/>
-	<Item Name="SubPanelControls.vi" Type="VI" URL="../SubPanelControls.vi"/>
-	<Item Name="TabControls.vi" Type="VI" URL="../TabControls.vi"/>
-	<Item Name="TopLevelControls.vi" Type="VI" URL="../TopLevelControls.vi"/>
+	<Item Name="Basic.vi" Type="VI" URL="../Basic.vi"/>
+	<Item Name="BasicArray.vi" Type="VI" URL="../BasicArray.vi"/>
+	<Item Name="BasicCluster.vi" Type="VI" URL="../BasicCluster.vi"/>
+	<Item Name="ComplexPath.vi" Type="VI" URL="../ComplexPath.vi"/>
+	<Item Name="SubPanel.vi" Type="VI" URL="../SubPanel.vi"/>
+	<Item Name="TabControl.vi" Type="VI" URL="../TabControl.vi"/>
+	<Item Name="Typedef.vi" Type="VI" URL="../Typedef.vi"/>
 </Library>
