@@ -10,7 +10,7 @@
 
 </Property>
 	<Item Name="AlmostEqual.vi" Type="VI" URL="../AlmostEqual.vi"/>
-	<Item Name="AssertControlValue[Poly].vi" Type="VI" URL="../../AssertControlValue[Poly].vi"/>
+	<Item Name="Assert[Poly].vi" Type="VI" URL="../../Assert[Poly].vi"/>
 	<Item Name="Equal.vi" Type="VI" URL="../Equal.vi"/>
 	<Item Name="False.vi" Type="VI" URL="../False.vi"/>
 	<Item Name="Greater.vi" Type="VI" URL="../Greater.vi"/>

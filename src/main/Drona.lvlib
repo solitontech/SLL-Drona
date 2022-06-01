@@ -18,16 +18,16 @@
 			<Item Name="AssertControlValue.lvlib" Type="Library" URL="../apis/Assert/AssertControlValue/AssertControlValue.lvlib"/>
 		</Item>
 		<Item Name="Setup" Type="Folder">
-			<Item Name="GetApp.vi" Type="VI" URL="../.apis/Setup/GetApp.vi"/>
+			<Item Name="GetApp.vi" Type="VI" URL="../apis/Setup/GetApp.vi"/>
 			<Item Name="GetControlRef.lvlib" Type="Library" URL="../apis/Setup/GetControlRef/GetControlRef.lvlib"/>
 			<Item Name="GetControlValue.lvlib" Type="Library" URL="../apis/Setup/GetControlValue/GetControlValue.lvlib"/>
 			<Item Name="GetVI.lvlib" Type="Library" URL="../apis/Setup/GetVI/GetVI.lvlib"/>
 		</Item>
 		<Item Name="Stimulus" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="OpenVIFrontPanel.vi" Type="VI" URL="../.apis/Stimulus/OpenVIFrontPanel.vi"/>
-			<Item Name="RunVI.vi" Type="VI" URL="../.apis/Stimulus/RunVI.vi"/>
-			<Item Name="ValueSignal [Poly].vi" Type="VI" URL="../.apis/Stimulus/ValueSignal [Poly].vi"/>
+			<Item Name="OpenVIFrontPanel.vi" Type="VI" URL="../apis/Stimulus/OpenVIFrontPanel.vi"/>
+			<Item Name="RunVI.vi" Type="VI" URL="../apis/Stimulus/RunVI.vi"/>
+			<Item Name="ValueSignal [Poly].vi" Type="VI" URL="../apis/Stimulus/ValueSignal [Poly].vi"/>
 			<Item Name="ValueSignal.lvlib" Type="Library" URL="../apis/Stimulus/ValueSignal/ValueSignal.lvlib"/>
 		</Item>
 	</Item>
