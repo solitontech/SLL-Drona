@@ -18,23 +18,8 @@
 			<Item Name="AssertControlValue.lvlib" Type="Library" URL="../apis/Assert/AssertControlValue/AssertControlValue.lvlib"/>
 		</Item>
 		<Item Name="Setup" Type="Folder">
-			<Item Name="GetControlRef" Type="Folder">
-				<Item Name="_SubVIs" Type="Folder">
-					<Item Name="TypecastControls" Type="Folder">
-						<Item Name="SubVI" Type="Folder">
-							<Item Name="SubPanelTypecast.vi" Type="VI" URL="../apis/Setup/GetControlRef/_SubVIs/TypecastControls/SubVI/SubPanelTypecast.vi"/>
-							<Item Name="TabControlTypecast.vi" Type="VI" URL="../apis/Setup/GetControlRef/_SubVIs/TypecastControls/SubVI/TabControlTypecast.vi"/>
-						</Item>
-						<Item Name="TypecastControls.vi" Type="VI" URL="../apis/Setup/GetControlRef/_SubVIs/TypecastControls/TypecastControls.vi"/>
-					</Item>
-					<Item Name="GetControlRefFromControlArray.vi" Type="VI" URL="../apis/Setup/GetControlRef/_SubVIs/GetControlRefFromControlArray.vi"/>
-					<Item Name="GetControlsRefFromVIRef.vi" Type="VI" URL="../apis/Setup/GetControlRef/_SubVIs/GetControlsRefFromVIRef.vi"/>
-				</Item>
-				<Item Name="GetControlRefByArray.vi" Type="VI" URL="../apis/Setup/GetControlRef/GetControlRefByArray.vi"/>
-				<Item Name="GetControlRefByPath.vi" Type="VI" URL="../apis/Setup/GetControlRef/GetControlRefByPath.vi"/>
-			</Item>
 			<Item Name="GetApp.vi" Type="VI" URL="../apis/Setup/GetApp.vi"/>
-			<Item Name="GetControlRef[Poly].vi" Type="VI" URL="../apis/Setup/GetControlRef[Poly].vi"/>
+			<Item Name="GetControlRef.lvlib" Type="Library" URL="../apis/Setup/GetControlRef/GetControlRef.lvlib"/>
 			<Item Name="GetControlValue.lvlib" Type="Library" URL="../apis/Setup/GetControlValue/GetControlValue.lvlib"/>
 			<Item Name="GetVI.lvlib" Type="Library" URL="../apis/Setup/GetVI/GetVI.lvlib"/>
 		</Item>
