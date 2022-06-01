@@ -5,7 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="AlmostEqual.vi" Type="VI" URL="../AlmostEqual.vi"/>
-	<Item Name="AssertControlValue[Poly].vi" Type="VI" URL="../AssertControlValue[Poly].vi"/>
+	<Item Name="AssertControlValue[Poly].vi" Type="VI" URL="../../AssertControlValue[Poly].vi"/>
 	<Item Name="Equal.vi" Type="VI" URL="../Equal.vi"/>
 	<Item Name="False.vi" Type="VI" URL="../False.vi"/>
 	<Item Name="Greater.vi" Type="VI" URL="../Greater.vi"/>

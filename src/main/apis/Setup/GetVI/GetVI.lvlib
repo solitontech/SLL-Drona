@@ -4,7 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="GetVI [Poly].vi" Type="VI" URL="../GetVI [Poly].vi"/>
+	<Item Name="GetVI [Poly].vi" Type="VI" URL="../../GetVI [Poly].vi"/>
 	<Item Name="GetVIByName.vi" Type="VI" URL="../GetVIByName.vi"/>
 	<Item Name="GetVIByPath.vi" Type="VI" URL="../GetVIByPath.vi"/>
 </Library>

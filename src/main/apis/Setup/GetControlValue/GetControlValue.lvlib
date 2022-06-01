@@ -4,7 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="GetControlValue [Poly].vi" Type="VI" URL="../GetControlValue [Poly].vi"/>
+	<Item Name="GetControlValue [Poly].vi" Type="VI" URL="../../GetControlValue [Poly].vi"/>
 	<Item Name="GetControlValueByPathArray.vi" Type="VI" URL="../GetControlValueByPathArray.vi"/>
 	<Item Name="GetControlValueByPathString.vi" Type="VI" URL="../GetControlValueByPathString.vi"/>
 </Library>
