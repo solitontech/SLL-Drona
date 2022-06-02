@@ -27,4 +27,5 @@
 		</Item>
 	</Item>
 	<Item Name="Run.vi" Type="VI" URL="../Run.vi"/>
+	<Item Name="VITree.vi" Type="VI" URL="../VITree.vi"/>
 </Library>
