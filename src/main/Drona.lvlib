@@ -26,19 +26,17 @@
 		</Item>
 		<Item Name="Stimulus" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Stimulus" Type="Folder">
-				<Item Name="KeyBoardSimulation" Type="Folder">
-					<Item Name="SubVIs" Type="Folder">
-						<Item Name="Type Characters.vi" Type="VI" URL="../apis/Stimulus/KeyBoardSimulation/SubVIs/Type Characters.vi"/>
-						<Item Name="KeyUp.vi" Type="VI" URL="../apis/Stimulus/KeyBoardSimulation/SubVIs/KeyUp.vi"/>
-						<Item Name="KeyPress.vi" Type="VI" URL="../apis/Stimulus/KeyBoardSimulation/SubVIs/KeyPress.vi"/>
-						<Item Name="KeyDown.vi" Type="VI" URL="../apis/Stimulus/KeyBoardSimulation/SubVIs/KeyDown.vi"/>
-					</Item>
-					<Item Name="KeyBoardSimulation.vi" Type="VI" URL="../apis/Stimulus/KeyBoardSimulation/KeyBoardSimulation.vi"/>
+			<Item Name="KeyBoardSimulation" Type="Folder">
+				<Item Name="SubVIs" Type="Folder">
+					<Item Name="Type Characters.vi" Type="VI" URL="../apis/Stimulus/KeyBoardSimulation/SubVIs/Type Characters.vi"/>
+					<Item Name="KeyUp.vi" Type="VI" URL="../apis/Stimulus/KeyBoardSimulation/SubVIs/KeyUp.vi"/>
+					<Item Name="KeyPress.vi" Type="VI" URL="../apis/Stimulus/KeyBoardSimulation/SubVIs/KeyPress.vi"/>
+					<Item Name="KeyDown.vi" Type="VI" URL="../apis/Stimulus/KeyBoardSimulation/SubVIs/KeyDown.vi"/>
 				</Item>
-				<Item Name="ValueSignal" Type="Folder"/>
+				<Item Name="KeyBoardSimulation.vi" Type="VI" URL="../apis/Stimulus/KeyBoardSimulation/KeyBoardSimulation.vi"/>
 			</Item>
 			<Item Name="OpenVIFrontPanel.vi" Type="VI" URL="../apis/Stimulus/OpenVIFrontPanel.vi"/>
+			<Item Name="FrontMostVI.vi" Type="VI" URL="../apis/Stimulus/FrontMostVI.vi"/>
 			<Item Name="RunVI.vi" Type="VI" URL="../apis/Stimulus/RunVI.vi"/>
 			<Item Name="ValueSignal [Poly].vi" Type="VI" URL="../apis/Stimulus/ValueSignal [Poly].vi"/>
 			<Item Name="ValueSignal.lvlib" Type="Library" URL="../apis/Stimulus/ValueSignal/ValueSignal.lvlib"/>
