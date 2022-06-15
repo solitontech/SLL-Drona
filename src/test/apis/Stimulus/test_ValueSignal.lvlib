@@ -22,6 +22,7 @@
 			</Item>
 			<Item Name="Helper-SubPanel.vi" Type="VI" URL="../Helper/Helper-SubPanel/Helper-SubPanel.vi"/>
 		</Item>
+		<Item Name="HelperVI-keyboardsimulation.vi" Type="VI" URL="../Helper/HelperVI-keyboardsimulation.vi"/>
 		<Item Name="HelperVI1-array.vi" Type="VI" URL="../Helper/HelperVI1-array.vi"/>
 		<Item Name="HelperVI1.vi" Type="VI" URL="../Helper/HelperVI1.vi"/>
 	</Item>
@@ -29,6 +30,7 @@
 	<Item Name="BasicArray.vi" Type="VI" URL="../BasicArray.vi"/>
 	<Item Name="BasicCluster.vi" Type="VI" URL="../BasicCluster.vi"/>
 	<Item Name="ComplexPath.vi" Type="VI" URL="../ComplexPath.vi"/>
+	<Item Name="KeyBoardSimulation.vi" Type="VI" URL="../KeyBoardSimulation.vi"/>
 	<Item Name="SubPanel.vi" Type="VI" URL="../SubPanel.vi"/>
 	<Item Name="TabControl.vi" Type="VI" URL="../TabControl.vi"/>
 	<Item Name="Typedef.vi" Type="VI" URL="../Typedef.vi"/>
