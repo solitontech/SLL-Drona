@@ -398,6 +398,12 @@
 				<Item Name="VI Scripting - Traverse.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/traverseref.llb/VI Scripting - Traverse.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Add State(s) to Queue__jki_lib_state_machine.vi" Type="VI" URL="../test/builds/TestHelper/HelperApplication/HelperApplication.exe/1abvi3w/vi.lib/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__jki_lib_state_machine.vi"/>
+			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../test/builds/TestHelper/HelperApplication/HelperApplication.exe/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+			<Item Name="General Error Handler.vi" Type="VI" URL="../test/builds/TestHelper/HelperApplication/HelperApplication.exe/1abvi3w/vi.lib/Utility/error.llb/General Error Handler.vi"/>
+			<Item Name="Parse State Queue__jki_lib_state_machine.vi" Type="VI" URL="../test/builds/TestHelper/HelperApplication/HelperApplication.exe/1abvi3w/vi.lib/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Parse State Queue__jki_lib_state_machine.vi"/>
+			<Item Name="Set Busy.vi" Type="VI" URL="../test/builds/TestHelper/HelperApplication/HelperApplication.exe/1abvi3w/vi.lib/Utility/cursorutil.llb/Set Busy.vi"/>
+			<Item Name="Unset Busy.vi" Type="VI" URL="../test/builds/TestHelper/HelperApplication/HelperApplication.exe/1abvi3w/vi.lib/Utility/cursorutil.llb/Unset Busy.vi"/>
 			<Item Name="user32.dll" Type="Document" URL="user32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
