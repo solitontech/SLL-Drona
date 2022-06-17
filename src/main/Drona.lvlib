@@ -40,6 +40,7 @@
 			<Item Name="RunVI.vi" Type="VI" URL="../apis/Stimulus/RunVI.vi"/>
 			<Item Name="ValueSignal [Poly].vi" Type="VI" URL="../apis/Stimulus/ValueSignal [Poly].vi"/>
 			<Item Name="ValueSignal.lvlib" Type="Library" URL="../apis/Stimulus/ValueSignal/ValueSignal.lvlib"/>
+			<Item Name="ValueSignalLatchBooleanArray.vi" Type="VI" URL="../apis/Stimulus/ValueSignalLatchBooleanArray.vi"/>
 		</Item>
 	</Item>
 </Library>

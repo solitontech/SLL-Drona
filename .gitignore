@@ -19,4 +19,4 @@
 # SLL Drona
 Build/
 *.vipc
-src/test/builds/
+builds/

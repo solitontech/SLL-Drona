@@ -68,23 +68,25 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/HelperApplication</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/D/git/LabVIEW/ui-automation/labview-ui-testing/builds/NI_AB_PROJECTNAME/HelperApplication</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2339E378-11E5-44FE-A104-131A12C68529}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">HelperApplication.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/HelperApplication/HelperApplication.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/D/git/LabVIEW/ui-automation/labview-ui-testing/builds/NI_AB_PROJECTNAME/HelperApplication/HelperApplication.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/HelperApplication/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/D/git/LabVIEW/ui-automation/labview-ui-testing/builds/NI_AB_PROJECTNAME/HelperApplication/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[2].destName" Type="Str">Panels</Property>
-				<Property Name="Destination[2].path" Type="Path">../builds/NI_AB_PROJECTNAME/HelperApplication/Panels</Property>
+				<Property Name="Destination[2].path" Type="Path">/D/git/LabVIEW/ui-automation/labview-ui-testing/builds/NI_AB_PROJECTNAME/HelperApplication/Panels</Property>
+				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[2].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9C3C0C62-6CC5-4078-98D3-CC22C8092CC8}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{10B4DF61-2DD9-4EB8-A32D-6FB98B9D24E0}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.depDestIndex" Type="Int">0</Property>

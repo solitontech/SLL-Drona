@@ -27,6 +27,6 @@
 		</Item>
 	</Item>
 	<Item Name="BasicFlow.vi" Type="VI" URL="../BasicFlow.vi"/>
-	<Item Name="Run.vi" Type="VI" URL="../Run.vi"/>
+	<Item Name="ControlList.vi" Type="VI" URL="../SubVis/ControlList.vi"/>
 	<Item Name="VITree.vi" Type="VI" URL="../VITree.vi"/>
 </Library>
