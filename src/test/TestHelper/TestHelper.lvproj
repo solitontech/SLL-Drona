@@ -71,7 +71,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/D/git/LabVIEW/ui-automation/labview-ui-testing/builds/NI_AB_PROJECTNAME/HelperApplication</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2339E378-11E5-44FE-A104-131A12C68529}</Property>
-				<Property Name="Bld_version.build" Type="Int">10</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">HelperApplication.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/D/git/LabVIEW/ui-automation/labview-ui-testing/builds/NI_AB_PROJECTNAME/HelperApplication/HelperApplication.exe</Property>

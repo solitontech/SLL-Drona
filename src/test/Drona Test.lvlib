@@ -7,6 +7,7 @@
 	<Item Name="Tests" Type="Folder">
 		<Item Name="SubTests" Type="Folder">
 			<Item Name="AllTests.vi" Type="VI" URL="../Tests/SubTests/AllTests.vi"/>
+			<Item Name="LatchBooleanKeyboardSim.vi" Type="VI" URL="../Tests/SubTests/LatchBooleanKeyboardSim.vi"/>
 			<Item Name="SubPanelBasicFlow.vi" Type="VI" URL="../Tests/SubTests/SubPanelBasicFlow.vi"/>
 		</Item>
 		<Item Name="CurrentInstance.vi" Type="VI" URL="../Tests/CurrentInstance.vi"/>
@@ -14,5 +15,6 @@
 		<Item Name="ProjectInstance.vi" Type="VI" URL="../Tests/ProjectInstance.vi"/>
 	</Item>
 	<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
+	<Item Name="LoadPanel.vi" Type="VI" URL="../SubVis/LoadPanel.vi"/>
 	<Item Name="Run.vi" Type="VI" URL="../Run.vi"/>
 </Library>
