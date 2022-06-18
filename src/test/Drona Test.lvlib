@@ -4,9 +4,14 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Item Name="SubVis" Type="Folder">
+		<Item Name="ControlList.vi" Type="VI" URL="../SubVis/ControlList.vi"/>
+		<Item Name="LoadPanel.vi" Type="VI" URL="../SubVis/LoadPanel.vi"/>
+	</Item>
 	<Item Name="Tests" Type="Folder">
 		<Item Name="SubTests" Type="Folder">
 			<Item Name="AllTests.vi" Type="VI" URL="../Tests/SubTests/AllTests.vi"/>
+			<Item Name="BasicFlow.vi" Type="VI" URL="../Tests/SubTests/BasicFlow.vi"/>
 			<Item Name="LatchBooleanKeyboardSim.vi" Type="VI" URL="../Tests/SubTests/LatchBooleanKeyboardSim.vi"/>
 			<Item Name="SubPanelBasicFlow.vi" Type="VI" URL="../Tests/SubTests/SubPanelBasicFlow.vi"/>
 		</Item>
@@ -15,6 +20,6 @@
 		<Item Name="ProjectInstance.vi" Type="VI" URL="../Tests/ProjectInstance.vi"/>
 	</Item>
 	<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
-	<Item Name="LoadPanel.vi" Type="VI" URL="../SubVis/LoadPanel.vi"/>
 	<Item Name="Run.vi" Type="VI" URL="../Run.vi"/>
+	<Item Name="VITree.vi" Type="VI" URL="../VITree.vi"/>
 </Library>

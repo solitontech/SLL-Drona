@@ -26,7 +26,4 @@
 			<Item Name="test_ValueSignal.lvlib" Type="Library" URL="../apis/Stimulus/test_ValueSignal.lvlib"/>
 		</Item>
 	</Item>
-	<Item Name="BasicFlow.vi" Type="VI" URL="../BasicFlow.vi"/>
-	<Item Name="ControlList.vi" Type="VI" URL="../SubVis/ControlList.vi"/>
-	<Item Name="VITree.vi" Type="VI" URL="../VITree.vi"/>
 </Library>
