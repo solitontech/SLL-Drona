@@ -29,4 +29,5 @@
 	<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
 	<Item Name="Run.vi" Type="VI" URL="../Run.vi"/>
 	<Item Name="VITree.vi" Type="VI" URL="../VITree.vi"/>
+	<Item Name="Wait.vi" Type="VI" URL="../SubVis/Wait.vi"/>
 </Library>
