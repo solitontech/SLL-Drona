@@ -1,15 +1,30 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="16008000">
-	<Property Name="NI.Lib.Icon" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(]!!!*Q(C=\&gt;8"=&gt;MQ%!8143;(8.6"2CVM#WJ",7Q,SN&amp;(N&lt;!NK!7VM#WI"&lt;8A0$%94UZ2$P%E"Y.?G@I%A7=11U&gt;M\7P%FXB^VL\`NHV=@X&lt;^39O0^N(_&lt;8NZOEH@@=^_CM?,3)VK63LD-&gt;8LS%=_]J'0@/1N&lt;XH,7^\SFJ?]Z#5P?=F,HP+5JTTF+5`Z&gt;MB$(P+1)YX*RU2DU$(![)Q3YW.YBG&gt;YBM@8'*\B':\B'2Z&gt;9HC':XC':XD=&amp;M-T0--T0-.DK%USWS(H'2\$2`-U4`-U4`/9-JKH!&gt;JE&lt;?!W#%;UC_WE?:KH?:R']T20]T20]\A=T&gt;-]T&gt;-]T?/7&lt;66[UTQ//9^BIHC+JXC+JXA-(=640-640-6DOCC?YCG)-G%:(#(+4;6$_6)]R?.8&amp;%`R&amp;%`R&amp;)^,WR/K&lt;75?GM=BZUG?Z%G?Z%E?1U4S*%`S*%`S'$;3*XG3*XG3RV320-G40!G3*D6^J-(3D;F4#J,(T\:&lt;=HN+P5FS/S,7ZIWV+7.NNFC&lt;+.&lt;GC0819TX-7!]JVO,(7N29CR6L%7,^=&lt;(1M4#R*IFV][.DX(X?V&amp;6&gt;V&amp;G&gt;V&amp;%&gt;V&amp;\N(L@_Z9\X_TVONVN=L^?Y8#ZR0J`D&gt;$L&amp;]8C-Q_%1_`U_&gt;LP&gt;WWPAG_0NB@$TP@4C`%`KH@[8`A@PRPA=PYZLD8Y!#/7SO!!!!!!</Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(]!!!*Q(C=\&gt;7R=2MR%!81N=?"5Q&lt;/07RB7W!,&lt;'&amp;&lt;9+K1,7Q,&lt;)%N&lt;!NMA3X)DW?-RJ(JQ"I\%%Z,(@`BA#==ZB3RN;]28_,V7@PWW`:R`&gt;HV*SU_WE@\N_XF[3:^^TX\+2YP)D7K6;G-RV3P)R`ZS%=_]J'XP/5N&lt;XH,7V\SEJ?]Z#5P?=J4HP+5JTTFWS%0?=B$DD1G(R/.1==!IT.+D)`B':\B'2Z@9XC':XC':XBUC?%:HO%:HO&amp;R7QT0]!T0]!S0I4&lt;*&lt;)?=:XA-(]X40-X40-VDSGC?"GC4N9(&lt;)"D2,L;4ZGG?ZH%;T&gt;-]T&gt;-]T?.S.%`T.%`T.)^&lt;NF8J4@-YZ$S'C?)JHO)JHO)R&gt;"20]220]230[;*YCK=ASI2F=)1I.Z5/Z5PR&amp;)^@54T&amp;5TT&amp;5TQO&lt;5_INJ6Z;"[(H#&gt;ZEC&gt;ZEC&gt;Z$"(*ETT*ETT*9^B)HO2*HO2*(F.&amp;]C20]C2)GN4UE1:,.[:/+5A?0^NOS?UJ^3&lt;*\9B9GT@7JISVW7*NIFC&lt;)^:$D`5Q9TWE7)M@;V&amp;D,6;M29DVR]6#R],%GC47T9_/=@&gt;Z5V&gt;V57&gt;V5E&gt;V5(OV?^T[FTP?\`?YX7ZRP6\D=LH%_8S/U_E5R_-R$I&gt;$\0@\W/VW&lt;[_"\Y[X&amp;],0^^+,]T_J&gt;`J@_B_]'_.T`$KO.@I"XC-_N!!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="apis" Type="Folder">
-		<Item Name="Assert" Type="Folder">
-			<Item Name="AssertControlValue" Type="Folder">
-				<Item Name="Helper" Type="Folder"/>
-				<Item Name="test_AssertControlValue.lvlib" Type="Library" URL="../apis/Assert/AssertControlValue/test_AssertControlValue.lvlib"/>
-			</Item>
-		</Item>
+	<Item Name="SubVis" Type="Folder">
+		<Item Name="ControlList.vi" Type="VI" URL="../SubVis/ControlList.vi"/>
+		<Item Name="LoadPanel.vi" Type="VI" URL="../SubVis/LoadPanel.vi"/>
 	</Item>
+	<Item Name="Tests" Type="Folder">
+		<Item Name="SubTests" Type="Folder">
+			<Item Name="AllTests.vi" Type="VI" URL="../Tests/SubTests/AllTests.vi"/>
+			<Item Name="Asserts.vi" Type="VI" URL="../Tests/SubTests/Asserts.vi"/>
+			<Item Name="AssertsAlmostEqual.vi" Type="VI" URL="../Tests/SubTests/AssertsAlmostEqual.vi"/>
+			<Item Name="AssertsGreater.vi" Type="VI" URL="../Tests/SubTests/AssertsGreater.vi"/>
+			<Item Name="AssertsLess.vi" Type="VI" URL="../Tests/SubTests/AssertsLess.vi"/>
+			<Item Name="BasicFlow.vi" Type="VI" URL="../Tests/SubTests/BasicFlow.vi"/>
+			<Item Name="KeyboardSimCore.vi" Type="VI" URL="../Tests/SubTests/KeyboardSimCore.vi"/>
+			<Item Name="LatchBooleanKeyboardSim.vi" Type="VI" URL="../Tests/SubTests/LatchBooleanKeyboardSim.vi"/>
+			<Item Name="SubPanelBasicFlow.vi" Type="VI" URL="../Tests/SubTests/SubPanelBasicFlow.vi"/>
+		</Item>
+		<Item Name="CurrentInstance.vi" Type="VI" URL="../Tests/CurrentInstance.vi"/>
+		<Item Name="ExecutableInstance.vi" Type="VI" URL="../Tests/ExecutableInstance.vi"/>
+		<Item Name="ProjectInstance.vi" Type="VI" URL="../Tests/ProjectInstance.vi"/>
+	</Item>
+	<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
+	<Item Name="Run.vi" Type="VI" URL="../Run.vi"/>
+	<Item Name="VITree.vi" Type="VI" URL="../VITree.vi"/>
 </Library>
