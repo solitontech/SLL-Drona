@@ -11,16 +11,5 @@
 				<Item Name="test_AssertControlValue.lvlib" Type="Library" URL="../apis/Assert/AssertControlValue/test_AssertControlValue.lvlib"/>
 			</Item>
 		</Item>
-		<Item Name="Stimulus" Type="Folder">
-			<Item Name="Helper" Type="Folder">
-				<Item Name="Helper-Cluster" Type="Folder">
-					<Item Name="Typedef" Type="Folder"/>
-				</Item>
-				<Item Name="Helper-SubPanel" Type="Folder">
-					<Item Name="SubVi" Type="Folder"/>
-				</Item>
-			</Item>
-			<Item Name="test_ValueSignal.lvlib" Type="Library" URL="../apis/Stimulus/test_ValueSignal.lvlib"/>
-		</Item>
 	</Item>
 </Library>
