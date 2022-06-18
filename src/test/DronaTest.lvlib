@@ -11,6 +11,7 @@
 	<Item Name="Tests" Type="Folder">
 		<Item Name="SubTests" Type="Folder">
 			<Item Name="AllTests.vi" Type="VI" URL="../Tests/SubTests/AllTests.vi"/>
+			<Item Name="AssertDisable.vi" Type="VI" URL="../Tests/SubTests/AssertDisable.vi"/>
 			<Item Name="Asserts.vi" Type="VI" URL="../Tests/SubTests/Asserts.vi"/>
 			<Item Name="AssertsAlmostEqual.vi" Type="VI" URL="../Tests/SubTests/AssertsAlmostEqual.vi"/>
 			<Item Name="AssertsEqual.vi" Type="VI" URL="../Tests/SubTests/AssertsEqual.vi"/>
