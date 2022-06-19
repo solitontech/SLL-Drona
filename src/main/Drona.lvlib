@@ -26,10 +26,10 @@
 		</Item>
 		<Item Name="Stimulus" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="OpenVIFrontPanel.vi" Type="VI" URL="../apis/Stimulus/OpenVIFrontPanel.vi"/>
-			<Item Name="RunVI.vi" Type="VI" URL="../apis/Stimulus/RunVI.vi"/>
-			<Item Name="ValueSignal [Poly].vi" Type="VI" URL="../apis/Stimulus/ValueSignal [Poly].vi"/>
+			<Item Name="Stimulus [Poly].vi" Type="VI" URL="../apis/Stimulus/Stimulus [Poly].vi"/>
 			<Item Name="ValueSignal.lvlib" Type="Library" URL="../apis/Stimulus/ValueSignal/ValueSignal.lvlib"/>
+			<Item Name="KeyboardSimulation.lvlib" Type="Library" URL="../apis/Stimulus/KeyBoardSimulation/KeyboardSimulation.lvlib"/>
+			<Item Name="VI.lvlib" Type="Library" URL="../apis/Stimulus/VI/VI.lvlib"/>
 		</Item>
 	</Item>
 </Library>
