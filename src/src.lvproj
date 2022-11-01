@@ -406,7 +406,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5DAFADBB-0CF7-4EFA-AE7A-149F3B9B668E}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DronaTest.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Build/TestPPL/DronaTest.lvlibp</Property>
