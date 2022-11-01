@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="16008000">
+<Project Type="Project" LVVersion="21008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="CCSymbols" Type="Str"></Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -7,20 +7,27 @@
 		<Property Name="server.tcp.acl" Type="Str">730000000A000000030000001D00000003000000010000002A100000000300000000000100000000002500000003000000090000006C6F63616C686F7374100000000300000000000100000000002500000003000000090000003132372E302E302E3110000000030000000000010000000000</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.port" Type="Int">9999</Property>
-		<Property Name="server.tcp.serviceName" Type="Str"></Property>
+		<Property Name="server.tcp.serviceName" Type="Str">Test</Property>
 		<Property Name="server.tcp.serviceName.default" Type="Str">My Computer/VI Server</Property>
-		<Property Name="server.vi.access" Type="Str">+*;+localhost;+127.0.0.1</Property>
+		<Property Name="server.vi.access" Type="Str">+*;+127.0.0.1;+localhost</Property>
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.viscripting.showScriptingOperationsInContextHelp" Type="Bool">true</Property>
 		<Property Name="server.viscripting.showScriptingOperationsInEditor" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="TestHelper" Type="Folder" URL="..">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
+		<Item Name="GetSubPanelVIName [Wrapper].vi" Type="VI" URL="../GetSubPanelVIName [Wrapper].vi"/>
+		<Item Name="GetSubPanelVIName.vi" Type="VI" URL="../GetSubPanelVIName.vi"/>
+		<Item Name="helper.vi" Type="VI" URL="../helper.vi"/>
+		<Item Name="helper1.vi" Type="VI" URL="../helper1.vi"/>
+		<Item Name="HelperApplication.ini" Type="Document" URL="../HelperApplication.ini"/>
+		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
+		<Item Name="script - Copy.vi" Type="VI" URL="../script - Copy.vi"/>
+		<Item Name="script.vi" Type="VI" URL="../script.vi"/>
+		<Item Name="VI 1.vi" Type="VI" URL="../VI 1.vi"/>
+		<Item Name="VI 2.vi" Type="VI" URL="../VI 2.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="Add State(s) to Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__jki_lib_state_machine.vi"/>
+				<Item Name="Add State(s) to Queue__JKI_lib_State_Machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__JKI_lib_State_Machine.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -44,7 +51,7 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
-				<Item Name="Parse State Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Parse State Queue__jki_lib_state_machine.vi"/>
+				<Item Name="Parse State Queue__JKI_lib_State_Machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Parse State Queue__JKI_lib_State_Machine.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Busy.vi"/>
@@ -61,63 +68,47 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="HelperApplication" Type="EXE">
+			<Item Name="My Application" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{3C948199-4857-4ED9-9FA6-5607A29F4070}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{6D0F92EB-7503-4168-B34D-EE107E13E4A5}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{985BA27D-ABEB-4C7C-8A7C-1B682F7B5B67}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{8DCAB5B3-7F26-4951-AAEB-A2C28EA57551}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{13457027-BE85-43CE-9B73-6C9C846A7779}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">HelperApplication</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{F2EB0746-06CF-4A83-98F2-55A545D34518}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">My Application</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/D/git/LabVIEW/ui-automation/labview-ui-testing/Build/NI_AB_PROJECTNAME/HelperApplication</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../My Application</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{2339E378-11E5-44FE-A104-131A12C68529}</Property>
-				<Property Name="Bld_version.build" Type="Int">16</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{0BFA7E1A-A480-4A39-9F1D-0E4439CCE66D}</Property>
+				<Property Name="Bld_version.build" Type="Int">28</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">HelperApplication.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/D/git/LabVIEW/ui-automation/labview-ui-testing/Build/NI_AB_PROJECTNAME/HelperApplication/HelperApplication.exe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].destName" Type="Str">Application.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../My Application/Application.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/D/git/LabVIEW/ui-automation/labview-ui-testing/Build/NI_AB_PROJECTNAME/HelperApplication/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="Destination[2].destName" Type="Str">Panels</Property>
-				<Property Name="Destination[2].path" Type="Path">/D/git/LabVIEW/ui-automation/labview-ui-testing/Build/NI_AB_PROJECTNAME/HelperApplication/Panels</Property>
-				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="Destination[2].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{45EF50F0-1ADC-4A0A-8968-81E308286493}</Property>
+				<Property Name="Destination[1].path" Type="Path">../My Application/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A104AED1-F9E0-4EAE-BBE1-BCD19FBDB32A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[1].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/TestHelper/controls</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[1].type" Type="Str">Container</Property>
-				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/TestHelper/Panels</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[2].type" Type="Str">Container</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/TestHelper/main.vi</Property>
-				<Property Name="Source[3].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[3].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">Soliton Technologies</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">HelperApplication</Property>
-				<Property Name="TgtF_internalName" Type="Str">HelperApplication</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">My Application</Property>
+				<Property Name="TgtF_internalName" Type="Str">My Application</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 Soliton Technologies</Property>
-				<Property Name="TgtF_productName" Type="Str">HelperApplication</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{E6C316EE-3203-488B-99D6-DF2535AA5A23}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">HelperApplication.exe</Property>
+				<Property Name="TgtF_productName" Type="Str">My Application</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{F6B25772-9FF3-48CB-B06A-AB7091853423}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Application.exe</Property>
 			</Item>
 		</Item>
 	</Item>

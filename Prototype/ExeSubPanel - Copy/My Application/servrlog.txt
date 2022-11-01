@@ -1,0 +1,30 @@
+2022.10.31 - 22:22:31;  ## Setting app property
+		Turning on logging.
+2022.10.31 - 22:22:43;  ## Receiving message
+		hdr={err= 0; uID=0x00000006; len= 36; msg="kTSClientSaysHeaveno"(0)}
+		conn @0xD014308; cookie=0xACC00000; "127.0.0.1"
+2022.10.31 - 22:22:43;  ## New incoming connection
+		CONNECTION ACCEPTED; client="127.0.0.1" (127.0.0.1)
+2022.10.31 - 22:22:43;  ## Receiving message
+		hdr={err= 0; uID=0x8E800000; len=411; msg="kTSGetVIRefSend"(3)}
+		conn @0xD014308; cookie=0xACC00000; "127.0.0.1"
+2022.10.31 - 22:22:43;  ## kTSGetVIRefSend
+		err=0; viRef=0x9A900008;
+		path="D:\git\LabVIEW\ui-automation\labview-ui-testing\Prototype\ExeSubPanel - Copy\GetSubPanelVIName.vi"; pwd=0x0
+2022.10.31 - 22:22:43;  ## Receiving message
+		hdr={err= 0; uID=0x8E900002; len= 68; msg="kTSAppAttrVectorSend"(1)}
+		conn @0xD014308; cookie=0xACC00000; "127.0.0.1"
+2022.10.31 - 22:22:43;  ## kTSAppAttrVectorSend
+		nAttrs=1
+2022.10.31 - 22:22:43;  ## Receiving message
+		hdr={err= 0; uID=0x9A900008; len=  0; msg="kTSReleaseRef"(7)}
+		conn @0xD014308; cookie=0xACC00000; "127.0.0.1"
+2022.10.31 - 22:22:43;  ## Receiving message
+		hdr={err= 0; uID=0x00000000; len=  0; msg="kTSClientBye"(8)}
+		conn @0xD014308; cookie=0xACC00000; "127.0.0.1"
+2022.10.31 - 22:22:43;  ## Closing connection
+		SERVER closing ref=0xACC00000; "127.0.0.1"
+2022.10.31 - 22:26:17;  ## Setting server status
+		Turning off server. port=9999
+2022.10.31 - 22:26:17;  ## Shutting down server
+		Turning off logging.

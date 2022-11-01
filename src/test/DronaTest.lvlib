@@ -26,6 +26,7 @@
 		</Item>
 		<Item Name="CurrentInstance.vi" Type="VI" URL="../Tests/CurrentInstance.vi"/>
 		<Item Name="ExecutableInstance.vi" Type="VI" URL="../Tests/ExecutableInstance.vi"/>
+		<Item Name="ExecutableInstance_core.vi" Type="VI" URL="../Tests/ExecutableInstance_core.vi"/>
 		<Item Name="ProjectInstance.vi" Type="VI" URL="../Tests/ProjectInstance.vi"/>
 	</Item>
 	<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
