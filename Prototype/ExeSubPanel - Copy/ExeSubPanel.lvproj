@@ -1,14 +1,19 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="16008000">
+<Project Type="Project" LVVersion="21008000">
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="CCSymbols" Type="Str"></Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
-		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
-		<Property Name="server.tcp.port" Type="Int">0</Property>
-		<Property Name="server.tcp.serviceName" Type="Str">My Computer/VI Server</Property>
+		<Property Name="server.tcp.acl" Type="Str">730000000A000000030000001D00000003000000010000002A100000000300000000000100000000002500000003000000090000006C6F63616C686F7374100000000300000000000100000000002500000003000000090000003132372E302E302E3110000000030000000000010000000000</Property>
+		<Property Name="server.tcp.enabled" Type="Bool">true</Property>
+		<Property Name="server.tcp.port" Type="Int">9999</Property>
+		<Property Name="server.tcp.serviceName" Type="Str">Test</Property>
 		<Property Name="server.tcp.serviceName.default" Type="Str">My Computer/VI Server</Property>
+		<Property Name="server.vi.access" Type="Str">+*;+127.0.0.1;+localhost</Property>
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
+		<Property Name="server.viscripting.showScriptingOperationsInContextHelp" Type="Bool">true</Property>
+		<Property Name="server.viscripting.showScriptingOperationsInEditor" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="GetSubPanelVIName [Wrapper].vi" Type="VI" URL="../GetSubPanelVIName [Wrapper].vi"/>
 		<Item Name="GetSubPanelVIName.vi" Type="VI" URL="../GetSubPanelVIName.vi"/>
@@ -67,9 +72,8 @@
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{985BA27D-ABEB-4C7C-8A7C-1B682F7B5B67}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{8DCAB5B3-7F26-4951-AAEB-A2C28EA57551}</Property>
-				<Property Name="App_INI_itemID" Type="Ref">/My Computer/HelperApplication.ini</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="App_waitDebugging" Type="Bool">true</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{F2EB0746-06CF-4A83-98F2-55A545D34518}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">My Application</Property>
@@ -80,7 +84,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{0BFA7E1A-A480-4A39-9F1D-0E4439CCE66D}</Property>
-				<Property Name="Bld_version.build" Type="Int">16</Property>
+				<Property Name="Bld_version.build" Type="Int">28</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Application.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../My Application/Application.exe</Property>
@@ -91,7 +95,7 @@
 				<Property Name="Destination[1].path" Type="Path">../My Application/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F2368171-CD2B-4ED5-B32D-CFC3921AC9AB}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A104AED1-F9E0-4EAE-BBE1-BCD19FBDB32A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/main.vi</Property>
