@@ -402,11 +402,12 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Build/TestPPL</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5DAFADBB-0CF7-4EFA-AE7A-149F3B9B668E}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DronaTest.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Build/TestPPL/DronaTest.lvlibp</Property>
@@ -416,7 +417,7 @@
 				<Property Name="Destination[1].path" Type="Path">../Build/TestPPL</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{8C47167A-5F6E-45F8-A988-DE77B65C66BB}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4C54B4B2-AED9-4F85-B161-C59C874D8AB3}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/test/DronaTest.lvlib</Property>

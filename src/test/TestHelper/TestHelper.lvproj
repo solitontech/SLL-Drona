@@ -72,10 +72,11 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/D/git/LabVIEW/ui-automation/labview-ui-testing/Build/NI_AB_PROJECTNAME/HelperApplication</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2339E378-11E5-44FE-A104-131A12C68529}</Property>
-				<Property Name="Bld_version.build" Type="Int">15</Property>
+				<Property Name="Bld_version.build" Type="Int">16</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">HelperApplication.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/D/git/LabVIEW/ui-automation/labview-ui-testing/Build/NI_AB_PROJECTNAME/HelperApplication/HelperApplication.exe</Property>
@@ -90,7 +91,7 @@
 				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[2].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{17514B82-3237-46B6-882B-EBD5A3DA4F24}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{45EF50F0-1ADC-4A0A-8968-81E308286493}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.depDestIndex" Type="Int">0</Property>
