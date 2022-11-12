@@ -3,28 +3,20 @@
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
-		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
-		<Property Name="server.tcp.port" Type="Int">0</Property>
-		<Property Name="server.tcp.serviceName" Type="Str">My Computer/VI Server</Property>
+		<Property Name="server.tcp.acl" Type="Str">730000000A000000030000002500000003000000090000006C6F63616C686F7374100000000300000000000100000000002500000003000000090000003132372E302E302E31100000000300000000000100000000001D00000003000000010000002A10000000030000000000010000000000</Property>
+		<Property Name="server.tcp.enabled" Type="Bool">true</Property>
+		<Property Name="server.tcp.port" Type="Int">5050</Property>
+		<Property Name="server.tcp.serviceName" Type="Str"></Property>
 		<Property Name="server.tcp.serviceName.default" Type="Str">My Computer/VI Server</Property>
+		<Property Name="server.vi.access" Type="Str">+localhost;+127.0.0.1;+*</Property>
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
+		<Property Name="server.viscripting.showScriptingOperationsInContextHelp" Type="Bool">true</Property>
+		<Property Name="server.viscripting.showScriptingOperationsInEditor" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Car Wash Test" Type="Folder">
-			<Item Name="Controls" Type="Folder">
-				<Item Name="Wash Step Config.ctl" Type="VI" URL="../Car Wash Test/Controls/Wash Step Config.ctl"/>
-			</Item>
-			<Item Name="SubVI" Type="Folder">
-				<Item Name="CarWashTest.vi" Type="VI" URL="../Car Wash Test/SubVI/CarWashTest.vi"/>
-				<Item Name="Get Step Config.vi" Type="VI" URL="../Car Wash Test/SubVI/Get Step Config.vi"/>
-				<Item Name="InitialConditionTest.vi" Type="VI" URL="../Car Wash Test/SubVI/InitialConditionTest.vi"/>
-				<Item Name="MultiProcess.vi" Type="VI" URL="../Car Wash Test/SubVI/MultiProcess.vi"/>
-				<Item Name="RestartVI.vi" Type="VI" URL="../Car Wash Test/SubVI/RestartVI.vi"/>
-				<Item Name="StartVI.vi" Type="VI" URL="../Car Wash Test/SubVI/StartVI.vi"/>
-				<Item Name="StopVI.vi" Type="VI" URL="../Car Wash Test/SubVI/StopVI.vi"/>
-				<Item Name="Test Process.vi" Type="VI" URL="../Car Wash Test/SubVI/Test Process.vi"/>
-			</Item>
-			<Item Name="CarWashTestcase.vi" Type="VI" URL="../Car Wash Test/CarWashTestcase.vi"/>
+			<Item Name="Car Wash Test.lvlib" Type="Library" URL="../Car Wash Test/Car Wash Test.lvlib"/>
+			<Item Name="Launcher.vi" Type="VI" URL="../Car Wash Test/Launcher.vi"/>
 		</Item>
 		<Item Name="Solution" Type="Folder">
 			<Item Name="Controls" Type="Folder">
@@ -38,7 +30,6 @@
 				<Item Name="Timing Engine.vi" Type="VI" URL="../Solution/SubVIs/Timing Engine.vi"/>
 			</Item>
 			<Item Name="Car Wash.vi" Type="VI" URL="../Solution/Car Wash.vi"/>
-			<Item Name="Launcher.vi" Type="VI" URL="../Solution/Launcher.vi"/>
 			<Item Name="readme.html" Type="Document" URL="../Solution/readme.html"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -398,6 +389,7 @@
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
+				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
@@ -415,6 +407,93 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="Car Wash" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{BE220EA0-9E8C-4CAE-864A-FE2FE60E2D02}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{8B42EA3C-D42D-4339-A193-69981DEAE979}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{05E14F2A-0D82-4ACC-9C69-399580658AC4}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Car Wash</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/Car Wash EXE</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{187BC118-7B95-44B4-926F-669EC8B26585}</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Car Wash.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/Car Wash EXE/Car Wash.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/Car Wash EXE/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2903DB05-A5B6-419B-9DE1-BD00A97D7376}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Solution/Car Wash.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Solution/readme.html</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_companyName" Type="Str">Soliton Technologies Pvt. Ltd.</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Car Wash</Property>
+				<Property Name="TgtF_internalName" Type="Str">Car Wash</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 Soliton Technologies Pvt. Ltd.</Property>
+				<Property Name="TgtF_productName" Type="Str">Car Wash</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{3E1CEFFD-66DF-4588-ABC0-18FAA1818752}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Car Wash.exe</Property>
+			</Item>
+			<Item Name="Test Car Wash" Type="Packed Library">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{2E89D42D-0833-4239-8376-DA84C4CFA158}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Test Car Wash</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/Test Car Wash</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{934A4083-ECFC-4D82-8967-119EB7BABAE8}</Property>
+				<Property Name="Bld_version.build" Type="Int">17</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Test Car Wash.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/Test Car Wash/Test Car Wash.lvlibp</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/Test Car Wash</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2903DB05-A5B6-419B-9DE1-BD00A97D7376}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Car Wash Test/Car Wash Test.lvlib</Property>
+				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
+				<Property Name="Source[1].preventRename" Type="Bool">true</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Soliton Technologies Pvt. Ltd.</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Test Car Wash</Property>
+				<Property Name="TgtF_internalName" Type="Str">Test Car Wash</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 Soliton Technologies Pvt. Ltd.</Property>
+				<Property Name="TgtF_productName" Type="Str">Test Car Wash</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{CCBDF060-442E-4E41-AB5E-A6F2D7C58825}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Test Car Wash.lvlibp</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
