@@ -11,6 +11,12 @@
 		<Item Name="ControlPathToArray.vi" Type="VI" URL="../_SubVIs/ControlPathToArray.vi"/>
 		<Item Name="ErrorControlMissing.vi" Type="VI" URL="../_SubVIs/ErrorControlMissing.vi"/>
 		<Item Name="ErrorSubPanelVIMissing.vi" Type="VI" URL="../_SubVIs/ErrorSubPanelVIMissing.vi"/>
+		<Item Name="GetTestsFromPackedProjectLibrary.vi" Type="VI" URL="../_SubVIs/GetTestsFromPackedProjectLibrary.vi"/>
+		<Item Name="RunEXE.vi" Type="VI" URL="../_SubVIs/RunEXE.vi"/>
+	</Item>
+	<Item Name="_Typedefs" Type="Folder">
+		<Item Name="SetupEXEConfig.ctl" Type="VI" URL="../_Typedefs/SetupEXEConfig.ctl"/>
+		<Item Name="SetupSourceConfig.ctl" Type="VI" URL="../_Typedefs/SetupSourceConfig.ctl"/>
 	</Item>
 	<Item Name="apis" Type="Folder">
 		<Item Name="Assert" Type="Folder">
@@ -19,10 +25,12 @@
 			<Item Name="AssertControlValue.lvlib" Type="Library" URL="../apis/Assert/AssertControlValue/AssertControlValue.lvlib"/>
 		</Item>
 		<Item Name="Setup" Type="Folder">
+			<Item Name="CloseReferences.vi" Type="VI" URL="../apis/Setup/CloseReferences.vi"/>
 			<Item Name="GetApp.vi" Type="VI" URL="../apis/Setup/GetApp.vi"/>
 			<Item Name="GetControlRef.lvlib" Type="Library" URL="../apis/Setup/GetControlRef/GetControlRef.lvlib"/>
 			<Item Name="GetControlValue.lvlib" Type="Library" URL="../apis/Setup/GetControlValue/GetControlValue.lvlib"/>
 			<Item Name="GetVI.lvlib" Type="Library" URL="../apis/Setup/GetVI/GetVI.lvlib"/>
+			<Item Name="Setup.vi" Type="VI" URL="../apis/Setup/Setup.vi"/>
 		</Item>
 		<Item Name="Stimulus" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -31,5 +39,6 @@
 			<Item Name="KeyboardSimulation.lvlib" Type="Library" URL="../apis/Stimulus/KeyBoardSimulation/KeyboardSimulation.lvlib"/>
 			<Item Name="VI.lvlib" Type="Library" URL="../apis/Stimulus/VI/VI.lvlib"/>
 		</Item>
+		<Item Name="RunTestsforEXE.vi" Type="VI" URL="../apis/RunTestsforEXE.vi"/>
 	</Item>
 </Library>
