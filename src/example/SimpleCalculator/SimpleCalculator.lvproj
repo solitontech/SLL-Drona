@@ -13,6 +13,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="SimpleCalculator.lvlib" Type="Library" URL="../SimpleCalculator.lvlib"/>
 		<Item Name="SimpleCalculatorTests.lvlib" Type="Library" URL="../Tests/SimpleCalculatorTests.lvlib"/>
+		<Item Name="Drona.lvlib" Type="Library" URL="../../../main/Drona.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
@@ -422,7 +423,6 @@
 				<Item Name="SLL File IO.lvlib" Type="Library" URL="/&lt;vilib&gt;/SLL Toolkit/SLL File IO/SLL File IO.lvlib"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 			</Item>
-			<Item Name="Drona.lvlib" Type="Library" URL="../../../main/Drona.lvlib"/>
 			<Item Name="user32.dll" Type="Document" URL="user32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -478,13 +478,10 @@
 				<Property Name="Bld_buildCacheID" Type="Str">{FC853602-87D9-458B-AD50-4C494B675475}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Simple Calculator Drona Tests</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../builds/Tests</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9C8FFC4B-33EF-4B1D-951D-76ACFC839C73}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">SimpleCalculatorDronaTests.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Tests/SimpleCalculatorDronaTests.lvlibp</Property>
@@ -496,7 +493,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4245C184-6EF3-4CFF-997E-2ECCAA464977}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8CCB3A2A-3B02-4F51-9DB1-61184A6A90C8}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SimpleCalculatorTests.lvlib</Property>
@@ -506,7 +503,12 @@
 				<Property Name="Source[1].preventRename" Type="Bool">true</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Drona.lvlib</Property>
+				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">Soliton Technologies</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Simple Calculator Drona Tests</Property>
 				<Property Name="TgtF_internalName" Type="Str">Simple Calculator Drona Tests</Property>

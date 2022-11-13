@@ -39,6 +39,7 @@
 			<Item Name="KeyboardSimulation.lvlib" Type="Library" URL="../apis/Stimulus/KeyBoardSimulation/KeyboardSimulation.lvlib"/>
 			<Item Name="VI.lvlib" Type="Library" URL="../apis/Stimulus/VI/VI.lvlib"/>
 		</Item>
+		<Item Name="RunTestsCore.vi" Type="VI" URL="../apis/RunTestsCore.vi"/>
 		<Item Name="RunTestsforEXE.vi" Type="VI" URL="../apis/RunTestsforEXE.vi"/>
 	</Item>
 </Library>

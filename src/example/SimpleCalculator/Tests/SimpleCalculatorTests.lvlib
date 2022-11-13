@@ -5,6 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="SubVIs" Type="Folder"/>
+	<Item Name="Run.vi" Type="VI" URL="../Run.vi"/>
 	<Item Name="TestAdd.vi" Type="VI" URL="../TestAdd.vi"/>
 	<Item Name="TestSubtract.vi" Type="VI" URL="../TestSubtract.vi"/>
 </Library>
