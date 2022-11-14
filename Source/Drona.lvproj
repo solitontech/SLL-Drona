@@ -13,80 +13,6 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Source" Type="Folder">
-			<Item Name="Examples" Type="Folder">
-				<Item Name="Car Wash" Type="Folder">
-					<Item Name="builds" Type="Folder">
-						<Item Name="Car Wash EXE" Type="Folder">
-							<Item Name="data" Type="Folder">
-								<Item Name="readme.html" Type="Document" URL="../Examples/Car Wash/builds/Car Wash EXE/data/readme.html"/>
-							</Item>
-							<Item Name="Car Wash.aliases" Type="Document" URL="../Examples/Car Wash/builds/Car Wash EXE/Car Wash.aliases"/>
-							<Item Name="Car Wash.exe" Type="Document" URL="../Examples/Car Wash/builds/Car Wash EXE/Car Wash.exe"/>
-							<Item Name="Car Wash.ini" Type="Document" URL="../Examples/Car Wash/builds/Car Wash EXE/Car Wash.ini"/>
-						</Item>
-						<Item Name="Test Car Wash" Type="Folder">
-							<Item Name="Test Car Wash.lvlibp" Type="LVLibp" URL="../Examples/Car Wash/builds/Test Car Wash/Test Car Wash.lvlibp"/>
-						</Item>
-					</Item>
-					<Item Name="Car Wash Test" Type="Folder">
-						<Item Name="Controls" Type="Folder"/>
-						<Item Name="SubVI" Type="Folder"/>
-						<Item Name="Car Wash Test.lvlib" Type="Library" URL="../Examples/Car Wash/Car Wash Test/Car Wash Test.lvlib"/>
-						<Item Name="Launcher.vi" Type="VI" URL="../Examples/Car Wash/Car Wash Test/Launcher.vi"/>
-					</Item>
-					<Item Name="Solution" Type="Folder">
-						<Item Name="Controls" Type="Folder">
-							<Item Name="Car Position Control.ctl" Type="VI" URL="../Examples/Car Wash/Solution/Controls/Car Position Control.ctl"/>
-							<Item Name="Car Wash Indicators.ctl" Type="VI" URL="../Examples/Car Wash/Solution/Controls/Car Wash Indicators.ctl"/>
-							<Item Name="State Control Enum.ctl" Type="VI" URL="../Examples/Car Wash/Solution/Controls/State Control Enum.ctl"/>
-							<Item Name="Wash Options.ctl" Type="VI" URL="../Examples/Car Wash/Solution/Controls/Wash Options.ctl"/>
-						</Item>
-						<Item Name="SubVIs" Type="Folder">
-							<Item Name="Determine Wash Cycle.vi" Type="VI" URL="../Examples/Car Wash/Solution/SubVIs/Determine Wash Cycle.vi"/>
-							<Item Name="Timing Engine.vi" Type="VI" URL="../Examples/Car Wash/Solution/SubVIs/Timing Engine.vi"/>
-						</Item>
-						<Item Name="Car Wash.vi" Type="VI" URL="../Examples/Car Wash/Solution/Car Wash.vi"/>
-						<Item Name="readme.html" Type="Document" URL="../Examples/Car Wash/Solution/readme.html"/>
-					</Item>
-					<Item Name="Car Wash Example.lvproj" Type="Document" URL="../Examples/Car Wash/Car Wash Example.lvproj"/>
-				</Item>
-				<Item Name="Latch boolean simulation" Type="Folder">
-					<Item Name="BooleanCtlHelper.vi" Type="VI" URL="../Examples/Latch boolean simulation/BooleanCtlHelper.vi"/>
-					<Item Name="BooleanCtlTest.vi" Type="VI" URL="../Examples/Latch boolean simulation/BooleanCtlTest.vi"/>
-				</Item>
-				<Item Name="Numeric Ctl coercion" Type="Folder">
-					<Item Name="NumericCtlValueCoercion-Helper.vi" Type="VI" URL="../Examples/Numeric Ctl coercion/NumericCtlValueCoercion-Helper.vi"/>
-					<Item Name="NumericCtlValueCoercion-Test.vi" Type="VI" URL="../Examples/Numeric Ctl coercion/NumericCtlValueCoercion-Test.vi"/>
-				</Item>
-				<Item Name="SimpleCalculator" Type="Folder">
-					<Item Name="builds" Type="Folder">
-						<Item Name="Tests" Type="Folder">
-							<Item Name="ExecuteTests.vi" Type="VI" URL="../Examples/SimpleCalculator/builds/Tests/ExecuteTests.vi"/>
-							<Item Name="SimpleCalculatorDronaTests.lvlibp" Type="LVLibp" URL="../Examples/SimpleCalculator/builds/Tests/SimpleCalculatorDronaTests.lvlibp"/>
-						</Item>
-						<Item Name="Drona.ini" Type="Document" URL="../Examples/SimpleCalculator/builds/Drona.ini"/>
-						<Item Name="SimpleCalculator.aliases" Type="Document" URL="../Examples/SimpleCalculator/builds/SimpleCalculator.aliases"/>
-						<Item Name="SimpleCalculator.exe" Type="Document" URL="../Examples/SimpleCalculator/builds/SimpleCalculator.exe"/>
-						<Item Name="SimpleCalculator.ini" Type="Document" URL="../Examples/SimpleCalculator/builds/SimpleCalculator.ini"/>
-					</Item>
-					<Item Name="Tests" Type="Folder">
-						<Item Name="SubVIs" Type="Folder"/>
-						<Item Name="SimpleCalculatorTests.lvlib" Type="Library" URL="../Examples/SimpleCalculator/Tests/SimpleCalculatorTests.lvlib"/>
-					</Item>
-					<Item Name="SimpleCalculator.lvlib" Type="Library" URL="../Examples/SimpleCalculator/SimpleCalculator.lvlib"/>
-					<Item Name="SimpleCalculator.lvproj" Type="Document" URL="../Examples/SimpleCalculator/SimpleCalculator.lvproj"/>
-				</Item>
-				<Item Name="Subpanel" Type="Folder">
-					<Item Name="Subpanel - Coercion Test.vi" Type="VI" URL="../Examples/Subpanel/Subpanel - Coercion Test.vi"/>
-					<Item Name="Subpanel - Helper.vi" Type="VI" URL="../Examples/Subpanel/Subpanel - Helper.vi"/>
-					<Item Name="Subpanel - Latch Test.vi" Type="VI" URL="../Examples/Subpanel/Subpanel - Latch Test.vi"/>
-					<Item Name="Subpanel - Test.vi" Type="VI" URL="../Examples/Subpanel/Subpanel - Test.vi"/>
-				</Item>
-				<Item Name="Timer" Type="Folder">
-					<Item Name="TimerHelper.vi" Type="VI" URL="../Examples/Timer/TimerHelper.vi"/>
-					<Item Name="TimerTest.vi" Type="VI" URL="../Examples/Timer/TimerTest.vi"/>
-				</Item>
-			</Item>
 			<Item Name="Test" Type="Folder">
 				<Item Name="TestHelper" Type="Folder">
 					<Item Name="controls" Type="Folder">
@@ -500,7 +426,6 @@
 				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
 				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
-				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="SLL File IO.lvlib" Type="Library" URL="/&lt;vilib&gt;/SLL Toolkit/SLL File IO/SLL File IO.lvlib"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
