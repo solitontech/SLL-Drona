@@ -1,113 +1,21 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="16008000">
-	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
-		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
-		<Property Name="server.tcp.port" Type="Int">0</Property>
-		<Property Name="server.tcp.serviceName" Type="Str">My Computer/VI Server</Property>
+		<Property Name="server.tcp.acl" Type="Str">730000000A000000030000002500000003000000090000006C6F63616C686F7374100000000300000000000100000000001D00000003000000010000002A100000000300000000000100000000002500000003000000090000003132372E302E302E3110000000030000000000010000000000</Property>
+		<Property Name="server.tcp.enabled" Type="Bool">true</Property>
+		<Property Name="server.tcp.port" Type="Int">6060</Property>
+		<Property Name="server.tcp.serviceName" Type="Str"></Property>
 		<Property Name="server.tcp.serviceName.default" Type="Str">My Computer/VI Server</Property>
+		<Property Name="server.vi.access" Type="Str">+*;+localhost;+127.0.0.1</Property>
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
+		<Property Name="server.viscripting.showScriptingOperationsInContextHelp" Type="Bool">false</Property>
+		<Property Name="server.viscripting.showScriptingOperationsInEditor" Type="Bool">false</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Source" Type="Folder">
-			<Item Name="Examples" Type="Folder">
-				<Item Name="Car Wash" Type="Folder">
-					<Item Name="builds" Type="Folder">
-						<Item Name="Car Wash EXE" Type="Folder">
-							<Item Name="data" Type="Folder">
-								<Item Name="readme.html" Type="Document" URL="../Examples/Car Wash/builds/Car Wash EXE/data/readme.html"/>
-							</Item>
-							<Item Name="Car Wash.aliases" Type="Document" URL="../Examples/Car Wash/builds/Car Wash EXE/Car Wash.aliases"/>
-							<Item Name="Car Wash.exe" Type="Document" URL="../Examples/Car Wash/builds/Car Wash EXE/Car Wash.exe"/>
-							<Item Name="Car Wash.ini" Type="Document" URL="../Examples/Car Wash/builds/Car Wash EXE/Car Wash.ini"/>
-						</Item>
-						<Item Name="Test Car Wash" Type="Folder">
-							<Item Name="Test Car Wash.lvlibp" Type="LVLibp" URL="../Examples/Car Wash/builds/Test Car Wash/Test Car Wash.lvlibp"/>
-						</Item>
-					</Item>
-					<Item Name="Car Wash Test" Type="Folder">
-						<Item Name="Controls" Type="Folder"/>
-						<Item Name="SubVI" Type="Folder"/>
-						<Item Name="Car Wash Test.lvlib" Type="Library" URL="../Examples/Car Wash/Car Wash Test/Car Wash Test.lvlib"/>
-						<Item Name="Launcher.vi" Type="VI" URL="../Examples/Car Wash/Car Wash Test/Launcher.vi"/>
-					</Item>
-					<Item Name="Solution" Type="Folder">
-						<Item Name="Controls" Type="Folder">
-							<Item Name="Car Position Control.ctl" Type="VI" URL="../Examples/Car Wash/Solution/Controls/Car Position Control.ctl"/>
-							<Item Name="Car Wash Indicators.ctl" Type="VI" URL="../Examples/Car Wash/Solution/Controls/Car Wash Indicators.ctl"/>
-							<Item Name="State Control Enum.ctl" Type="VI" URL="../Examples/Car Wash/Solution/Controls/State Control Enum.ctl"/>
-							<Item Name="Wash Options.ctl" Type="VI" URL="../Examples/Car Wash/Solution/Controls/Wash Options.ctl"/>
-						</Item>
-						<Item Name="SubVIs" Type="Folder">
-							<Item Name="Determine Wash Cycle.vi" Type="VI" URL="../Examples/Car Wash/Solution/SubVIs/Determine Wash Cycle.vi"/>
-							<Item Name="Timing Engine.vi" Type="VI" URL="../Examples/Car Wash/Solution/SubVIs/Timing Engine.vi"/>
-						</Item>
-						<Item Name="Car Wash.vi" Type="VI" URL="../Examples/Car Wash/Solution/Car Wash.vi"/>
-						<Item Name="readme.html" Type="Document" URL="../Examples/Car Wash/Solution/readme.html"/>
-					</Item>
-					<Item Name="Car Wash Example.lvproj" Type="Document" URL="../Examples/Car Wash/Car Wash Example.lvproj"/>
-				</Item>
-				<Item Name="Latch boolean simulation" Type="Folder">
-					<Item Name="BooleanCtlHelper.vi" Type="VI" URL="../Examples/Latch boolean simulation/BooleanCtlHelper.vi"/>
-					<Item Name="BooleanCtlTest.vi" Type="VI" URL="../Examples/Latch boolean simulation/BooleanCtlTest.vi"/>
-				</Item>
-				<Item Name="Numeric Ctl coercion" Type="Folder">
-					<Item Name="NumericCtlValueCoercion-Helper.vi" Type="VI" URL="../Examples/Numeric Ctl coercion/NumericCtlValueCoercion-Helper.vi"/>
-					<Item Name="NumericCtlValueCoercion-Test.vi" Type="VI" URL="../Examples/Numeric Ctl coercion/NumericCtlValueCoercion-Test.vi"/>
-				</Item>
-				<Item Name="SimpleCalculator" Type="Folder">
-					<Item Name="builds" Type="Folder">
-						<Item Name="Tests" Type="Folder">
-							<Item Name="ExecuteTests.vi" Type="VI" URL="../Examples/SimpleCalculator/builds/Tests/ExecuteTests.vi"/>
-							<Item Name="SimpleCalculatorDronaTests.lvlibp" Type="LVLibp" URL="../Examples/SimpleCalculator/builds/Tests/SimpleCalculatorDronaTests.lvlibp"/>
-						</Item>
-						<Item Name="Drona.ini" Type="Document" URL="../Examples/SimpleCalculator/builds/Drona.ini"/>
-						<Item Name="SimpleCalculator.aliases" Type="Document" URL="../Examples/SimpleCalculator/builds/SimpleCalculator.aliases"/>
-						<Item Name="SimpleCalculator.exe" Type="Document" URL="../Examples/SimpleCalculator/builds/SimpleCalculator.exe"/>
-						<Item Name="SimpleCalculator.ini" Type="Document" URL="../Examples/SimpleCalculator/builds/SimpleCalculator.ini"/>
-					</Item>
-					<Item Name="Tests" Type="Folder">
-						<Item Name="SubVIs" Type="Folder"/>
-						<Item Name="SimpleCalculatorTests.lvlib" Type="Library" URL="../Examples/SimpleCalculator/Tests/SimpleCalculatorTests.lvlib"/>
-					</Item>
-					<Item Name="SimpleCalculator.lvlib" Type="Library" URL="../Examples/SimpleCalculator/SimpleCalculator.lvlib"/>
-					<Item Name="SimpleCalculator.lvproj" Type="Document" URL="../Examples/SimpleCalculator/SimpleCalculator.lvproj"/>
-				</Item>
-				<Item Name="Subpanel" Type="Folder">
-					<Item Name="Subpanel - Coercion Test.vi" Type="VI" URL="../Examples/Subpanel/Subpanel - Coercion Test.vi"/>
-					<Item Name="Subpanel - Helper.vi" Type="VI" URL="../Examples/Subpanel/Subpanel - Helper.vi"/>
-					<Item Name="Subpanel - Latch Test.vi" Type="VI" URL="../Examples/Subpanel/Subpanel - Latch Test.vi"/>
-					<Item Name="Subpanel - Test.vi" Type="VI" URL="../Examples/Subpanel/Subpanel - Test.vi"/>
-				</Item>
-				<Item Name="Timer" Type="Folder">
-					<Item Name="TimerHelper.vi" Type="VI" URL="../Examples/Timer/TimerHelper.vi"/>
-					<Item Name="TimerTest.vi" Type="VI" URL="../Examples/Timer/TimerTest.vi"/>
-				</Item>
-			</Item>
-			<Item Name="Test" Type="Folder">
-				<Item Name="TestHelper" Type="Folder">
-					<Item Name="controls" Type="Folder">
-						<Item Name="Level2.ctl" Type="VI" URL="../Test/TestHelper/controls/Level2.ctl"/>
-					</Item>
-					<Item Name="Panels" Type="Folder">
-						<Item Name="_Template.vi" Type="VI" URL="../test/TestHelper/Panels/_Template.vi"/>
-						<Item Name="BasicControls.vi" Type="VI" URL="../test/TestHelper/Panels/BasicControls.vi"/>
-						<Item Name="ControlProperty.vi" Type="VI" URL="../test/TestHelper/Panels/ControlProperty.vi"/>
-						<Item Name="KeyboardSimulation.vi" Type="VI" URL="../test/TestHelper/Panels/KeyboardSimulation.vi"/>
-						<Item Name="LatchBoolean.vi" Type="VI" URL="../test/TestHelper/Panels/LatchBoolean.vi"/>
-						<Item Name="Timer.vi" Type="VI" URL="../test/TestHelper/Panels/Timer.vi"/>
-					</Item>
-					<Item Name="main.vi" Type="VI" URL="../test/TestHelper/main.vi"/>
-					<Item Name="TestHelper.aliases" Type="Document" URL="../test/TestHelper/TestHelper.aliases"/>
-					<Item Name="TestHelper.lvproj" Type="Document" URL="../test/TestHelper/TestHelper.lvproj"/>
-				</Item>
-				<Item Name="DronaTest.lvlib" Type="Library" URL="../test/DronaTest.lvlib"/>
-			</Item>
-			<Item Name="Drona.lvlib" Type="Library" URL="../Drona.lvlib"/>
-		</Item>
+		<Item Name="Subpanel.lvlib" Type="Library" URL="../Main/Subpanel.lvlib"/>
+		<Item Name="SubpanelTests.lvlib" Type="Library" URL="../Tests/SubpanelTests.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
@@ -500,7 +408,6 @@
 				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
 				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
-				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="SLL File IO.lvlib" Type="Library" URL="/&lt;vilib&gt;/SLL Toolkit/SLL File IO/SLL File IO.lvlib"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
@@ -518,37 +425,88 @@
 				<Item Name="VI Scripting - Traverse.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/traverseref.llb/VI Scripting - Traverse.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Drona.lvlib" Type="Library" URL="../../../Drona.lvlib"/>
 			<Item Name="user32.dll" Type="Document" URL="user32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="TestPPL" Type="Packed Library">
+			<Item Name="Subpanel" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{74FA75A4-E9D3-4F17-84C2-AFF414F15759}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{2A138789-9A44-4390-B476-256393D2B456}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{C16249F7-2332-47FE-A728-1610711F83A5}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">TestPPL</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{68D975D6-3764-4FCC-AB39-995F305B638C}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Subpanel</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Build/TestPPL</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{5DAFADBB-0CF7-4EFA-AE7A-149F3B9B668E}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{121C26C7-99BF-4E37-83EA-A337630F6FF8}</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">DronaTest.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">../Build/TestPPL/DronaTest.lvlibp</Property>
+				<Property Name="Destination[0].destName" Type="Str">Subpanel.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Build/TestPPL</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4C54B4B2-AED9-4F85-B161-C59C874D8AB3}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B4F75B13-6CDB-4F38-8410-9AED96C2A9E0}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Source/Test/DronaTest.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Subpanel.lvlib/Main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Subpanel.lvlib</Property>
+				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[2].type" Type="Str">Library</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Subpanel.lvlib/Drona.ini</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="TgtF_companyName" Type="Str">Soliton Technologies</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Subpanel</Property>
+				<Property Name="TgtF_internalName" Type="Str">Subpanel</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 Soliton Technologies</Property>
+				<Property Name="TgtF_productName" Type="Str">Subpanel</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{26ACC9E6-5F14-4121-8343-8251DE7812D6}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Subpanel.exe</Property>
+			</Item>
+			<Item Name="SubpanelTests" Type="Packed Library">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{8E0DE7FB-CE42-4A00-A66C-CCCD6296DC33}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">SubpanelTests</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/Tests</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{13D6201C-D294-4B5A-A02C-0DB33FFDF391}</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">SubpanelTests.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/Tests/SubpanelTests.lvlibp</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/Tests</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{89E76760-2FF1-4CDE-A02C-38C8B830AA5F}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SubpanelTests.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
@@ -557,12 +515,12 @@
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">Soliton Technologies</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">TestPPL</Property>
-				<Property Name="TgtF_internalName" Type="Str">TestPPL</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">SubpanelTests</Property>
+				<Property Name="TgtF_internalName" Type="Str">SubpanelTests</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 Soliton Technologies</Property>
-				<Property Name="TgtF_productName" Type="Str">TestPPL</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{421A8B0D-9EA3-458D-BE9B-D9D08790D50C}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">DronaTest.lvlibp</Property>
+				<Property Name="TgtF_productName" Type="Str">SubpanelTests</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{247CCB59-BA5D-4F35-BEDC-439BFEF82E03}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">SubpanelTests.lvlibp</Property>
 			</Item>
 		</Item>
 	</Item>
