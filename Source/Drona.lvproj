@@ -202,6 +202,7 @@
 				<Item Name="SimpleCalculator" Type="Folder">
 					<Item Name="builds" Type="Folder">
 						<Item Name="Tests" Type="Folder">
+							<Item Name="ExecuteTests.vi" Type="VI" URL="../Examples/SimpleCalculator/builds/Tests/ExecuteTests.vi"/>
 							<Item Name="SimpleCalculatorDronaTests.lvlibp" Type="LVLibp" URL="../Examples/SimpleCalculator/builds/Tests/SimpleCalculatorDronaTests.lvlibp">
 								<Item Name="SubVIs" Type="Folder"/>
 								<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="../Examples/SimpleCalculator/builds/Tests/SimpleCalculatorDronaTests.lvlibp/1abvi3w/vi.lib/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -528,7 +529,7 @@
 								<Item Name="DialogType.ctl" Type="VI" URL="../Examples/SimpleCalculator/builds/Tests/SimpleCalculatorDronaTests.lvlibp/1abvi3w/vi.lib/Utility/error.llb/DialogType.ctl"/>
 								<Item Name="DialogTypeEnum.ctl" Type="VI" URL="../Examples/SimpleCalculator/builds/Tests/SimpleCalculatorDronaTests.lvlibp/1abvi3w/vi.lib/Utility/error.llb/DialogTypeEnum.ctl"/>
 								<Item Name="Directory of Top Level VI.vi" Type="VI" URL="../Examples/SimpleCalculator/builds/Tests/SimpleCalculatorDronaTests.lvlibp/1abvi3w/vi.lib/picture/jpeg.llb/Directory of Top Level VI.vi"/>
-								<Item Name="Drona.lvlib" Type="Library" URL="../Examples/SimpleCalculator/builds/Tests/SimpleCalculatorDronaTests.lvlibp/main/Drona.lvlib"/>
+								<Item Name="Drona.lvlib" Type="Library" URL="../Examples/SimpleCalculator/builds/Tests/SimpleCalculatorDronaTests.lvlibp/Drona.lvlib"/>
 								<Item Name="Encode Section and Key Names__ogtk.vi" Type="VI" URL="../Examples/SimpleCalculator/builds/Tests/SimpleCalculatorDronaTests.lvlibp/1abvi3w/user.lib/_OpenG.lib/variantconfig/variantconfig.llb/Encode Section and Key Names__ogtk.vi"/>
 								<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../Examples/SimpleCalculator/builds/Tests/SimpleCalculatorDronaTests.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
 								<Item Name="Error Code Database.vi" Type="VI" URL="../Examples/SimpleCalculator/builds/Tests/SimpleCalculatorDronaTests.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Code Database.vi"/>
@@ -613,7 +614,7 @@
 								<Item Name="Recursive File List.vi" Type="VI" URL="../Examples/SimpleCalculator/builds/Tests/SimpleCalculatorDronaTests.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Recursive File List.vi"/>
 								<Item Name="Reshape 1D Array__ogtk.vi" Type="VI" URL="../Examples/SimpleCalculator/builds/Tests/SimpleCalculatorDronaTests.lvlibp/1abvi3w/user.lib/_OpenG.lib/lvdata/lvdata.llb/Reshape 1D Array__ogtk.vi"/>
 								<Item Name="Reshape Array to 1D VArray__ogtk.vi" Type="VI" URL="../Examples/SimpleCalculator/builds/Tests/SimpleCalculatorDronaTests.lvlibp/1abvi3w/user.lib/_OpenG.lib/lvdata/lvdata.llb/Reshape Array to 1D VArray__ogtk.vi"/>
-								<Item Name="Run.vi" Type="VI" URL="../Examples/SimpleCalculator/builds/Tests/SimpleCalculatorDronaTests.lvlibp/example/SimpleCalculator/Tests/Run.vi"/>
+								<Item Name="Run.vi" Type="VI" URL="../Examples/SimpleCalculator/builds/Tests/SimpleCalculatorDronaTests.lvlibp/Examples/SimpleCalculator/Tests/Run.vi"/>
 								<Item Name="Search and Replace Pattern.vi" Type="VI" URL="../Examples/SimpleCalculator/builds/Tests/SimpleCalculatorDronaTests.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Search and Replace Pattern.vi"/>
 								<Item Name="Set Bold Text.vi" Type="VI" URL="../Examples/SimpleCalculator/builds/Tests/SimpleCalculatorDronaTests.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Set Bold Text.vi"/>
 								<Item Name="Set Busy.vi" Type="VI" URL="../Examples/SimpleCalculator/builds/Tests/SimpleCalculatorDronaTests.lvlibp/1abvi3w/vi.lib/Utility/cursorutil.llb/Set Busy.vi"/>
@@ -632,8 +633,8 @@
 								<Item Name="System Directory Type.ctl" Type="VI" URL="../Examples/SimpleCalculator/builds/Tests/SimpleCalculatorDronaTests.lvlibp/1abvi3w/vi.lib/Utility/sysdir.llb/System Directory Type.ctl"/>
 								<Item Name="System Exec.vi" Type="VI" URL="../Examples/SimpleCalculator/builds/Tests/SimpleCalculatorDronaTests.lvlibp/1abvi3w/vi.lib/Platform/system.llb/System Exec.vi"/>
 								<Item Name="TagReturnType.ctl" Type="VI" URL="../Examples/SimpleCalculator/builds/Tests/SimpleCalculatorDronaTests.lvlibp/1abvi3w/vi.lib/Utility/error.llb/TagReturnType.ctl"/>
-								<Item Name="TestAdd.vi" Type="VI" URL="../Examples/SimpleCalculator/builds/Tests/SimpleCalculatorDronaTests.lvlibp/example/SimpleCalculator/Tests/TestAdd.vi"/>
-								<Item Name="TestSubtract.vi" Type="VI" URL="../Examples/SimpleCalculator/builds/Tests/SimpleCalculatorDronaTests.lvlibp/example/SimpleCalculator/Tests/TestSubtract.vi"/>
+								<Item Name="TestAdd.vi" Type="VI" URL="../Examples/SimpleCalculator/builds/Tests/SimpleCalculatorDronaTests.lvlibp/Examples/SimpleCalculator/Tests/TestAdd.vi"/>
+								<Item Name="TestSubtract.vi" Type="VI" URL="../Examples/SimpleCalculator/builds/Tests/SimpleCalculatorDronaTests.lvlibp/Examples/SimpleCalculator/Tests/TestSubtract.vi"/>
 								<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="../Examples/SimpleCalculator/builds/Tests/SimpleCalculatorDronaTests.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Three Button Dialog CORE.vi"/>
 								<Item Name="Three Button Dialog.vi" Type="VI" URL="../Examples/SimpleCalculator/builds/Tests/SimpleCalculatorDronaTests.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Three Button Dialog.vi"/>
 								<Item Name="TRef FinderCallback.vi" Type="VI" URL="../Examples/SimpleCalculator/builds/Tests/SimpleCalculatorDronaTests.lvlibp/1abvi3w/vi.lib/Utility/traverseref.llb/TRef FinderCallback.vi"/>

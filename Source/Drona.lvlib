@@ -36,13 +36,13 @@
 		<Item Name="Stimulus" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Stimulus[Poly].vi" Type="VI" URL="../APIs/Stimulus/Stimulus[Poly].vi"/>
-			<Item Name="ValueSignal.lvlib" Type="Library" URL="../apis/Stimulus/ValueSignal/ValueSignal.lvlib"/>
-			<Item Name="KeyboardSimulation.lvlib" Type="Library" URL="../apis/Stimulus/KeyBoardSimulation/KeyboardSimulation.lvlib"/>
+			<Item Name="ControlValue.lvlib" Type="Library" URL="../APIs/Stimulus/ControlValue/ControlValue.lvlib"/>
+			<Item Name="KeyboardSimulation.lvlib" Type="Library" URL="../APIs/Stimulus/KeyBoardSimulation/KeyboardSimulation.lvlib"/>
 			<Item Name="VI.lvlib" Type="Library" URL="../apis/Stimulus/VI/VI.lvlib"/>
 		</Item>
 		<Item Name="Setup.vi" Type="VI" URL="../APIs/Setup.vi"/>
 		<Item Name="RunCore.vi" Type="VI" URL="../APIs/RunCore.vi"/>
 		<Item Name="ExecuteRun.vi" Type="VI" URL="../APIs/ExecuteRun.vi"/>
-		<Item Name="CloseReferences.vi" Type="VI" URL="../APIs/CloseReferences.vi"/>
+		<Item Name="Close.vi" Type="VI" URL="../APIs/Close.vi"/>
 	</Item>
 </Library>

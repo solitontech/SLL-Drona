@@ -444,7 +444,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F9009667-ED56-4699-9227-9E95CA8F05E0}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">SimpleCalculator.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME.exe</Property>
@@ -481,7 +481,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/Tests</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9C8FFC4B-33EF-4B1D-951D-76ACFC839C73}</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">SimpleCalculatorDronaTests.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Tests/SimpleCalculatorDronaTests.lvlibp</Property>
