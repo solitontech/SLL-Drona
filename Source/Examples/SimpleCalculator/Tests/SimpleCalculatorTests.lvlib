@@ -7,5 +7,7 @@
 	<Item Name="SubVIs" Type="Folder"/>
 	<Item Name="Run.vi" Type="VI" URL="../Run.vi"/>
 	<Item Name="TestAdd.vi" Type="VI" URL="../TestAdd.vi"/>
+	<Item Name="TestSquare.vi" Type="VI" URL="../TestSquare.vi"/>
+	<Item Name="TestSquareRoot.vi" Type="VI" URL="../TestSquareRoot.vi"/>
 	<Item Name="TestSubtract.vi" Type="VI" URL="../TestSubtract.vi"/>
 </Library>

@@ -6,11 +6,12 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="KeyDown.vi" Type="VI" URL="../SubVIs/KeyDown.vi"/>
 		<Item Name="KeyPress.vi" Type="VI" URL="../SubVIs/KeyPress.vi"/>
 		<Item Name="KeyUp.vi" Type="VI" URL="../SubVIs/KeyUp.vi"/>
-		<Item Name="Type Characters.vi" Type="VI" URL="../SubVIs/Type Characters.vi"/>
 	</Item>
-	<Item Name="KeyBoardSimulation.vi" Type="VI" URL="../KeyBoardSimulation.vi"/>
+	<Item Name="KeyBoardSimulationForTargetVI.vi" Type="VI" URL="../KeyBoardSimulationForTargetVI.vi"/>
+	<Item Name="KeyboardSimulationCore.vi" Type="VI" URL="../KeyboardSimulationCore.vi"/>
 </Library>
