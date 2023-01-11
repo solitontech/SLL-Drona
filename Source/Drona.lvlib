@@ -22,8 +22,10 @@
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Assert" Type="Folder">
 			<Item Name="Assert[Poly].vi" Type="VI" URL="../APIs/Assert/Assert[Poly].vi"/>
-			<Item Name="AssertControlDisable.lvlib" Type="Library" URL="../apis/Assert/AssertControlDisable/AssertControlDisable.lvlib"/>
-			<Item Name="AssertControlValue.lvlib" Type="Library" URL="../apis/Assert/AssertControlValue/AssertControlValue.lvlib"/>
+			<Item Name="AssertControlDisable.lvlib" Type="Library" URL="../APIs/Assert/AssertControlDisable/AssertControlDisable.lvlib"/>
+			<Item Name="AssertControlValue.lvlib" Type="Library" URL="../APIs/Assert/AssertControlValue/AssertControlValue.lvlib"/>
+			<Item Name="AssertSubpanel.lvlib" Type="Library" URL="../APIs/Assert/AssertSubpanel/AssertSubpanel.lvlib"/>
+			<Item Name="AssertVI.lvlib" Type="Library" URL="../APIs/Assert/AssertVI/AssertVI.lvlib"/>
 		</Item>
 		<Item Name="Get" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -38,7 +40,7 @@
 			<Item Name="Stimulus[Poly].vi" Type="VI" URL="../APIs/Stimulus/Stimulus[Poly].vi"/>
 			<Item Name="ControlValue.lvlib" Type="Library" URL="../APIs/Stimulus/ControlValue/ControlValue.lvlib"/>
 			<Item Name="KeyboardSimulation.lvlib" Type="Library" URL="../APIs/Stimulus/KeyBoardSimulation/KeyboardSimulation.lvlib"/>
-			<Item Name="VI.lvlib" Type="Library" URL="../apis/Stimulus/VI/VI.lvlib"/>
+			<Item Name="VI.lvlib" Type="Library" URL="../APIs/Stimulus/VI/VI.lvlib"/>
 		</Item>
 		<Item Name="Setup.vi" Type="VI" URL="../APIs/Setup.vi"/>
 		<Item Name="RunCore.vi" Type="VI" URL="../APIs/RunCore.vi"/>
