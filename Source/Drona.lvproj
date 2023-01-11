@@ -13,77 +13,6 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Source" Type="Folder">
-			<Item Name="Examples" Type="Folder">
-				<Item Name="CarWash" Type="Folder">
-					<Item Name="CarWashTest" Type="Folder">
-						<Item Name="Controls" Type="Folder"/>
-						<Item Name="SubVI" Type="Folder">
-							<Item Name="Drona.ini" Type="Document" URL="../Examples/CarWash/CarWashTest/SubVI/Drona.ini"/>
-						</Item>
-						<Item Name="CarWashTest.lvlib" Type="Library" URL="../Examples/CarWash/CarWashTest/CarWashTest.lvlib"/>
-						<Item Name="Drona.ini" Type="Document" URL="../Examples/CarWash/CarWashTest/Drona.ini"/>
-					</Item>
-					<Item Name="Scripts" Type="Folder">
-						<Item Name="RunTestsCarWash.vi" Type="VI" URL="../Examples/CarWash/Scripts/RunTestsCarWash.vi"/>
-					</Item>
-					<Item Name="Solution" Type="Folder">
-						<Item Name="Controls" Type="Folder">
-							<Item Name="Car Position Control.ctl" Type="VI" URL="../Examples/CarWash/Solution/Controls/Car Position Control.ctl"/>
-							<Item Name="Car Wash Indicators.ctl" Type="VI" URL="../Examples/CarWash/Solution/Controls/Car Wash Indicators.ctl"/>
-							<Item Name="State Control Enum.ctl" Type="VI" URL="../Examples/CarWash/Solution/Controls/State Control Enum.ctl"/>
-							<Item Name="Wash Options.ctl" Type="VI" URL="../Examples/CarWash/Solution/Controls/Wash Options.ctl"/>
-						</Item>
-						<Item Name="SubVIs" Type="Folder">
-							<Item Name="Determine Wash Cycle.vi" Type="VI" URL="../Examples/CarWash/Solution/SubVIs/Determine Wash Cycle.vi"/>
-							<Item Name="Timing Engine.vi" Type="VI" URL="../Examples/CarWash/Solution/SubVIs/Timing Engine.vi"/>
-						</Item>
-						<Item Name="Car Wash.vi" Type="VI" URL="../Examples/CarWash/Solution/Car Wash.vi"/>
-						<Item Name="readme.html" Type="Document" URL="../Examples/CarWash/Solution/readme.html"/>
-					</Item>
-					<Item Name="CarWashExample.lvproj" Type="Document" URL="../Examples/CarWash/CarWashExample.lvproj"/>
-					<Item Name="Drona.ini" Type="Document" URL="../Examples/CarWash/Drona.ini"/>
-				</Item>
-				<Item Name="SimpleCalculator" Type="Folder">
-					<Item Name="builds" Type="Folder">
-						<Item Name="Tests" Type="Folder">
-							<Item Name="SimpleCalculatorDronaTests.lvlibp" Type="LVLibp" URL="../Examples/SimpleCalculator/builds/Tests/SimpleCalculatorDronaTests.lvlibp"/>
-						</Item>
-						<Item Name="Drona.ini" Type="Document" URL="../Examples/SimpleCalculator/builds/Drona.ini"/>
-						<Item Name="SimpleCalculator.aliases" Type="Document" URL="../Examples/SimpleCalculator/builds/SimpleCalculator.aliases"/>
-						<Item Name="SimpleCalculator.exe" Type="Document" URL="../Examples/SimpleCalculator/builds/SimpleCalculator.exe"/>
-						<Item Name="SimpleCalculator.ini" Type="Document" URL="../Examples/SimpleCalculator/builds/SimpleCalculator.ini"/>
-					</Item>
-					<Item Name="Scripts" Type="Folder">
-						<Item Name="SimpleCalculatorTestsForEXE.vi" Type="VI" URL="../Examples/SimpleCalculator/Scripts/SimpleCalculatorTestsForEXE.vi"/>
-					</Item>
-					<Item Name="SubVIs" Type="Folder"/>
-					<Item Name="Tests" Type="Folder">
-						<Item Name="SubVIs" Type="Folder"/>
-						<Item Name="SimpleCalculatorTests.lvlib" Type="Library" URL="../Examples/SimpleCalculator/Tests/SimpleCalculatorTests.lvlib"/>
-					</Item>
-					<Item Name="SimpleCalculator.aliases" Type="Document" URL="../Examples/SimpleCalculator/SimpleCalculator.aliases"/>
-					<Item Name="SimpleCalculator.lvlib" Type="Library" URL="../Examples/SimpleCalculator/SimpleCalculator.lvlib"/>
-					<Item Name="SimpleCalculator.lvlps" Type="Document" URL="../Examples/SimpleCalculator/SimpleCalculator.lvlps"/>
-					<Item Name="SimpleCalculator.lvproj" Type="Document" URL="../Examples/SimpleCalculator/SimpleCalculator.lvproj"/>
-				</Item>
-				<Item Name="Subpanel" Type="Folder">
-					<Item Name="Main" Type="Folder">
-						<Item Name="Subpanel.lvlib" Type="Library" URL="../Examples/Subpanel/Main/Subpanel.lvlib"/>
-					</Item>
-					<Item Name="Scripts" Type="Folder">
-						<Item Name="SubpanelTestsForEXE.vi" Type="VI" URL="../Examples/Subpanel/Scripts/SubpanelTestsForEXE.vi"/>
-					</Item>
-					<Item Name="Tests" Type="Folder">
-						<Item Name="SubpanelTests.lvlib" Type="Library" URL="../Examples/Subpanel/Tests/SubpanelTests.lvlib"/>
-					</Item>
-					<Item Name="Subpanel.lvproj" Type="Document" URL="../Examples/Subpanel/Subpanel.lvproj"/>
-				</Item>
-				<Item Name="Timer" Type="Folder">
-					<Item Name="Drona.ini" Type="Document" URL="../Examples/Timer/Drona.ini"/>
-					<Item Name="TimerHelper.vi" Type="VI" URL="../Examples/Timer/TimerHelper.vi"/>
-					<Item Name="TimerTest.vi" Type="VI" URL="../Examples/Timer/TimerTest.vi"/>
-				</Item>
-			</Item>
 			<Item Name="Test" Type="Folder">
 				<Item Name="TestHelper" Type="Folder">
 					<Item Name="controls" Type="Folder">
@@ -498,8 +427,6 @@
 				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
 				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
-				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="SLL Debug.lvlib" Type="Library" URL="/&lt;vilib&gt;/SLL Toolkit/SLL Debug/SLL Debug.lvlib"/>
 				<Item Name="SLL File IO.lvlib" Type="Library" URL="/&lt;vilib&gt;/SLL Toolkit/SLL File IO/SLL File IO.lvlib"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
