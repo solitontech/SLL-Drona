@@ -19,18 +19,18 @@
 						<Item Name="Level2.ctl" Type="VI" URL="../Test/TestHelper/controls/Level2.ctl"/>
 					</Item>
 					<Item Name="Panels" Type="Folder">
-						<Item Name="_Template.vi" Type="VI" URL="../Test/TestHelper/Panels/_Template.vi"/>
-						<Item Name="BasicControls.vi" Type="VI" URL="../Test/TestHelper/Panels/BasicControls.vi"/>
-						<Item Name="ControlProperty.vi" Type="VI" URL="../Test/TestHelper/Panels/ControlProperty.vi"/>
-						<Item Name="KeyboardSimulation.vi" Type="VI" URL="../Test/TestHelper/Panels/KeyboardSimulation.vi"/>
-						<Item Name="LatchBoolean.vi" Type="VI" URL="../Test/TestHelper/Panels/LatchBoolean.vi"/>
-						<Item Name="Timer.vi" Type="VI" URL="../Test/TestHelper/Panels/Timer.vi"/>
+						<Item Name="_Template.vi" Type="VI" URL="../test/TestHelper/Panels/_Template.vi"/>
+						<Item Name="BasicControls.vi" Type="VI" URL="../test/TestHelper/Panels/BasicControls.vi"/>
+						<Item Name="ControlProperty.vi" Type="VI" URL="../test/TestHelper/Panels/ControlProperty.vi"/>
+						<Item Name="KeyboardSimulation.vi" Type="VI" URL="../test/TestHelper/Panels/KeyboardSimulation.vi"/>
+						<Item Name="LatchBoolean.vi" Type="VI" URL="../test/TestHelper/Panels/LatchBoolean.vi"/>
+						<Item Name="Timer.vi" Type="VI" URL="../test/TestHelper/Panels/Timer.vi"/>
 					</Item>
-					<Item Name="main.vi" Type="VI" URL="../Test/TestHelper/main.vi"/>
+					<Item Name="main.vi" Type="VI" URL="../test/TestHelper/main.vi"/>
 					<Item Name="TestHelper.aliases" Type="Document" URL="../test/TestHelper/TestHelper.aliases"/>
 					<Item Name="TestHelper.lvproj" Type="Document" URL="../test/TestHelper/TestHelper.lvproj"/>
 				</Item>
-				<Item Name="DronaTest.lvlib" Type="Library" URL="../Test/DronaTest.lvlib"/>
+				<Item Name="DronaTest.lvlib" Type="Library" URL="../test/DronaTest.lvlib"/>
 			</Item>
 			<Item Name="Drona.lvlib" Type="Library" URL="../Drona.lvlib"/>
 		</Item>
@@ -400,6 +400,7 @@
 				<Item Name="Has LLB Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Has LLB Extension.vi"/>
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
+				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
 				<Item Name="Librarian File Info In.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Librarian File Info In.ctl"/>
 				<Item Name="Librarian File Info Out.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Librarian File Info Out.ctl"/>
 				<Item Name="Librarian File List.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Librarian File List.ctl"/>
