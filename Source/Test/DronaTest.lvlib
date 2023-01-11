@@ -19,7 +19,7 @@
 			<Item Name="AssertsGreater.vi" Type="VI" URL="../Tests/SubTests/AssertsGreater.vi"/>
 			<Item Name="AssertsLess.vi" Type="VI" URL="../Tests/SubTests/AssertsLess.vi"/>
 			<Item Name="AssertsNotEqual.vi" Type="VI" URL="../Tests/SubTests/AssertsNotEqual.vi"/>
-			<Item Name="AssertsSubpanelEqual.vi" Type="VI" URL="../Tests/SubTests/AssertsSubpanelEqual.vi"/>
+			<Item Name="AssertsSubpanelVI.vi" Type="VI" URL="../Tests/SubTests/AssertsSubpanelVI.vi"/>
 			<Item Name="BasicFlow.vi" Type="VI" URL="../Tests/SubTests/BasicFlow.vi"/>
 			<Item Name="KeyboardSimCore.vi" Type="VI" URL="../Tests/SubTests/KeyboardSimCore.vi"/>
 			<Item Name="LatchBooleanKeyboardSim.vi" Type="VI" URL="../Tests/SubTests/LatchBooleanKeyboardSim.vi"/>
