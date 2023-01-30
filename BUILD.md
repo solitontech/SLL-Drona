@@ -11,5 +11,5 @@
 ![Package Dependencies](Images/VIPB%20Package%20Depen.png)
 7. **Package Filename** - Ensure the package name is proper with correct build version number
 ![Package Filename](Images/VIPB%20Package%20filename.png)
-8. Click on "Build Package" to start building the SLL Drona package
+8. Click on "Build Package" to start building the SLL Drona package <br/>
 ![Build Package](Images/VIPB%20Build%20package%20icon.png)
