@@ -11,6 +11,7 @@
 	</Item>
 	<Item Name="Tests" Type="Folder">
 		<Item Name="SubTests" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="AllTests.vi" Type="VI" URL="../Tests/SubTests/AllTests.vi"/>
 			<Item Name="AssertDisable.vi" Type="VI" URL="../Tests/SubTests/AssertDisable.vi"/>
 			<Item Name="Asserts.vi" Type="VI" URL="../Tests/SubTests/Asserts.vi"/>
@@ -19,7 +20,12 @@
 			<Item Name="AssertsGreater.vi" Type="VI" URL="../Tests/SubTests/AssertsGreater.vi"/>
 			<Item Name="AssertsLess.vi" Type="VI" URL="../Tests/SubTests/AssertsLess.vi"/>
 			<Item Name="AssertsNotEqual.vi" Type="VI" URL="../Tests/SubTests/AssertsNotEqual.vi"/>
+			<Item Name="AssertsTrueorFalse.vi" Type="VI" URL="../Tests/SubTests/AssertsTrueorFalse.vi"/>
 			<Item Name="AssertsSubpanelVI.vi" Type="VI" URL="../Tests/SubTests/AssertsSubpanelVI.vi"/>
+			<Item Name="AssertsSubpanelExecStateIdleorRun.vi" Type="VI" URL="../Tests/SubTests/AssertsSubpanelExecStateIdleorRun.vi"/>
+			<Item Name="AssertsSubpanelExecStateBad.vi" Type="VI" URL="../Tests/SubTests/AssertsSubpanelExecStateBad.vi"/>
+			<Item Name="AssertsVIExecStateNotBadorRun.vi" Type="VI" URL="../Tests/SubTests/AssertsVIExecStateNotBadorRun.vi"/>
+			<Item Name="AssertsVIExecStateIdle.vi" Type="VI" URL="../Tests/SubTests/AssertsVIExecStateIdle.vi"/>
 			<Item Name="BasicFlow.vi" Type="VI" URL="../Tests/SubTests/BasicFlow.vi"/>
 			<Item Name="KeyboardSimCore.vi" Type="VI" URL="../Tests/SubTests/KeyboardSimCore.vi"/>
 			<Item Name="LatchBooleanKeyboardSim.vi" Type="VI" URL="../Tests/SubTests/LatchBooleanKeyboardSim.vi"/>

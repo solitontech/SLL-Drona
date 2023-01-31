@@ -73,25 +73,27 @@
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/D/git/LabVIEW/ui-automation/labview-ui-testing/Build/NI_AB_PROJECTNAME/HelperApplication</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/D/SLL Drona/Build/NI_AB_PROJECTNAME/HelperApplication</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2339E378-11E5-44FE-A104-131A12C68529}</Property>
 				<Property Name="Bld_version.build" Type="Int">16</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">HelperApplication.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/D/git/LabVIEW/ui-automation/labview-ui-testing/Build/NI_AB_PROJECTNAME/HelperApplication/HelperApplication.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/D/SLL Drona/Build/NI_AB_PROJECTNAME/HelperApplication/HelperApplication.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/D/git/LabVIEW/ui-automation/labview-ui-testing/Build/NI_AB_PROJECTNAME/HelperApplication/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/D/SLL Drona/Build/NI_AB_PROJECTNAME/HelperApplication/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[2].destName" Type="Str">Panels</Property>
-				<Property Name="Destination[2].path" Type="Path">/D/git/LabVIEW/ui-automation/labview-ui-testing/Build/NI_AB_PROJECTNAME/HelperApplication/Panels</Property>
+				<Property Name="Destination[2].path" Type="Path">/D/SLL Drona/Build/NI_AB_PROJECTNAME/HelperApplication/Panels</Property>
 				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="Destination[2].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{45EF50F0-1ADC-4A0A-8968-81E308286493}</Property>
+				<Property Name="Destination[3].destName" Type="Str">ExecPanels</Property>
+				<Property Name="Destination[3].path" Type="Path">/D/SLL Drona/Build/NI_AB_PROJECTNAME/HelperApplication/ExecPanels</Property>
+				<Property Name="Destination[3].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">4</Property>
+				<Property Name="Source[0].itemID" Type="Str">{DD74C94C-C4F6-48DE-BC06-655D7BCBCF13}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.depDestIndex" Type="Int">0</Property>
@@ -110,7 +112,14 @@
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/TestHelper/main.vi</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="Source[4].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/TestHelper/ExecPanels</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
 				<Property Name="TgtF_companyName" Type="Str">Soliton Technologies</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">HelperApplication</Property>
 				<Property Name="TgtF_internalName" Type="Str">HelperApplication</Property>
