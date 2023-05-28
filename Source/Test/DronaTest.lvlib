@@ -6,7 +6,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="SubVis" Type="Folder">
 		<Item Name="ControlList.vi" Type="VI" URL="../SubVis/ControlList.vi"/>
-		<Item Name="LoadPanel.vi" Type="VI" URL="../SubVis/LoadPanel.vi"/>
+		<Item Name="SetupTimerPanel.vi" Type="VI" URL="../SetupTimerPanel.vi"/>
 		<Item Name="Wait.vi" Type="VI" URL="../SubVis/Wait.vi"/>
 	</Item>
 	<Item Name="Tests" Type="Folder">
@@ -31,6 +31,7 @@
 		</Item>
 	</Item>
 	<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
+	<Item Name="LoadPanel.vi" Type="VI" URL="../SubVis/LoadPanel.vi"/>
 	<Item Name="Setup.vi" Type="VI" URL="../Setup.vi"/>
 	<Item Name="TearDown.vi" Type="VI" URL="../TearDown.vi"/>
 	<Item Name="VITree.vi" Type="VI" URL="../VITree.vi"/>
