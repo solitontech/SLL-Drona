@@ -24,7 +24,9 @@
 			<Item Name="LatchBooleanKeyboardSim.vi" Type="VI" URL="../Tests/KeyboardSimTests/LatchBooleanKeyboardSim.vi"/>
 		</Item>
 		<Item Name="SubPanelTests" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="AssertsSubpanelExecStateBad.vi" Type="VI" URL="../Tests/SubPanelTests/AssertsSubpanelExecStateBad.vi"/>
+			<Item Name="AssertsSubpanelExecStateNotBad.vi" Type="VI" URL="../Tests/SubPanelTests/AssertsSubpanelExecStateNotBad.vi"/>
 			<Item Name="AssertsSubpanelExecStateIdleorRun.vi" Type="VI" URL="../Tests/SubPanelTests/AssertsSubpanelExecStateIdleorRun.vi"/>
 			<Item Name="AssertsSubpanelVI.vi" Type="VI" URL="../Tests/SubPanelTests/AssertsSubpanelVI.vi"/>
 		</Item>

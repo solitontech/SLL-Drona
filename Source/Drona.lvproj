@@ -19,6 +19,7 @@
 						<Item Name="Level2.ctl" Type="VI" URL="../Test/TestHelper/controls/Level2.ctl"/>
 					</Item>
 					<Item Name="ExecPanels" Type="Folder">
+						<Item Name="BrokenVI.vi" Type="VI" URL="../Test/TestHelper/ExecPanels/BrokenVI.vi"/>
 						<Item Name="TimerRun.vi" Type="VI" URL="../Test/TestHelper/ExecPanels/TimerRun.vi"/>
 					</Item>
 					<Item Name="Panels" Type="Folder">
