@@ -10,8 +10,7 @@
 		<Item Name="Wait.vi" Type="VI" URL="../SubVis/Wait.vi"/>
 	</Item>
 	<Item Name="Tests" Type="Folder">
-		<Item Name="SubTests" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="ControlTests" Type="Folder">
 			<Item Name="AssertDisable.vi" Type="VI" URL="../Tests/ControlTests/AssertDisable.vi"/>
 			<Item Name="AssertsAlmostEqual.vi" Type="VI" URL="../Tests/ControlTests/AssertsAlmostEqual.vi"/>
 			<Item Name="AssertsEqual.vi" Type="VI" URL="../Tests/ControlTests/AssertsEqual.vi"/>
@@ -19,16 +18,25 @@
 			<Item Name="AssertsLess.vi" Type="VI" URL="../Tests/ControlTests/AssertsLess.vi"/>
 			<Item Name="AssertsNotEqual.vi" Type="VI" URL="../Tests/ControlTests/AssertsNotEqual.vi"/>
 			<Item Name="AssertsTrueorFalse.vi" Type="VI" URL="../Tests/ControlTests/AssertsTrueorFalse.vi"/>
-			<Item Name="AssertsSubpanelVI.vi" Type="VI" URL="../Tests/SubPanelTests/AssertsSubpanelVI.vi"/>
-			<Item Name="AssertsSubpanelExecStateIdleorRun.vi" Type="VI" URL="../Tests/SubPanelTests/AssertsSubpanelExecStateIdleorRun.vi"/>
-			<Item Name="AssertsSubpanelExecStateBad.vi" Type="VI" URL="../Tests/SubPanelTests/AssertsSubpanelExecStateBad.vi"/>
-			<Item Name="AssertsVIExecStateNotBadorRun.vi" Type="VI" URL="../Tests/VITests/AssertsVIExecStateNotBadorRun.vi"/>
-			<Item Name="AssertsVIExecStateIdle.vi" Type="VI" URL="../Tests/VITests/AssertsVIExecStateIdle.vi"/>
-			<Item Name="BasicFlow.vi" Type="VI" URL="../Tests/BasicFlow.vi"/>
+		</Item>
+		<Item Name="KeyboardSimTests" Type="Folder">
 			<Item Name="KeyboardSimCore.vi" Type="VI" URL="../Tests/KeyboardSimTests/KeyboardSimCore.vi"/>
 			<Item Name="LatchBooleanKeyboardSim.vi" Type="VI" URL="../Tests/KeyboardSimTests/LatchBooleanKeyboardSim.vi"/>
-			<Item Name="SubPanelBasicFlow.vi" Type="VI" URL="../Tests/SubPanelBasicFlow.vi"/>
 		</Item>
+		<Item Name="SubPanelTests" Type="Folder">
+			<Item Name="AssertsSubpanelExecStateBad.vi" Type="VI" URL="../Tests/SubPanelTests/AssertsSubpanelExecStateBad.vi"/>
+			<Item Name="AssertsSubpanelExecStateIdleorRun.vi" Type="VI" URL="../Tests/SubPanelTests/AssertsSubpanelExecStateIdleorRun.vi"/>
+			<Item Name="AssertsSubpanelVI.vi" Type="VI" URL="../Tests/SubPanelTests/AssertsSubpanelVI.vi"/>
+		</Item>
+		<Item Name="SubTests" Type="Folder">
+			<Item Name="AssertsSubpanelVIExec.vi" Type="VI" URL="../Tests/SubTests/AssertsSubpanelVIExec.vi"/>
+		</Item>
+		<Item Name="VITests" Type="Folder">
+			<Item Name="AssertsVIExecStateIdle.vi" Type="VI" URL="../Tests/VITests/AssertsVIExecStateIdle.vi"/>
+			<Item Name="AssertsVIExecStateNotBadorRun.vi" Type="VI" URL="../Tests/VITests/AssertsVIExecStateNotBadorRun.vi"/>
+		</Item>
+		<Item Name="BasicFlow.vi" Type="VI" URL="../Tests/BasicFlow.vi"/>
+		<Item Name="SubPanelBasicFlow.vi" Type="VI" URL="../Tests/SubPanelBasicFlow.vi"/>
 	</Item>
 	<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
 	<Item Name="LoadPanel.vi" Type="VI" URL="../SubVis/LoadPanel.vi"/>
