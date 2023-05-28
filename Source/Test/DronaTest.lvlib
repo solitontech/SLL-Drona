@@ -12,9 +12,7 @@
 	<Item Name="Tests" Type="Folder">
 		<Item Name="SubTests" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="AllTests.vi" Type="VI" URL="../Tests/SubTests/AllTests.vi"/>
 			<Item Name="AssertDisable.vi" Type="VI" URL="../Tests/SubTests/AssertDisable.vi"/>
-			<Item Name="Asserts.vi" Type="VI" URL="../Tests/SubTests/Asserts.vi"/>
 			<Item Name="AssertsAlmostEqual.vi" Type="VI" URL="../Tests/SubTests/AssertsAlmostEqual.vi"/>
 			<Item Name="AssertsEqual.vi" Type="VI" URL="../Tests/SubTests/AssertsEqual.vi"/>
 			<Item Name="AssertsGreater.vi" Type="VI" URL="../Tests/SubTests/AssertsGreater.vi"/>
@@ -31,13 +29,8 @@
 			<Item Name="LatchBooleanKeyboardSim.vi" Type="VI" URL="../Tests/SubTests/LatchBooleanKeyboardSim.vi"/>
 			<Item Name="SubPanelBasicFlow.vi" Type="VI" URL="../Tests/SubTests/SubPanelBasicFlow.vi"/>
 		</Item>
-		<Item Name="CurrentInstance.vi" Type="VI" URL="../Tests/CurrentInstance.vi"/>
-		<Item Name="ExecutableInstance.vi" Type="VI" URL="../Tests/ExecutableInstance.vi"/>
-		<Item Name="ExecutableInstance_core.vi" Type="VI" URL="../Tests/ExecutableInstance_core.vi"/>
-		<Item Name="ProjectInstance.vi" Type="VI" URL="../Tests/ProjectInstance.vi"/>
 	</Item>
 	<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
-	<Item Name="Run.vi" Type="VI" URL="../Run.vi"/>
 	<Item Name="Setup.vi" Type="VI" URL="../Setup.vi"/>
 	<Item Name="TearDown.vi" Type="VI" URL="../TearDown.vi"/>
 	<Item Name="VITree.vi" Type="VI" URL="../VITree.vi"/>
