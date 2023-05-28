@@ -12,22 +12,22 @@
 	<Item Name="Tests" Type="Folder">
 		<Item Name="SubTests" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="AssertDisable.vi" Type="VI" URL="../Tests/SubTests/AssertDisable.vi"/>
-			<Item Name="AssertsAlmostEqual.vi" Type="VI" URL="../Tests/SubTests/AssertsAlmostEqual.vi"/>
-			<Item Name="AssertsEqual.vi" Type="VI" URL="../Tests/SubTests/AssertsEqual.vi"/>
-			<Item Name="AssertsGreater.vi" Type="VI" URL="../Tests/SubTests/AssertsGreater.vi"/>
-			<Item Name="AssertsLess.vi" Type="VI" URL="../Tests/SubTests/AssertsLess.vi"/>
-			<Item Name="AssertsNotEqual.vi" Type="VI" URL="../Tests/SubTests/AssertsNotEqual.vi"/>
-			<Item Name="AssertsTrueorFalse.vi" Type="VI" URL="../Tests/SubTests/AssertsTrueorFalse.vi"/>
-			<Item Name="AssertsSubpanelVI.vi" Type="VI" URL="../Tests/SubTests/AssertsSubpanelVI.vi"/>
-			<Item Name="AssertsSubpanelExecStateIdleorRun.vi" Type="VI" URL="../Tests/SubTests/AssertsSubpanelExecStateIdleorRun.vi"/>
-			<Item Name="AssertsSubpanelExecStateBad.vi" Type="VI" URL="../Tests/SubTests/AssertsSubpanelExecStateBad.vi"/>
-			<Item Name="AssertsVIExecStateNotBadorRun.vi" Type="VI" URL="../Tests/SubTests/AssertsVIExecStateNotBadorRun.vi"/>
-			<Item Name="AssertsVIExecStateIdle.vi" Type="VI" URL="../Tests/SubTests/AssertsVIExecStateIdle.vi"/>
-			<Item Name="BasicFlow.vi" Type="VI" URL="../Tests/SubTests/BasicFlow.vi"/>
-			<Item Name="KeyboardSimCore.vi" Type="VI" URL="../Tests/SubTests/KeyboardSimCore.vi"/>
-			<Item Name="LatchBooleanKeyboardSim.vi" Type="VI" URL="../Tests/SubTests/LatchBooleanKeyboardSim.vi"/>
-			<Item Name="SubPanelBasicFlow.vi" Type="VI" URL="../Tests/SubTests/SubPanelBasicFlow.vi"/>
+			<Item Name="AssertDisable.vi" Type="VI" URL="../Tests/ControlTests/AssertDisable.vi"/>
+			<Item Name="AssertsAlmostEqual.vi" Type="VI" URL="../Tests/ControlTests/AssertsAlmostEqual.vi"/>
+			<Item Name="AssertsEqual.vi" Type="VI" URL="../Tests/ControlTests/AssertsEqual.vi"/>
+			<Item Name="AssertsGreater.vi" Type="VI" URL="../Tests/ControlTests/AssertsGreater.vi"/>
+			<Item Name="AssertsLess.vi" Type="VI" URL="../Tests/ControlTests/AssertsLess.vi"/>
+			<Item Name="AssertsNotEqual.vi" Type="VI" URL="../Tests/ControlTests/AssertsNotEqual.vi"/>
+			<Item Name="AssertsTrueorFalse.vi" Type="VI" URL="../Tests/ControlTests/AssertsTrueorFalse.vi"/>
+			<Item Name="AssertsSubpanelVI.vi" Type="VI" URL="../Tests/SubPanelTests/AssertsSubpanelVI.vi"/>
+			<Item Name="AssertsSubpanelExecStateIdleorRun.vi" Type="VI" URL="../Tests/SubPanelTests/AssertsSubpanelExecStateIdleorRun.vi"/>
+			<Item Name="AssertsSubpanelExecStateBad.vi" Type="VI" URL="../Tests/SubPanelTests/AssertsSubpanelExecStateBad.vi"/>
+			<Item Name="AssertsVIExecStateNotBadorRun.vi" Type="VI" URL="../Tests/VITests/AssertsVIExecStateNotBadorRun.vi"/>
+			<Item Name="AssertsVIExecStateIdle.vi" Type="VI" URL="../Tests/VITests/AssertsVIExecStateIdle.vi"/>
+			<Item Name="BasicFlow.vi" Type="VI" URL="../Tests/BasicFlow.vi"/>
+			<Item Name="KeyboardSimCore.vi" Type="VI" URL="../Tests/KeyboardSimTests/KeyboardSimCore.vi"/>
+			<Item Name="LatchBooleanKeyboardSim.vi" Type="VI" URL="../Tests/KeyboardSimTests/LatchBooleanKeyboardSim.vi"/>
+			<Item Name="SubPanelBasicFlow.vi" Type="VI" URL="../Tests/SubPanelBasicFlow.vi"/>
 		</Item>
 	</Item>
 	<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
