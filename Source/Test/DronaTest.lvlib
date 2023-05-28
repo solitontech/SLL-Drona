@@ -30,9 +30,6 @@
 			<Item Name="AssertsSubpanelExecStateIdleorRun.vi" Type="VI" URL="../Tests/SubPanelTests/AssertsSubpanelExecStateIdleorRun.vi"/>
 			<Item Name="AssertsSubpanelVI.vi" Type="VI" URL="../Tests/SubPanelTests/AssertsSubpanelVI.vi"/>
 		</Item>
-		<Item Name="SubTests" Type="Folder">
-			<Item Name="AssertsSubpanelVIExec.vi" Type="VI" URL="../Tests/SubTests/AssertsSubpanelVIExec.vi"/>
-		</Item>
 		<Item Name="VITests" Type="Folder">
 			<Item Name="AssertsVIExecState.vi" Type="VI" URL="../Tests/VITests/AssertsVIExecState.vi"/>
 		</Item>
