@@ -28,5 +28,5 @@ jobs:
       # Runs a single command using the runners shell
       - name: Mass compile source
         run: |
-          & "C:\Program Files\G-CLI\bin\g-cli.exe" --lv-ver 2016 "${{ github.workspace }}\Script\MassCompile.vi" -- -dir "${{ github.workspace }}\Source"
+          "C:\Program Files\G-CLI\bin\g-cli.exe" --lv-ver 2016 "${{ github.workspace }}\Script\MassCompile.vi" -- -dir "${{ github.workspace }}\Source"
         shell: cmd
