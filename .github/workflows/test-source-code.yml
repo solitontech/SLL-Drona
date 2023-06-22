@@ -27,7 +27,7 @@ jobs:
 
       - name: Install Caraya
         run: |
-          "C:\Program Files\G-CLI\bin\g-cli.exe" --lv-ver 2016 --arch 64 "${{ github.workspace }}\Script\VIPMInstallVIPackagesByName.vi" -- -pkgs jki_lib_caraya -lv-version "16.0 (64-Bit)""
+          "C:\Program Files\G-CLI\bin\g-cli.exe" --lv-ver 2016 --arch 64 "${{ github.workspace }}\Script\VIPMInstallVIPackagesByName.vi" -- -pkgs jki_lib_caraya-1.3.0.137 -lv-version "16.0 (64-Bit)""
         shell: cmd
 
       - name: Mass compile source
@@ -37,5 +37,5 @@ jobs:
 
       - name: Install Caraya
         run: |
-          "C:\Program Files\G-CLI\bin\g-cli.exe" --lv-ver 2016 --arch 64 "${{ github.workspace }}\Script\VIPMUninstallVIPackagesByName.vi" -- -pkgs jki_lib_caraya -lv-version "16.0 (64-Bit)""
+          "C:\Program Files\G-CLI\bin\g-cli.exe" --lv-ver 2016 --arch 64 "${{ github.workspace }}\Script\VIPMUninstallVIPackagesByName.vi" -- -pkgs jki_lib_caraya-1.3.0.137 -lv-version "16.0 (64-Bit)""
         shell: cmd
