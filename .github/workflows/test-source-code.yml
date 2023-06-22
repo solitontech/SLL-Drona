@@ -25,7 +25,11 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
-      # Runs a single command using the runners shell
+      - name: Install Caraya
+        run: |
+          "C:\Program Files\G-CLI\bin\g-cli.exe" --lv-ver 2016 --arch 64 "${{ github.workspace }}\Script\VIPMInstallVIPackagesByName.vi" -- -pkgs jki_lib_caraya -lv-version 16.0"
+        shell: cmd
+
       - name: Mass compile source
         run: |
           "C:\Program Files\G-CLI\bin\g-cli.exe" --lv-ver 2016 --arch 64 "${{ github.workspace }}\Script\MassCompile.vi" -- -dir "${{ github.workspace }}\Source"
