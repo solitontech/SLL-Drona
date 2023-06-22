@@ -34,3 +34,8 @@ jobs:
         run: |
           "C:\Program Files\G-CLI\bin\g-cli.exe" --lv-ver 2016 --arch 64 "${{ github.workspace }}\Script\MassCompile.vi" -- -dir "${{ github.workspace }}\Source"
         shell: cmd
+
+      - name: Install Caraya
+        run: |
+          "C:\Program Files\G-CLI\bin\g-cli.exe" --lv-ver 2016 --arch 64 "${{ github.workspace }}\Script\VIPMUninstallVIPackagesByName.vi" -- -pkgs jki_lib_caraya -lv-version 16.0"
+        shell: cmd
