@@ -474,7 +474,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Script.lvlib/SubVIs/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{1EA4F6D1-F9E3-40D0-96A1-B8E29EEE8D1F}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Action.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../actions/ExampleScript/Action.exe</Property>
@@ -517,7 +517,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Script.lvlib/SubVIs/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{7EE6E19B-CC34-4486-865C-BC76D4FD409E}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Action.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../actions/VIPM Install VI Packages By Name/Action.exe</Property>
@@ -563,7 +563,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Script.lvlib/SubVIs/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{317738BF-0BB5-4DA1-8469-582A52B645BE}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Action.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../actions/VIPM Uninstall VI Packages By Name/Action.exe</Property>
