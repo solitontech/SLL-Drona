@@ -27,7 +27,7 @@ jobs:
 
       - name: Cleanup VIPM packages
         run: |
-          "C:\Program Files\G-CLI\bin\g-cli.exe" --lv-ver 2016 --arch 64 "${{ github.workspace }}\Script\VIPM Uninstall All VI Packages By Name.vi" -- -pkgs-exclude wiresmith_technology_lib_g_cli-3.0.1.98 -lv-version "16.0 (64-bit)"
+          "C:\Program Files\G-CLI\bin\g-cli.exe" --lv-ver 2016 --arch 64 "${{ github.workspace }}\Script\VIPM Uninstall All VI Packages By Name.vi" -- -pkgs-exclude wiresmith_technology_lib_g_cli-3.0.1.98,jki_lib_vipm_api-2020.0.3.80 -lv-version "16.0 (64-bit)"
         shell: cmd
 
       - name: Install dependencies
@@ -47,5 +47,5 @@ jobs:
 
       - name: Cleanup VIPM packages
         run: |
-          "C:\Program Files\G-CLI\bin\g-cli.exe" --lv-ver 2016 --arch 64 "${{ github.workspace }}\Script\VIPM Uninstall All VI Packages By Name.vi" -- -pkgs-exclude wiresmith_technology_lib_g_cli-3.0.1.98 -lv-version "16.0 (64-bit)"
+          "C:\Program Files\G-CLI\bin\g-cli.exe" --lv-ver 2016 --arch 64 "${{ github.workspace }}\Script\VIPM Uninstall All VI Packages By Name.vi" -- -pkgs-exclude wiresmith_technology_lib_g_cli-3.0.1.98,jki_lib_vipm_api-2020.0.3.80 -lv-version "16.0 (64-bit)"
         shell: cmd
