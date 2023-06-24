@@ -563,7 +563,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Script.lvlib/SubVIs/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F6398A3C-A1ED-42C2-9FE0-8CD36298C1F8}</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Action.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../actions/VIPM Uninstall All VI Packages By Name/Action.exe</Property>
