@@ -8,6 +8,7 @@
 		<Item Name="Init.vi" Type="VI" URL="../SubVIs/Init.vi"/>
 		<Item Name="Post-Build Action.vi" Type="VI" URL="../SubVIs/Post-Build Action.vi"/>
 	</Item>
+	<Item Name="Close.vi" Type="VI" URL="../SubVIs/Close.vi"/>
 	<Item Name="ExampleScript.vi" Type="VI" URL="../ExampleScript.vi"/>
 	<Item Name="MassCompile.vi" Type="VI" URL="../MassCompile.vi"/>
 	<Item Name="VIPM Install VI Packages By Name.vi" Type="VI" URL="../VIPM Install VI Packages By Name.vi"/>
