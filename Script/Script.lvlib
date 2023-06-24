@@ -11,5 +11,6 @@
 	<Item Name="ExampleScript.vi" Type="VI" URL="../ExampleScript.vi"/>
 	<Item Name="MassCompile.vi" Type="VI" URL="../MassCompile.vi"/>
 	<Item Name="VIPM Install VI Packages By Name.vi" Type="VI" URL="../VIPM Install VI Packages By Name.vi"/>
+	<Item Name="VIPM Uninstall All VI Packages By Name.vi" Type="VI" URL="../VIPM Uninstall All VI Packages By Name.vi"/>
 	<Item Name="VIPM Uninstall VI Packages By Name.vi" Type="VI" URL="../VIPM Uninstall VI Packages By Name.vi"/>
 </Library>
