@@ -37,12 +37,12 @@ jobs:
 
       - name: Mass compile APIs
         run: |
-          "C:\Program Files\G-CLI\bin\g-cli.exe" --lv-ver 2016 --arch 64 "${{ github.workspace }}\Script\MassCompile.vi" -- -dir "${{ github.workspace }}\Source\APIs"
+          "C:\Program Files\G-CLI\bin\g-cli.exe" --lv-ver 2016 --arch 64 "${{ github.workspace }}\Script\LV Mass Compile.vi" -- -dir "${{ github.workspace }}\Source\APIs"
         shell: cmd
 
       - name: Mass compile examples
         run: |
-          "C:\Program Files\G-CLI\bin\g-cli.exe" --lv-ver 2016 --arch 64 "${{ github.workspace }}\Script\MassCompile.vi" -- -dir "${{ github.workspace }}\Source\Examples"
+          "C:\Program Files\G-CLI\bin\g-cli.exe" --lv-ver 2016 --arch 64 "${{ github.workspace }}\Script\LV Mass Compile.vi" -- -dir "${{ github.workspace }}\Source\Examples"
         shell: cmd
 
       - name: Cleanup VIPM packages
