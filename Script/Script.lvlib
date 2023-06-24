@@ -5,10 +5,10 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="SubVIs" Type="Folder">
+		<Item Name="Close.vi" Type="VI" URL="../SubVIs/Close.vi"/>
 		<Item Name="Init.vi" Type="VI" URL="../SubVIs/Init.vi"/>
 		<Item Name="Post-Build Action.vi" Type="VI" URL="../SubVIs/Post-Build Action.vi"/>
 	</Item>
-	<Item Name="Close.vi" Type="VI" URL="../SubVIs/Close.vi"/>
 	<Item Name="ExampleScript.vi" Type="VI" URL="../ExampleScript.vi"/>
 	<Item Name="MassCompile.vi" Type="VI" URL="../MassCompile.vi"/>
 	<Item Name="VIPM Install VI Packages By Name.vi" Type="VI" URL="../VIPM Install VI Packages By Name.vi"/>
