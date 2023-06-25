@@ -9,6 +9,8 @@
 		<Item Name="Init.vi" Type="VI" URL="../SubVIs/Init.vi"/>
 		<Item Name="Post-Build Action.vi" Type="VI" URL="../SubVIs/Post-Build Action.vi"/>
 	</Item>
+	<Item Name="Drona Run Tests In Project Core.vi" Type="VI" URL="../Drona Run Tests In Project Core.vi"/>
+	<Item Name="Drona Run Tests In Project.vi" Type="VI" URL="../Drona Run Tests In Project.vi"/>
 	<Item Name="ExampleScript.vi" Type="VI" URL="../ExampleScript.vi"/>
 	<Item Name="LV Mass Compile.vi" Type="VI" URL="../LV Mass Compile.vi"/>
 	<Item Name="VIPM Install VI Packages By Name.vi" Type="VI" URL="../VIPM Install VI Packages By Name.vi"/>
