@@ -45,9 +45,9 @@ jobs:
           "C:\Program Files\G-CLI\bin\g-cli.exe" --lv-ver 2016 --arch 64 "${{ github.workspace }}\Script\LV Mass Compile.vi" -- -dir "${{ github.workspace }}\Source\Examples"
         shell: cmd
         
-      - name: Mass compile examples
+      - name: Run tests
         run: |
-          "C:\Program Files\G-CLI\bin\g-cli.exe" --lv-ver 2016 --arch 64 "${{ github.workspace }}\Script\Drona Run Tests In Project.vi" -- -project-path "${{ github.workspace }}\Source\Drona.lvproj" -report-path "${{ github.workspace }}\report.xml"
+          "C:\Program Files\G-CLI\bin\g-cli.exe" --lv-ver 2016 --arch 64 --allow-dialogs "${{ github.workspace }}\Script\Drona Run Tests In Project.vi" -- -project-path "${{ github.workspace }}\Source\Drona.lvproj" -report-path "${{ github.workspace }}\report.xml"
         shell: cmd
 
       - name: Cleanup VIPM packages
