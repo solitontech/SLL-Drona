@@ -1,7 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="16008000">
-	<Property Name="NI.Lib.Description" Type="Str">Test VI's to perform UI testing for Car Wash</Property>
-	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*0!!!*Q(C=\&gt;3^&lt;&gt;NA%-&lt;RRU%)*+71"1RO%&amp;S:6IV,&amp;VLB6F$L5NYA6QJ)'GU1;)6&lt;A3NI"?&lt;0FU&gt;'F&gt;4%A!O4/IF[XK_@3)J3W\Z)HT8?W\K&lt;W^4?KGMV^2`(KY0J.&lt;8-_^RH`FA'T-@8\7/XP(8L_'\N6W/8?"XQLXURL*0&gt;^.`&lt;&gt;(0\;0^I@^`N^W`PF`N`AL@&gt;J)=GJ:)+SCFLPWZ-]C20]C20]C10]C!0]C!0]C"X=C&gt;X=C&gt;X=C=X=C-X=C-X=C.P/\H)23ZSTEKS?,*1-GES1&gt;):CJ+XR*.Y%E`CY;M34_**0)EH]&gt;"&amp;C3@R**\%EXA9JM34?"*0YEE]4.5EW8:S0)G([26Y!E`A#4S"BS56?!*!M&amp;AQ=4!*$!7.Q5(A#4S"BU-&amp;HM!4?!*0Y+&amp;:A3@Q"*\!%XA9UMZ+.-WUE_.B'DE?R_.Y()`D97IZ(M@D?"S0YW%Z/2\(YS#=":X*)=A:Z(2QPDA?R]/(()`D=4S/R`(1V+[1NT-T;;;&gt;()`B-4S'R`!9(K;1Y4%]BM@Q'"[GF?%R0)&lt;(]"A?FJ,B-4S'RY!9C\+]D-G-A59H)T!]P.L&gt;9OUK2:.9W_OP/&gt;_IKBN1&gt;7/J&lt;BD6D;#[Q+I,J\IAKB/N/I'K%[0[Q;I@IA+K&amp;F:.K/KI#_]$&gt;;:/V)(;5TNK3`85:BL[HTN?,B=.Q[$T_;T4[;4$Y;$^@K`&gt;&lt;K@N&gt;KO_\\8:&lt;.;HV30\P$UMT[58DO0&lt;H_(X=``V_0T^^&gt;@R]?HH]=@LF#`N&lt;V(T=_E^0"PV3?069ZZT^"=D.6D6!!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
