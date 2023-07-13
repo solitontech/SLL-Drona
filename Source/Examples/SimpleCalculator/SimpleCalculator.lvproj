@@ -11,6 +11,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Drona.ini" Type="Document" URL="../Drona.ini"/>
 		<Item Name="SimpleCalculator.lvlib" Type="Library" URL="../SimpleCalculator.lvlib"/>
 		<Item Name="SimpleCalculatorTests.lvlib" Type="Library" URL="../Tests/SimpleCalculatorTests.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -443,7 +444,7 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/SimpleCalculator.lvlib/Drona.ini</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Drona.ini</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">Soliton Technologies</Property>
