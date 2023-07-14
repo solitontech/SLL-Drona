@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-31 18:14:50" Modified_Date="2023-01-25 12:15:37" Creator="sudarshan.rajkumar" Comments="" ID="f2f07649e940ec9305777c8534fd317f">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-31 18:14:50" Modified_Date="2023-07-14 12:00:06" Creator="sudarshan.rajkumar" Comments="" ID="c1e3e6470b47db3e6312405e57258fa7">
   <Library_General_Settings>
     <Package_File_Name>Soliton_Technologies_lib_SLL_Drona</Package_File_Name>
     <Library_Version>0.2.0.15</Library_Version>
@@ -36,13 +36,10 @@
       <Copyright/>
       <Packager>Soliton Technologies</Packager>
       <URL/>
-      <Release_Notes>v0.2..0.14
+      <Release_Notes>v0.2..0.15
 
-- Fixed Subpanel load error
-- Minor bug fix
-- Added a testcase to check subpanel VI
-- Modified VI icons to relevent type
-- Added suitable documentation</Release_Notes>
+- Added Define Test API
+- Expose Get App Ref in Get [Poly].vi</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -213,48 +210,6 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Setup.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\Source\APIs\Setup.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Stimulus[Poly].vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\Source\APIs\Stimulus\Stimulus[Poly].vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Assert[Poly].vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\Source\APIs\Assert\Assert[Poly].vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Get[Poly].vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -269,15 +224,15 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Close.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>RunCore.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>1</Row>
-          <Column>4</Column>
+          <Row>2</Row>
+          <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Source\APIs\Close.vi</Path>
+        <Path>..\Source\APIs\RunCore.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -288,7 +243,7 @@
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>2</Row>
-          <Column>4</Column>
+          <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>..\Source\APIs\ExecuteRun.vi</Path>
@@ -297,18 +252,74 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>RunCore.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Close.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>2</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\Source\APIs\Close.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Assert[Poly].vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\Source\APIs\Assert\Assert[Poly].vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Stimulus[Poly].vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Source\APIs\RunCore.vi</Path>
+        <Path>..\Source\APIs\Stimulus\Stimulus[Poly].vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F1361457ACED08F8A196A5F6A4F492AA</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Setup.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\Source\APIs\Setup.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>DefineTest.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>true</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\Source\APIs\DefineTest.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>99140177E12DBC0D40A1CC69BCE05786</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
