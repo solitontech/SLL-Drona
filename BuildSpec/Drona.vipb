@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-31 18:14:50" Modified_Date="2023-07-14 12:00:06" Creator="sudarshan.rajkumar" Comments="" ID="c1e3e6470b47db3e6312405e57258fa7">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-31 18:14:50" Modified_Date="2023-07-18 18:31:00" Creator="sudarshan.rajkumar" Comments="" ID="695bafe7a5aa110f9042b4b4ae277b6e">
   <Library_General_Settings>
     <Package_File_Name>Soliton_Technologies_lib_SLL_Drona</Package_File_Name>
-    <Library_Version>0.2.0.15</Library_Version>
+    <Library_Version>0.2.0.16</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\Source</Library_Source_Folder>
     <Library_Output_Folder>..\Build</Library_Output_Folder>
@@ -38,8 +38,7 @@
       <URL/>
       <Release_Notes>v0.2..0.15
 
-- Added Define Test API
-- Expose Get App Ref in Get [Poly].vi</Release_Notes>
+- Updated the Drona examples</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -100,12 +99,48 @@
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
         <Path/>
       </QuickDrop_Plugins>
+      <Additional_Destination>
+        <Name>Examplebin3</Name>
+        <LLB>false</LLB>
+        <Preserve_Hierarchy>true</Preserve_Hierarchy>
+        <Path>&lt;application&gt;\examples\exbins</Path>
+      </Additional_Destination>
     </Destinations>
     <Source_Files>
       <Destination_Overrides>
         <Path>.</Path>
         <Destination>0</Destination>
         <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Examples</Path>
+        <Destination>1</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Examples/CarWash/Examplebin3/CarWash.bin3</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>true</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Examples/SimpleCalculator/Examplebin3/SimpleCalculator.bin3</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>true</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Examples/Subpanel/Examplebin3/Subpanel.bin3</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>true</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Examples/Timer/Examplebin3/Timer.bin3</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>true</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Password_Overrides>
@@ -319,7 +354,7 @@
         <Path>..\Source\APIs\DefineTest.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>99140177E12DBC0D40A1CC69BCE05786</GUID>
+      <GUID>C4B91077C9F9EC2A9517F27D5E016766</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
