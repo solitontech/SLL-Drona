@@ -40,6 +40,7 @@
 	<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
 	<Item Name="LoadPanel.vi" Type="VI" URL="../SubVis/LoadPanel.vi"/>
 	<Item Name="Setup.vi" Type="VI" URL="../Setup.vi"/>
+	<Item Name="SetWindowActive.vi" Type="VI" URL="../SetWindowActive.vi"/>
 	<Item Name="TearDown.vi" Type="VI" URL="../TearDown.vi"/>
 	<Item Name="VITree.vi" Type="VI" URL="../VITree.vi"/>
 </Library>
