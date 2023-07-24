@@ -4,10 +4,10 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="SubVIs" Type="Folder"/>
-	<Item Name="Run.vi" Type="VI" URL="../Run.vi"/>
+	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="TestAdd.vi" Type="VI" URL="../TestAdd.vi"/>
+	<Item Name="TestSubtract.vi" Type="VI" URL="../TestSubtract.vi"/>
 	<Item Name="TestSquare.vi" Type="VI" URL="../TestSquare.vi"/>
 	<Item Name="TestSquareRoot.vi" Type="VI" URL="../TestSquareRoot.vi"/>
-	<Item Name="TestSubtract.vi" Type="VI" URL="../TestSubtract.vi"/>
+	<Item Name="Run.vi" Type="VI" URL="../Run.vi"/>
 </Library>
