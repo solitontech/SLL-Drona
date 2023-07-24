@@ -12,4 +12,5 @@
 		<Item Name="Square.vi" Type="VI" URL="../SubVIs/Square.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+	<Item Name="SimpleCalculator.ini" Type="Document" URL="../SimpleCalculator.ini"/>
 </Library>

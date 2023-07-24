@@ -11,16 +11,16 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="INI Files" Type="Folder">
-			<Item Name="Drona.ini" Type="Document" URL="../Drona.ini"/>
-			<Item Name="SimpleCalculator.ini" Type="Document" URL="../SimpleCalculator.ini"/>
-		</Item>
 		<Item Name="Source" Type="Folder">
 			<Item Name="SimpleCalculator.lvlib" Type="Library" URL="../SimpleCalculator.lvlib"/>
+		</Item>
+		<Item Name="Scripts" Type="Folder">
+			<Item Name="SimpleCalculatorTestsForEXE.vi" Type="VI" URL="../Scripts/SimpleCalculatorTestsForEXE.vi"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="SimpleCalculatorTests.lvlib" Type="Library" URL="../Tests/SimpleCalculatorTests.lvlib"/>
 		</Item>
+		<Item Name="Drona.ini" Type="Document" URL="../Drona.ini"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
@@ -419,7 +419,7 @@
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{23F3C315-6385-425D-8C26-AC428D7579E3}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{AD1BEE41-CC09-4A10-BD9C-C83CCEB4E598}</Property>
-				<Property Name="App_INI_itemID" Type="Ref">/My Computer/INI Files/SimpleCalculator.ini</Property>
+				<Property Name="App_INI_itemID" Type="Ref">/My Computer/Source/SimpleCalculator.lvlib/SimpleCalculator.ini</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{A1155868-E443-4D0F-9ECC-216E6407E2F3}</Property>
@@ -449,7 +449,7 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/INI Files/Drona.ini</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Drona.ini</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">Soliton Technologies</Property>

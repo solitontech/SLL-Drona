@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="16008000">
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.acl" Type="Str">730000000A000000030000002500000003000000090000006C6F63616C686F7374100000000300000000000100000000001D00000003000000010000002A100000000300000000000100000000002500000003000000090000003132372E302E302E3110000000030000000000010000000000</Property>
@@ -14,15 +15,16 @@
 		<Property Name="server.viscripting.showScriptingOperationsInContextHelp" Type="Bool">false</Property>
 		<Property Name="server.viscripting.showScriptingOperationsInEditor" Type="Bool">false</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="INI File" Type="Folder">
-			<Item Name="Drona.ini" Type="Document" URL="../Drona.ini"/>
-		</Item>
 		<Item Name="Source" Type="Folder">
 			<Item Name="Subpanel.lvlib" Type="Library" URL="../Main/Subpanel.lvlib"/>
+		</Item>
+		<Item Name="Scripts" Type="Folder">
+			<Item Name="SubpanelTestsForEXE.vi" Type="VI" URL="../Scripts/SubpanelTestsForEXE.vi"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="SubpanelTests.lvlib" Type="Library" URL="../Tests/SubpanelTests.lvlib"/>
 		</Item>
+		<Item Name="Drona.ini" Type="Document" URL="../Drona.ini"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
@@ -453,7 +455,7 @@
 				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[2].type" Type="Str">Library</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/INI File/Drona.ini</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Drona.ini</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">4</Property>
 				<Property Name="TgtF_companyName" Type="Str">Soliton Technologies</Property>
