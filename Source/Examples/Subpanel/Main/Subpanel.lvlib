@@ -8,5 +8,4 @@
 	<Item Name="BooleanControl.vi" Type="VI" URL="../BooleanControl.vi"/>
 	<Item Name="NumericControlValueCoercion.vi" Type="VI" URL="../NumericControlValueCoercion.vi"/>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-	<Item Name="Drona.ini" Type="Document" URL="../../Drona.ini"/>
 </Library>

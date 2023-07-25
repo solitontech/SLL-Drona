@@ -5,9 +5,6 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
-	<Item Name="TestAdd.vi" Type="VI" URL="../TestAdd.vi"/>
-	<Item Name="TestSubtract.vi" Type="VI" URL="../TestSubtract.vi"/>
-	<Item Name="TestSquare.vi" Type="VI" URL="../TestSquare.vi"/>
-	<Item Name="TestSquareRoot.vi" Type="VI" URL="../TestSquareRoot.vi"/>
+	<Item Name="TestTimer.vi" Type="VI" URL="../TestTimer.vi"/>
 	<Item Name="Run.vi" Type="VI" URL="../Run.vi"/>
 </Library>
