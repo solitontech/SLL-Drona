@@ -4,12 +4,16 @@
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
-		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
-		<Property Name="server.tcp.port" Type="Int">0</Property>
-		<Property Name="server.tcp.serviceName" Type="Str">My Computer/VI Server</Property>
+		<Property Name="server.tcp.acl" Type="Str">730000000A000000030000002500000003000000090000006C6F63616C686F7374100000000300000000000100000000001D00000003000000010000002A100000000300000000000100000000002500000003000000090000003132372E302E302E3110000000030000000000010000000000</Property>
+		<Property Name="server.tcp.enabled" Type="Bool">true</Property>
+		<Property Name="server.tcp.port" Type="Int">5050</Property>
+		<Property Name="server.tcp.serviceName" Type="Str"></Property>
 		<Property Name="server.tcp.serviceName.default" Type="Str">My Computer/VI Server</Property>
+		<Property Name="server.vi.access" Type="Str">+*;+localhost;+127.0.0.1</Property>
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
+		<Property Name="server.viscripting.showScriptingOperationsInContextHelp" Type="Bool">false</Property>
+		<Property Name="server.viscripting.showScriptingOperationsInEditor" Type="Bool">false</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Source" Type="Folder">
 			<Item Name="Timer.lvlib" Type="Library" URL="../Main/Timer.lvlib"/>
@@ -429,7 +433,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{DA892273-6FBB-4A13-91AB-AEB62BD81616}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">17</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">TimerHelper.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/TimerHelper.exe</Property>
@@ -440,7 +444,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{96E4CD27-E114-424E-A3DA-621B8BF09287}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F2A3E99D-8531-4AAA-94E0-F9EB84182DCD}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Source/Timer.lvlib/TimerHelper.vi</Property>
@@ -456,21 +460,21 @@
 				<Property Name="TgtF_targetfileGUID" Type="Str">{94BECE04-D5BE-4CF2-8F75-58A530950B81}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">TimerHelper.exe</Property>
 			</Item>
-			<Item Name="TestTimer" Type="Packed Library">
+			<Item Name="TimerTest" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{2447B44D-B973-418C-94E2-7137B939136C}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">TestTimer</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{75B26FEE-8D70-43C8-99F6-10466EB6CC07}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">TimerTest</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../builds/Tests</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{A0B3D1AD-A637-4BC6-A692-B384BDB8177F}</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{9054EF65-853D-4087-ACF9-A203877A0DA0}</Property>
 				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">TestTimer.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/Tests/TestTimer.lvlibp</Property>
+				<Property Name="Destination[0].destName" Type="Str">TimerTest.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/Tests/TimerTest.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -479,7 +483,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{96E4CD27-E114-424E-A3DA-621B8BF09287}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{00E1CC28-1C8A-4C62-AAC0-B820FE7976B3}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Tests/TimerTest.lvlib</Property>
@@ -490,12 +494,12 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">TestTimer</Property>
-				<Property Name="TgtF_internalName" Type="Str">TestTimer</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">TimerTest</Property>
+				<Property Name="TgtF_internalName" Type="Str">TimerTest</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2023 </Property>
-				<Property Name="TgtF_productName" Type="Str">TestTimer</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{7DA07E78-6E54-4642-93A2-4BAC1D0E38F3}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">TestTimer.lvlibp</Property>
+				<Property Name="TgtF_productName" Type="Str">TimerTest</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{DF5AFEF1-29DA-4D65-A4BB-1BA88E80A4D1}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">TimerTest.lvlibp</Property>
 			</Item>
 		</Item>
 	</Item>
