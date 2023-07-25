@@ -4,5 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="TestTimer.vi" Type="VI" URL="../TestTimer.vi"/>
+	<Item Name="Run.vi" Type="VI" URL="../Run.vi"/>
 </Library>
