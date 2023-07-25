@@ -12,13 +12,13 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Source" Type="Folder">
-			<Item Name="TimerHelper.vi" Type="VI" URL="../Main/TimerHelper.vi"/>
+			<Item Name="Timer.lvlib" Type="Library" URL="../Main/Timer.lvlib"/>
 		</Item>
 		<Item Name="Scripts" Type="Folder">
 			<Item Name="TimerTestsForEXE.vi" Type="VI" URL="../Scripts/TimerTestsForEXE.vi"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
-			<Item Name="TestTimer.vi" Type="VI" URL="../Tests/TestTimer.vi"/>
+			<Item Name="TimerTest.lvlib" Type="Library" URL="../Tests/TimerTest.lvlib"/>
 		</Item>
 		<Item Name="Drona.ini" Type="Document" URL="../Drona.ini"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -413,6 +413,85 @@
 			<Item Name="Drona.lvlib" Type="Library" URL="../../../Drona.lvlib"/>
 			<Item Name="user32.dll" Type="Document" URL="/C/Windows/System32/user32.dll"/>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="Timer" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{B78CC2BF-4624-4138-8FB9-06D31FEDF5C0}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{0727C2D0-4EC8-4CCB-8C13-CD81B1C5AECB}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{540F83BD-33F3-480D-BF5C-A14FF5967B09}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Timer</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{DA892273-6FBB-4A13-91AB-AEB62BD81616}</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">TimerHelper.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/TimerHelper.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{12341BEC-3CD5-4526-9A7C-97183B0864E1}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Source/Timer.lvlib/TimerHelper.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Drona.ini</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Timer</Property>
+				<Property Name="TgtF_internalName" Type="Str">Timer</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2023 </Property>
+				<Property Name="TgtF_productName" Type="Str">Timer</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{94BECE04-D5BE-4CF2-8F75-58A530950B81}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">TimerHelper.exe</Property>
+			</Item>
+			<Item Name="TestTimer" Type="Packed Library">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{2447B44D-B973-418C-94E2-7137B939136C}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">TestTimer</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/Tests</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{A0B3D1AD-A637-4BC6-A692-B384BDB8177F}</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">TestTimer.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/Tests/TestTimer.lvlibp</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/Tests</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{12341BEC-3CD5-4526-9A7C-97183B0864E1}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Tests/TimerTest.lvlib</Property>
+				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
+				<Property Name="Source[1].preventRename" Type="Bool">true</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">TestTimer</Property>
+				<Property Name="TgtF_internalName" Type="Str">TestTimer</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2023 </Property>
+				<Property Name="TgtF_productName" Type="Str">TestTimer</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{7DA07E78-6E54-4642-93A2-4BAC1D0E38F3}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">TestTimer.lvlibp</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
