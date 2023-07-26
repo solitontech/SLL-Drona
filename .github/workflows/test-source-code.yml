@@ -25,30 +25,30 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
-      - name: Cleanup VIPM packages
-        run: |
-          "C:\Program Files\G-CLI\bin\g-cli.exe" --lv-ver 2016 --arch 64 "${{ github.workspace }}\Script\actions\VIPM Uninstall All VI Packages By Name\Run.vi" -- -pkgs-exclude wiresmith_technology_lib_g_cli-3.0.1.98 -lv-version "16.0 (64-bit)"
-        shell: cmd
+#      - name: Cleanup VIPM packages
+#        run: |
+#          "C:\Program Files\G-CLI\bin\g-cli.exe" --lv-ver 2016 --arch 64 "${{ github.workspace }}\Script\actions\VIPM Uninstall All VI Packages By Name\Run.vi" -- -pkgs-exclude wiresmith_technology_lib_g_cli-3.0.1.98 -lv-version "16.0 (64-bit)"
+#        shell: cmd
 
 #      - name: Install dependencies
 #        run: |
 #          "C:\Program Files\G-CLI\bin\g-cli.exe" --lv-ver 2016 --arch 64 "${{ github.workspace }}\Script\actions\VIPM Install VI Packages By Name\Run.vi" -- -pkgs jki_lib_caraya-1.3.0.137,soliton_technologies_lib_sll_toolkit-1.0.0.1,oglib_variantconfig-4.0.0.5 -lv-version "16.0 (64-bit)"
 #        shell: cmd
 
- #     - name: Mass compile APIs
-#      run: |
-#          "C:\Program Files\G-CLI\bin\g-cli.exe" --lv-ver 2016 --arch 64 "${{ github.workspace }}\Script\LV Mass Compile.vi" -- -dir "${{ github.workspace }}\Source\APIs"
-#        shell: cmd
+      - name: Mass compile APIs
+        run: |
+          "C:\Program Files\G-CLI\bin\g-cli.exe" --lv-ver 2016 --arch 64 "${{ github.workspace }}\Script\LV Mass Compile.vi" -- -dir "${{ github.workspace }}\Source\APIs"
+        shell: cmd
 
 #     - name: Mass compile examples
 #        run: |
 #          "C:\Program Files\G-CLI\bin\g-cli.exe" --lv-ver 2016 --arch 64 "${{ github.workspace }}\Script\LV Mass Compile.vi" -- -dir "${{ github.workspace }}\Source\Examples"
 #        shell: cmd
         
-#      - name: Run tests
-#        run: |
-#          "C:\Program Files\G-CLI\bin\g-cli.exe" --lv-ver 2016 --arch 64 "${{ github.workspace }}\Script\Drona Run Tests In Project.vi" -- -project-path "${{ github.workspace }}\Source\Drona.lvproj" -report-path "${{ github.workspace }}\report.xml"
-#        shell: cmd
+      - name: Run tests
+        run: |
+          "C:\Program Files\G-CLI\bin\g-cli.exe" --lv-ver 2016 --arch 64 "${{ github.workspace }}\Script\Drona Run Tests In Project.vi" -- -project-path "${{ github.workspace }}\Source\Drona.lvproj" -report-path "${{ github.workspace }}\report.xml"
+        shell: cmd
 
 #     - name: Cleanup VIPM packages
 #        run: |
