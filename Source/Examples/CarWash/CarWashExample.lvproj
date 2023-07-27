@@ -427,7 +427,9 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="Drona.lvlib" Type="Library" URL="../../../Drona.lvlib"/>
-			<Item Name="user32.dll" Type="Document" URL="/C/Windows/System32/user32.dll"/>
+			<Item Name="user32.dll" Type="Document" URL="user32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Car Wash" Type="EXE">

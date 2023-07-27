@@ -17,6 +17,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Source" Type="Folder">
 			<Item Name="SimpleCalculator.lvlib" Type="Library" URL="../SimpleCalculator.lvlib"/>
+			<Item Name="SimpleCalculator.ini" Type="Document" URL="../SimpleCalculator.ini"/>
 		</Item>
 		<Item Name="Scripts" Type="Folder">
 			<Item Name="SimpleCalculatorTestsForEXE.vi" Type="VI" URL="../Scripts/SimpleCalculatorTestsForEXE.vi"/>
@@ -416,14 +417,16 @@
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
 			</Item>
 			<Item Name="Drona.lvlib" Type="Library" URL="../../../Drona.lvlib"/>
-			<Item Name="user32.dll" Type="Document" URL="/C/Windows/System32/user32.dll"/>
+			<Item Name="user32.dll" Type="Document" URL="user32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Simple Calculator EXE" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{23F3C315-6385-425D-8C26-AC428D7579E3}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{AD1BEE41-CC09-4A10-BD9C-C83CCEB4E598}</Property>
-				<Property Name="App_INI_itemID" Type="Ref">/My Computer/Source/SimpleCalculator.lvlib/SimpleCalculator.ini</Property>
+				<Property Name="App_INI_itemID" Type="Ref">/My Computer/Source/SimpleCalculator.ini</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{A1155868-E443-4D0F-9ECC-216E6407E2F3}</Property>
