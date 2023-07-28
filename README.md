@@ -12,7 +12,7 @@ SLL Drona as an Open Source LabVIEW UI testing framework was presented in GLA Su
 Source code is saved with LabVIEW 2016.
 
 ## Installation
-Please find the latest SLL Drona package available [here](https://github.com/solitontech/SLL-Drona/releases/tag/v0.2.0) and install it using VI Package Manager.
+Please find the latest SLL Drona package available [here](https://github.com/solitontech/SLL-Drona/releases/tag/v0.3.0) and install it using VI Package Manager.
 
 ## Usage
 Drona provides a library of VIs that are used to automate and test the UI without any flaws. It can be used to test any LabVIEW application and supports creating test cases from SLL Drona APIs.
