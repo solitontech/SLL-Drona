@@ -7,7 +7,6 @@
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Close.vi" Type="VI" URL="../SubVIs/Close.vi"/>
 		<Item Name="Init.vi" Type="VI" URL="../SubVIs/Init.vi"/>
-		<Item Name="Post-Build Action.vi" Type="VI" URL="../SubVIs/Post-Build Action.vi"/>
 	</Item>
 	<Item Name="Drona Run Tests In Project Core.vi" Type="VI" URL="../Drona Run Tests In Project Core.vi"/>
 	<Item Name="Drona Run Tests In Project.vi" Type="VI" URL="../Drona Run Tests In Project.vi"/>

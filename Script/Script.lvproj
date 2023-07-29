@@ -16,7 +16,6 @@
 		<Property Name="server.viscripting.showScriptingOperationsInContextHelp" Type="Bool">true</Property>
 		<Property Name="server.viscripting.showScriptingOperationsInEditor" Type="Bool">false</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Run.vi" Type="VI" URL="../Run.vi"/>
 		<Item Name="Script.lvlib" Type="Library" URL="../Script.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -462,9 +461,8 @@
 				<Property Name="Bld_localDestDir" Type="Path">../actions/ExampleScript</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Script.lvlib/SubVIs/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{1EA4F6D1-F9E3-40D0-96A1-B8E29EEE8D1F}</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Action.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../actions/ExampleScript/Action.exe</Property>
@@ -476,7 +474,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{03ADD37B-9538-4A13-BE7F-47F7673BC584}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A5C0728B-98B0-404F-9279-59BAD4F02626}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Script.lvlib/ExampleScript.vi</Property>
@@ -505,9 +503,8 @@
 				<Property Name="Bld_localDestDir" Type="Path">../actions/VIPM Install VI Packages By Name</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Script.lvlib/SubVIs/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{7EE6E19B-CC34-4486-865C-BC76D4FD409E}</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Action.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../actions/VIPM Install VI Packages By Name/Action.exe</Property>
@@ -519,7 +516,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{03ADD37B-9538-4A13-BE7F-47F7673BC584}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A5C0728B-98B0-404F-9279-59BAD4F02626}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Script.lvlib/ExampleScript.vi</Property>
@@ -551,9 +548,8 @@
 				<Property Name="Bld_localDestDir" Type="Path">../actions/VIPM Uninstall All VI Packages By Name</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Script.lvlib/SubVIs/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F6398A3C-A1ED-42C2-9FE0-8CD36298C1F8}</Property>
-				<Property Name="Bld_version.build" Type="Int">12</Property>
+				<Property Name="Bld_version.build" Type="Int">13</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Action.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../actions/VIPM Uninstall All VI Packages By Name/Action.exe</Property>
@@ -565,7 +561,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{0A531D6D-9FEC-4D8F-9FA9-BB8F5DFC505C}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A5C0728B-98B0-404F-9279-59BAD4F02626}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Script.lvlib/ExampleScript.vi</Property>
@@ -600,9 +596,8 @@
 				<Property Name="Bld_localDestDir" Type="Path">../actions/VIPM Uninstall VI Packages By Name</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Script.lvlib/SubVIs/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{317738BF-0BB5-4DA1-8469-582A52B645BE}</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Action.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../actions/VIPM Uninstall VI Packages By Name/Action.exe</Property>
@@ -614,7 +609,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{03ADD37B-9538-4A13-BE7F-47F7673BC584}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A5C0728B-98B0-404F-9279-59BAD4F02626}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Script.lvlib/ExampleScript.vi</Property>
