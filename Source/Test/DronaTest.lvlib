@@ -18,6 +18,7 @@
 			<Item Name="AssertLessThan_Tests.vi" Type="VI" URL="../Tests/ControlTests/AssertLessThan_Tests.vi"/>
 			<Item Name="AssertNotEqual_Tests.vi" Type="VI" URL="../Tests/ControlTests/AssertNotEqual_Tests.vi"/>
 			<Item Name="AssertTrueOrFalse_Tests.vi" Type="VI" URL="../Tests/ControlTests/AssertTrueOrFalse_Tests.vi"/>
+			<Item Name="ListboxStimulusAndAssert_Tests.vi" Type="VI" URL="../Tests/ControlTests/ListboxStimulusAndAssert_Tests.vi"/>
 		</Item>
 		<Item Name="KeyboardSimTests" Type="Folder">
 			<Item Name="KeyboardSimulation_Tests.vi" Type="VI" URL="../Tests/KeyboardSimTests/KeyboardSimulation_Tests.vi"/>
