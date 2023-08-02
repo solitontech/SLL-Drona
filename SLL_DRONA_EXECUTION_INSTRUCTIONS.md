@@ -12,9 +12,9 @@
   ![Drona.ini file](Images/Drona%20ini%20file.png)
 
 
-* Create a new test library and add all test VIs in it, such that all the test names should start with the prefix “Test”.
+* Create a new test library and add all test VIs in it, such that all the test names should start with the prefix “Test”. To get more details for creating the tests, look through the [Drona's Workflow](https://github.com/solitontech/SLL-Drona#workflow).
 
-  ![Example Project](Images/Example%20Project.png)
+  ![Source Code Tests](Images/Source%20Code%20Tests.png)
 
 
 * Each test can be performed individually, by running the corresponding test VI.
@@ -43,7 +43,7 @@
   ![Example Project](Images/Example%20Project.png)
 
 
-* Create a VI named “Run.vi” in the test library, and script the VI such that it runs all the tests present in that library. Drona's 'Run Core' API will perform this function (Run all tests present in the packed library).
+* Create a VI named “Run.vi” in the test library, and add Drona's 'Run Core' API (run all tests present in the packed library) in it. The VI should be named as "Run.vi", because the 'EXE Run Tests' API searches for the VI in this name, to execute the tests in EXE.
 
    ![Run VI](Images/Run%20VI.png)
 
@@ -58,7 +58,7 @@
   ![PPL Configuration](Images/PPL%20Configuration.png)
 
 
-* Create a new VI (not needs to be in test library) and connect the created EXE and PPL paths to the "EXE Run Tests" API.
+* Create a new VI (not needs to be in the test library) and connect the created EXE and PPL paths to the 'EXE Run Tests' API.
 
   ![EXE Run Tests](Images/EXE%20Run%20Tests.png)
 
