@@ -19,5 +19,5 @@
 	</Item>
 	<Item Name="KeyBoardSimulationForTargetVI.vi" Type="VI" URL="../KeyBoardSimulationForTargetVI.vi"/>
 	<Item Name="KeyboardSimulationCore.vi" Type="VI" URL="../KeyboardSimulationCore.vi"/>
-	<Item Name="StringInputKeyboardSimulation.vi" Type="VI" URL="../StringInputKeyboardSimulation.vi"/>
+	<Item Name="KeyboardSimulationForStringInput.vi" Type="VI" URL="../KeyboardSimulationForStringInput.vi"/>
 </Library>

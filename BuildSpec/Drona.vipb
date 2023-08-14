@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-31 18:14:50" Modified_Date="2023-08-14 12:43:51" Creator="sudarshan.rajkumar" Comments="" ID="daaf5668dc850b362f6dcd3f4bf37761">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-31 18:14:50" Modified_Date="2023-08-14 16:20:43" Creator="sudarshan.rajkumar" Comments="" ID="f54b0fc2b99570d6b97467fddb804ec4">
   <Library_General_Settings>
     <Package_File_Name>Soliton_Technologies_lib_SLL_Drona</Package_File_Name>
-    <Library_Version>0.4.0.2</Library_Version>
+    <Library_Version>0.4.1.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\Source</Library_Source_Folder>
     <Library_Output_Folder>..\Build</Library_Output_Folder>
@@ -37,9 +37,9 @@
       <Copyright/>
       <Packager>Soliton Technologies</Packager>
       <URL/>
-      <Release_Notes>v0.4.0
+      <Release_Notes>v0.4.1
 
-- Added Drona quick start template into Drona Palette.</Release_Notes>
+- Added API for keyboard simulation using string input</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -369,7 +369,7 @@
         <Path>..\Source\APIs\QuickStartTemplate.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>51B9A3A34B4A28CCF06C9A0DC5F34DEA</GUID>
+      <GUID>E4F13B4BE46E6BD50279821843A38E81</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
