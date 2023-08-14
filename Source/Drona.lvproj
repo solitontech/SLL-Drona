@@ -31,7 +31,6 @@
 						<Item Name="Timer.vi" Type="VI" URL="../Test/TestHelper/Panels/Timer.vi"/>
 					</Item>
 					<Item Name="main.vi" Type="VI" URL="../Test/TestHelper/main.vi"/>
-					<Item Name="TestHelper.aliases" Type="Document" URL="../test/TestHelper/TestHelper.aliases"/>
 					<Item Name="TestHelper.lvproj" Type="Document" URL="../test/TestHelper/TestHelper.lvproj"/>
 				</Item>
 				<Item Name="DronaTest.lvlib" Type="Library" URL="../Test/DronaTest.lvlib"/>
