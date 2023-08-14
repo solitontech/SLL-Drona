@@ -48,6 +48,7 @@
 		<Item Name="Setup.vi" Type="VI" URL="../APIs/Setup.vi"/>
 		<Item Name="RunCore.vi" Type="VI" URL="../APIs/RunCore.vi"/>
 		<Item Name="ExecuteRun.vi" Type="VI" URL="../APIs/ExecuteRun.vi"/>
+		<Item Name="QuickStartTemplate.vi" Type="VI" URL="../APIs/QuickStartTemplate.vi"/>
 		<Item Name="Close.vi" Type="VI" URL="../APIs/Close.vi"/>
 	</Item>
 </Library>
