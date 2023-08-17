@@ -12,15 +12,7 @@
 	<Item Name="Controls" Type="Folder">
 		<Item Name="Listbox" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="SubVIs" Type="Folder">
-				<Item Name="MakeItemVisible.vi" Type="VI" URL="../Controls/Listbox/SubVIs/MakeItemVisible.vi"/>
-			</Item>
-			<Item Name="Multiselect Listbox" Type="Folder">
-				<Item Name="SetValueByArrayIndex.vi" Type="VI" URL="../Controls/Listbox/SetValueByArrayIndex.vi"/>
-				<Item Name="SetValueByArrayName.vi" Type="VI" URL="../Controls/Listbox/SetValueByArrayName.vi"/>
-			</Item>
-			<Item Name="SetValueByItemIndex.vi" Type="VI" URL="../Controls/Listbox/SetValueByItemIndex.vi"/>
-			<Item Name="SetValueByItemName.vi" Type="VI" URL="../Controls/Listbox/SetValueByItemName.vi"/>
+			<Item Name="Listbox.lvlib" Type="Library" URL="../Controls/Listbox/Listbox.lvlib"/>
 		</Item>
 	</Item>
 	<Item Name="SetValueAuto.vi" Type="VI" URL="../SetValueAuto.vi"/>
