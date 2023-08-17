@@ -11,7 +11,6 @@
 		<Item Name="KeyDown.vi" Type="VI" URL="../SubVIs/KeyDown.vi"/>
 		<Item Name="KeyPress.vi" Type="VI" URL="../SubVIs/KeyPress.vi"/>
 		<Item Name="KeyUp.vi" Type="VI" URL="../SubVIs/KeyUp.vi"/>
-		<Item Name="StringToCoreArray.vi" Type="VI" URL="../SubVIs/StringToCoreArray.vi"/>
 	</Item>
 	<Item Name="typedef" Type="Folder">
 		<Item Name="VirtualKey.ctl" Type="VI" URL="../typedef/VirtualKey.ctl"/>
