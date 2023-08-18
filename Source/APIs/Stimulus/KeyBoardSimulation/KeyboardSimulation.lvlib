@@ -12,6 +12,11 @@
 		<Item Name="KeyPress.vi" Type="VI" URL="../SubVIs/KeyPress.vi"/>
 		<Item Name="KeyUp.vi" Type="VI" URL="../SubVIs/KeyUp.vi"/>
 	</Item>
+	<Item Name="typedef" Type="Folder">
+		<Item Name="VirtualKey.ctl" Type="VI" URL="../typedef/VirtualKey.ctl"/>
+		<Item Name="Action.ctl" Type="VI" URL="../typedef/Action.ctl"/>
+	</Item>
 	<Item Name="KeyBoardSimulationForTargetVI.vi" Type="VI" URL="../KeyBoardSimulationForTargetVI.vi"/>
 	<Item Name="KeyboardSimulationCore.vi" Type="VI" URL="../KeyboardSimulationCore.vi"/>
+	<Item Name="KeyboardSimulationForStringInput.vi" Type="VI" URL="../KeyboardSimulationForStringInput.vi"/>
 </Library>
