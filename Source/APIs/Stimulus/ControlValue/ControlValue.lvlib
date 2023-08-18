@@ -12,7 +12,7 @@
 	<Item Name="Controls" Type="Folder">
 		<Item Name="Listbox" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Listbox.lvlib" Type="Library" URL="../Controls/Listbox/Listbox.lvlib"/>
+			<Item Name="StimulusListbox.lvlib" Type="Library" URL="../Controls/Listbox/StimulusListbox.lvlib"/>
 		</Item>
 	</Item>
 	<Item Name="SetValueAuto.vi" Type="VI" URL="../SetValueAuto.vi"/>
