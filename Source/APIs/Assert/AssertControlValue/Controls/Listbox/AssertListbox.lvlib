@@ -15,5 +15,9 @@
 		<Item Name="AssertValueByFocusIndex.vi" Type="VI" URL="../AssertValueByFocusIndex.vi"/>
 		<Item Name="AssertValueByFocusName.vi" Type="VI" URL="../AssertValueByFocusName.vi"/>
 	</Item>
-	<Item Name="Content" Type="Folder"/>
+	<Item Name="Content" Type="Folder">
+		<Item Name="AssertIndexValue.vi" Type="VI" URL="../AssertIndexValue.vi"/>
+		<Item Name="AssertAllItems.vi" Type="VI" URL="../AssertAllItems.vi"/>
+		<Item Name="AssertDisabledItems.vi" Type="VI" URL="../AssertDisabledItems.vi"/>
+	</Item>
 </Library>
