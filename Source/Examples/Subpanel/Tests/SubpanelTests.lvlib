@@ -4,8 +4,9 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="_CoercionTest.vi" Type="VI" URL="../_CoercionTest.vi"/>
 	<Item Name="_LatchTest.vi" Type="VI" URL="../_LatchTest.vi"/>
-	<Item Name="Run.vi" Type="VI" URL="../Run.vi"/>
 	<Item Name="TestSubpanel.vi" Type="VI" URL="../TestSubpanel.vi"/>
+	<Item Name="Run.vi" Type="VI" URL="../Run.vi"/>
 </Library>

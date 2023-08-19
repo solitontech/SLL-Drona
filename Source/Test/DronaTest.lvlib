@@ -23,6 +23,7 @@
 		<Item Name="KeyboardSimTests" Type="Folder">
 			<Item Name="KeyboardSimulation_Tests.vi" Type="VI" URL="../Tests/KeyboardSimTests/KeyboardSimulation_Tests.vi"/>
 			<Item Name="LatchBooleanKeyboardSimulation_Tests.vi" Type="VI" URL="../Tests/KeyboardSimTests/LatchBooleanKeyboardSimulation_Tests.vi"/>
+			<Item Name="StringInputKeyboardSimulation_Tests.vi" Type="VI" URL="../Tests/KeyboardSimTests/StringInputKeyboardSimulation_Tests.vi"/>
 		</Item>
 		<Item Name="SubPanelTests" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -32,6 +33,7 @@
 			<Item Name="AssertSubpanelVIName_Tests.vi" Type="VI" URL="../Tests/SubPanelTests/AssertSubpanelVIName_Tests.vi"/>
 		</Item>
 		<Item Name="VITests" Type="Folder">
+			<Item Name="AssertRunVI.vi" Type="VI" URL="../Tests/VITests/AssertRunVI.vi"/>
 			<Item Name="AssertVIExecState_Tests.vi" Type="VI" URL="../Tests/VITests/AssertVIExecState_Tests.vi"/>
 		</Item>
 		<Item Name="BasicControlPathAndType_Tests.vi" Type="VI" URL="../Tests/BasicControlPathAndType_Tests.vi"/>
