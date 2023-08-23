@@ -21,8 +21,12 @@
 			<Item Name="AssertTrueOrFalse_Tests.vi" Type="VI" URL="../Tests/ControlTests/AssertTrueOrFalse_Tests.vi"/>
 		</Item>
 		<Item Name="ListboxTest" Type="Folder">
-			<Item Name="ListboxStimulus.vi" Type="VI" URL="../Tests/ListBoxTests/ListboxStimulus.vi"/>
-			<Item Name="MultiselectListboxStimulus.vi" Type="VI" URL="../Tests/ListBoxTests/MultiselectListboxStimulus.vi"/>
+			<Item Name="Stimulus" Type="Folder">
+				<Item Name="LB_ItemIndex.vi" Type="VI" URL="../Tests/ListBoxTests/Stimulus/LB_ItemIndex.vi"/>
+				<Item Name="LB_ItemName.vi" Type="VI" URL="../Tests/ListBoxTests/Stimulus/LB_ItemName.vi"/>
+				<Item Name="LB_IndexArray.vi" Type="VI" URL="../Tests/ListBoxTests/Stimulus/LB_IndexArray.vi"/>
+				<Item Name="LB_NameArray.vi" Type="VI" URL="../Tests/ListBoxTests/Stimulus/LB_NameArray.vi"/>
+			</Item>
 		</Item>
 		<Item Name="KeyboardSimTests" Type="Folder">
 			<Item Name="KeyboardSimulation_Tests.vi" Type="VI" URL="../Tests/KeyboardSimTests/KeyboardSimulation_Tests.vi"/>
