@@ -22,10 +22,10 @@
 		</Item>
 		<Item Name="ListboxTest" Type="Folder">
 			<Item Name="Stimulus" Type="Folder">
-				<Item Name="LB_ItemIndex.vi" Type="VI" URL="../Tests/ListBoxTests/Stimulus/LB_ItemIndex.vi"/>
-				<Item Name="LB_ItemName.vi" Type="VI" URL="../Tests/ListBoxTests/Stimulus/LB_ItemName.vi"/>
-				<Item Name="LB_IndexArray.vi" Type="VI" URL="../Tests/ListBoxTests/Stimulus/LB_IndexArray.vi"/>
-				<Item Name="LB_NameArray.vi" Type="VI" URL="../Tests/ListBoxTests/Stimulus/LB_NameArray.vi"/>
+				<Item Name="LB_ItemIndex_Tests.vi" Type="VI" URL="../Tests/ListBoxTests/Stimulus/LB_ItemIndex_Tests.vi"/>
+				<Item Name="LB_ItemName_Tests.vi" Type="VI" URL="../Tests/ListBoxTests/Stimulus/LB_ItemName_Tests.vi"/>
+				<Item Name="LB_IndexArray_Tests.vi" Type="VI" URL="../Tests/ListBoxTests/Stimulus/LB_IndexArray_Tests.vi"/>
+				<Item Name="LB_NameArray_Tests.vi" Type="VI" URL="../Tests/ListBoxTests/Stimulus/LB_NameArray_Tests.vi"/>
 			</Item>
 		</Item>
 		<Item Name="KeyboardSimTests" Type="Folder">

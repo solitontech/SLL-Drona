@@ -13,6 +13,9 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Source" Type="Folder">
+			<Item Name="Error List" Type="Folder">
+				<Item Name="Drona_Errors.txt" Type="Document" URL="../Error List/Drona_Errors.txt"/>
+			</Item>
 			<Item Name="Test" Type="Folder">
 				<Item Name="TestHelper" Type="Folder">
 					<Item Name="controls" Type="Folder">

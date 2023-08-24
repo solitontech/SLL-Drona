@@ -10,9 +10,6 @@
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="MakeItemVisible.vi" Type="VI" URL="../SubVIs/MakeItemVisible.vi"/>
 	</Item>
-	<Item Name="typedef" Type="Folder">
-		<Item Name="Name&amp;Occuuence.ctl" Type="VI" URL="../typedef/Name&amp;Occuuence.ctl"/>
-	</Item>
 	<Item Name="Multiselect Listbox" Type="Folder">
 		<Item Name="SetValueByArrayIndex.vi" Type="VI" URL="../SetValueByArrayIndex.vi"/>
 		<Item Name="SetValueByArrayName.vi" Type="VI" URL="../SetValueByArrayName.vi"/>
