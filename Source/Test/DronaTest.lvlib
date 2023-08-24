@@ -11,10 +11,11 @@
 	</Item>
 	<Item Name="Tests" Type="Folder">
 		<Item Name="ControlTests" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="AssertAlmostEqual_Tests.vi" Type="VI" URL="../Tests/ControlTests/AssertAlmostEqual_Tests.vi"/>
 			<Item Name="AssertControlDisable_Tests.vi" Type="VI" URL="../Tests/ControlTests/AssertControlDisable_Tests.vi"/>
-			<Item Name="AssertControlInVisible_Tests.vi" Type="VI" URL="../Tests/ControlTests/AssertControlInVisible_Tests.vi"/>
 			<Item Name="AssertControlVisible_Tests.vi" Type="VI" URL="../Tests/ControlTests/AssertControlVisible_Tests.vi"/>
+			<Item Name="AssertControlInVisible_Tests.vi" Type="VI" URL="../Tests/ControlTests/AssertControlInVisible_Tests.vi"/>
 			<Item Name="AssertEqual_Tests.vi" Type="VI" URL="../Tests/ControlTests/AssertEqual_Tests.vi"/>
 			<Item Name="AssertGreaterThan_Tests.vi" Type="VI" URL="../Tests/ControlTests/AssertGreaterThan_Tests.vi"/>
 			<Item Name="AssertLessThan_Tests.vi" Type="VI" URL="../Tests/ControlTests/AssertLessThan_Tests.vi"/>
