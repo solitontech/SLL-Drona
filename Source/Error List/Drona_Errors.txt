@@ -1,0 +1,7 @@
+Drona Error Codes:
+
+1      = Assertion failed
+5000   = Control not found
+5001   = Item not found
+5100   = Control type mismatch
+6000   = Drona ini file not found

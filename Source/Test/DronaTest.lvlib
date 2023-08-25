@@ -10,6 +10,7 @@
 		<Item Name="Wait.vi" Type="VI" URL="../SubVis/Wait.vi"/>
 	</Item>
 	<Item Name="Tests" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="ControlTests" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="AssertAlmostEqual_Tests.vi" Type="VI" URL="../Tests/ControlTests/AssertAlmostEqual_Tests.vi"/>
@@ -21,6 +22,14 @@
 			<Item Name="AssertLessThan_Tests.vi" Type="VI" URL="../Tests/ControlTests/AssertLessThan_Tests.vi"/>
 			<Item Name="AssertNotEqual_Tests.vi" Type="VI" URL="../Tests/ControlTests/AssertNotEqual_Tests.vi"/>
 			<Item Name="AssertTrueOrFalse_Tests.vi" Type="VI" URL="../Tests/ControlTests/AssertTrueOrFalse_Tests.vi"/>
+		</Item>
+		<Item Name="ListboxTest" Type="Folder">
+			<Item Name="Stimulus" Type="Folder">
+				<Item Name="LB_ItemIndex_Tests.vi" Type="VI" URL="../Tests/ListBoxTests/Stimulus/LB_ItemIndex_Tests.vi"/>
+				<Item Name="LB_ItemName_Tests.vi" Type="VI" URL="../Tests/ListBoxTests/Stimulus/LB_ItemName_Tests.vi"/>
+				<Item Name="LB_IndexArray_Tests.vi" Type="VI" URL="../Tests/ListBoxTests/Stimulus/LB_IndexArray_Tests.vi"/>
+				<Item Name="LB_NameArray_Tests.vi" Type="VI" URL="../Tests/ListBoxTests/Stimulus/LB_NameArray_Tests.vi"/>
+			</Item>
 		</Item>
 		<Item Name="KeyboardSimTests" Type="Folder">
 			<Item Name="KeyboardSimulation_Tests.vi" Type="VI" URL="../Tests/KeyboardSimTests/KeyboardSimulation_Tests.vi"/>
