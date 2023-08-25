@@ -13,6 +13,9 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Source" Type="Folder">
+			<Item Name="Error List" Type="Folder">
+				<Item Name="Drona_Errors.txt" Type="Document" URL="../Error List/Drona_Errors.txt"/>
+			</Item>
 			<Item Name="Test" Type="Folder">
 				<Item Name="TestHelper" Type="Folder">
 					<Item Name="controls" Type="Folder">
@@ -407,6 +410,7 @@
 				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
 				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
+				<Item Name="SLL Debug.lvlib" Type="Library" URL="/&lt;vilib&gt;/SLL Toolkit/SLL Debug/SLL Debug.lvlib"/>
 				<Item Name="SLL File IO.lvlib" Type="Library" URL="/&lt;vilib&gt;/SLL Toolkit/SLL File IO/SLL File IO.lvlib"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
