@@ -30,6 +30,15 @@
 				<Item Name="LB_IndexArray_Tests.vi" Type="VI" URL="../Tests/ListBoxTests/Stimulus/LB_IndexArray_Tests.vi"/>
 				<Item Name="LB_NameArray_Tests.vi" Type="VI" URL="../Tests/ListBoxTests/Stimulus/LB_NameArray_Tests.vi"/>
 			</Item>
+			<Item Name="Assert" Type="Folder">
+				<Item Name="LB_FocusIndex_Tests.vi" Type="VI" URL="../Tests/ListBoxTests/Assert/LB_FocusIndex_Tests.vi"/>
+				<Item Name="LB_FocusName_Tests.vi" Type="VI" URL="../Tests/ListBoxTests/Assert/LB_FocusName_Tests.vi"/>
+				<Item Name="LB_FocusIndexArray_Tests.vi" Type="VI" URL="../Tests/ListBoxTests/Assert/LB_FocusIndexArray_Tests.vi"/>
+				<Item Name="LB_FocusNameArray_Tests.vi" Type="VI" URL="../Tests/ListBoxTests/Assert/LB_FocusNameArray_Tests.vi"/>
+				<Item Name="LB_AssertIndexValue_Tests.vi" Type="VI" URL="../Tests/ListBoxTests/Assert/LB_AssertIndexValue_Tests.vi"/>
+				<Item Name="LB_AssertAllItems_Tests.vi" Type="VI" URL="../Tests/ListBoxTests/Assert/LB_AssertAllItems_Tests.vi"/>
+				<Item Name="LB_AssertDisabledItems_Tests.vi" Type="VI" URL="../Tests/ListBoxTests/Assert/LB_AssertDisabledItems_Tests.vi"/>
+			</Item>
 		</Item>
 		<Item Name="KeyboardSimTests" Type="Folder">
 			<Item Name="KeyboardSimulation_Tests.vi" Type="VI" URL="../Tests/KeyboardSimTests/KeyboardSimulation_Tests.vi"/>
