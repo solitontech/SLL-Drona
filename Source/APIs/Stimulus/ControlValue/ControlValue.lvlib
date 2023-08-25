@@ -16,7 +16,7 @@
 		</Item>
 	</Item>
 	<Item Name="typedef" Type="Folder">
-		<Item Name="Name&amp;Occuuence.ctl" Type="VI" URL="../typedef/Name&amp;Occuuence.ctl"/>
+		<Item Name="Name&amp;Occurrence.ctl" Type="VI" URL="../typedef/Name&amp;Occurrence.ctl"/>
 	</Item>
 	<Item Name="SetValueAuto.vi" Type="VI" URL="../SetValueAuto.vi"/>
 	<Item Name="ValueSignalByPathArray.vi" Type="VI" URL="../ValueSignalByPathArray.vi"/>
