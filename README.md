@@ -12,7 +12,7 @@ SLL Drona as an Open Source LabVIEW UI testing framework was presented in GLA Su
 Source code is saved with LabVIEW 2016.
 
 ## Installation
-Please find the latest SLL Drona package available [here](https://github.com/solitontech/SLL-Drona/releases/tag/v0.4.0) and install it using VI Package Manager.
+Please find the latest SLL Drona package available [here](https://github.com/solitontech/SLL-Drona/releases/tag/v0.5.0) and install it using VI Package Manager.
 
 ## Usage
 Drona provides a library of VIs that are used to automate and test the UI without any flaws. It can be used to test any LabVIEW application and supports creating test cases from SLL Drona APIs.
@@ -54,8 +54,7 @@ As mentiond above you should give the label name of the controls and ensure whet
 ### 3. Assert:
 <ul>In this step you will assert the value obtained with the actual and restun whether the test is passed or failed. This poly API available in SLL Drona palette provides a set of assert VIs that helps you in asserting the values. </ul>
 
-![Assert Control Value](Images/Assert%20Control%20value.png) ![Assert Control Disable](Images/Assert%20Control%20disable.png) ![Assert Subpanel Inserted VI](Images/Assert%20Subpanel%20Inserted%20VI.png)
- ![Assert VI](Images/Assert%20VI%20Exec.png)  
+![Assert Control Value](Images/Assert%20Control%20value.png) ![Assert Control Disable](Images/Assert%20Control%20disable.png) ![Assert Subpanel Inserted VI](Images/Assert%20Subpanel%20Inserted%20VI.png) ![Assert VI](Images/Assert%20VI%20Exec.png) ![Assert Control Visibility](Images/Assert%20Control%20visible.png) 
 <ul>As same as stimulus here also there needs to be a valid control path given. There are a set of Assert VIs available in SLL Drona palette which can be used to assert the value or obtained result. </ul> 
 
 For example, To assert the value of the string in the below sample UI you need to give the input as <br/>
