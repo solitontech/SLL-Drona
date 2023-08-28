@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-31 18:14:50" Modified_Date="2023-08-14 16:20:43" Creator="sudarshan.rajkumar" Comments="" ID="f54b0fc2b99570d6b97467fddb804ec4">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-31 18:14:50" Modified_Date="2023-08-28 15:22:51" Creator="sudarshan.rajkumar" Comments="" ID="f2e6c94560380ae5f9bcd171e1c15339">
   <Library_General_Settings>
     <Package_File_Name>Soliton_Technologies_lib_SLL_Drona</Package_File_Name>
-    <Library_Version>0.4.1.4</Library_Version>
+    <Library_Version>0.5.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\Source</Library_Source_Folder>
     <Library_Output_Folder>..\Build</Library_Output_Folder>
@@ -37,9 +37,14 @@
       <Copyright/>
       <Packager>Soliton Technologies</Packager>
       <URL/>
-      <Release_Notes>v0.4.1
+      <Release_Notes>v0.5.0
 
-- Added API for keyboard simulation using string input</Release_Notes>
+- [Feat:  7]  Addition to VI Stimulus Function - Check VI is running before trying to run it.
+- [Feat: 13] Updates to Assert APIs - The exact value used for final comparison in Assert API is taken out as an indicator.
+- [Feat: 69] Create access for a listbox control in stimulus and assert APIs.
+- [Feat: 76] Added assert API to check control visibility state.
+
+</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -369,7 +374,7 @@
         <Path>..\Source\APIs\QuickStartTemplate.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E4F13B4BE46E6BD50279821843A38E81</GUID>
+      <GUID>E2DD329A6FB27CCA158442D15494E0CC</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
