@@ -40,6 +40,14 @@
 				<Item Name="LB_AssertDisabledItems_Tests.vi" Type="VI" URL="../Tests/ListBoxTests/Assert/LB_AssertDisabledItems_Tests.vi"/>
 			</Item>
 		</Item>
+		<Item Name="MCListboxTests" Type="Folder">
+			<Item Name="Stimulus" Type="Folder">
+				<Item Name="MCLB_ItemIndex_Tests.vi" Type="VI" URL="../Tests/MCListboxTests/Stimulus/MCLB_ItemIndex_Tests.vi"/>
+				<Item Name="MCLB_ItemName_Tests.vi" Type="VI" URL="../Tests/MCListboxTests/Stimulus/MCLB_ItemName_Tests.vi"/>
+				<Item Name="MCLB_IndexArray_Tests.vi" Type="VI" URL="../Tests/MCListboxTests/Stimulus/MCLB_IndexArray_Tests.vi"/>
+				<Item Name="MCLB_NameArray_Tests.vi" Type="VI" URL="../Tests/MCListboxTests/Stimulus/MCLB_NameArray_Tests.vi"/>
+			</Item>
+		</Item>
 		<Item Name="KeyboardSimTests" Type="Folder">
 			<Item Name="KeyboardSimulation_Tests.vi" Type="VI" URL="../Tests/KeyboardSimTests/KeyboardSimulation_Tests.vi"/>
 			<Item Name="LatchBooleanKeyboardSimulation_Tests.vi" Type="VI" URL="../Tests/KeyboardSimTests/LatchBooleanKeyboardSimulation_Tests.vi"/>
