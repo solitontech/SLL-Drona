@@ -13,6 +13,7 @@
 		<Item Name="ControlPathToArray.vi" Type="VI" URL="../_SubVIs/ControlPathToArray.vi"/>
 		<Item Name="ErrorControlMissing.vi" Type="VI" URL="../_SubVIs/ErrorControlMissing.vi"/>
 		<Item Name="ErrorSubPanelVIMissing.vi" Type="VI" URL="../_SubVIs/ErrorSubPanelVIMissing.vi"/>
+		<Item Name="GetTagFromPath.vi" Type="VI" URL="../_SubVIs/GetTagFromPath.vi"/>
 		<Item Name="GetTestsFromPackedProjectLibrary.vi" Type="VI" URL="../_SubVIs/GetTestsFromPackedProjectLibrary.vi"/>
 		<Item Name="RunEXE.vi" Type="VI" URL="../_SubVIs/RunEXE.vi"/>
 	</Item>

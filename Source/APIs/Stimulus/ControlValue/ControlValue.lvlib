@@ -17,6 +17,9 @@
 		<Item Name="Multicolumn Listbox" Type="Folder">
 			<Item Name="StimulusMCListbox.lvlib" Type="Library" URL="../Controls/MC Listbox/StimulusMCListbox.lvlib"/>
 		</Item>
+		<Item Name="Tree" Type="Folder">
+			<Item Name="StimulusTree.lvlib" Type="Library" URL="../Controls/Tree/StimulusTree.lvlib"/>
+		</Item>
 	</Item>
 	<Item Name="typedef" Type="Folder">
 		<Item Name="Name&amp;Occurrence.ctl" Type="VI" URL="../typedef/Name&amp;Occurrence.ctl"/>
