@@ -40,6 +40,23 @@
 				<Item Name="LB_AssertDisabledItems_Tests.vi" Type="VI" URL="../Tests/ListBoxTests/Assert/LB_AssertDisabledItems_Tests.vi"/>
 			</Item>
 		</Item>
+		<Item Name="MCListboxTests" Type="Folder">
+			<Item Name="Stimulus" Type="Folder">
+				<Item Name="MCLB_ItemIndex_Tests.vi" Type="VI" URL="../Tests/MCListboxTests/Stimulus/MCLB_ItemIndex_Tests.vi"/>
+				<Item Name="MCLB_ItemName_Tests.vi" Type="VI" URL="../Tests/MCListboxTests/Stimulus/MCLB_ItemName_Tests.vi"/>
+				<Item Name="MCLB_IndexArray_Tests.vi" Type="VI" URL="../Tests/MCListboxTests/Stimulus/MCLB_IndexArray_Tests.vi"/>
+				<Item Name="MCLB_NameArray_Tests.vi" Type="VI" URL="../Tests/MCListboxTests/Stimulus/MCLB_NameArray_Tests.vi"/>
+			</Item>
+			<Item Name="Assert" Type="Folder">
+				<Item Name="MCLB_FocusIndex_Tests.vi" Type="VI" URL="../Tests/MCListboxTests/Assert/MCLB_FocusIndex_Tests.vi"/>
+				<Item Name="MCLB_FocusName_Tests.vi" Type="VI" URL="../Tests/MCListboxTests/Assert/MCLB_FocusName_Tests.vi"/>
+				<Item Name="MCLB_FocusIndexArray_Tests.vi" Type="VI" URL="../Tests/MCListboxTests/Assert/MCLB_FocusIndexArray_Tests.vi"/>
+				<Item Name="MCLB_FocusNameArray_Tests.vi" Type="VI" URL="../Tests/MCListboxTests/Assert/MCLB_FocusNameArray_Tests.vi"/>
+				<Item Name="MCLB_AssertIndexValue_Tests.vi" Type="VI" URL="../Tests/MCListboxTests/Assert/MCLB_AssertIndexValue_Tests.vi"/>
+				<Item Name="MCLB_AssertAllItems_Tests.vi" Type="VI" URL="../Tests/MCListboxTests/Assert/MCLB_AssertAllItems_Tests.vi"/>
+				<Item Name="MCLB_AssertDisabledItems_Tests.vi" Type="VI" URL="../Tests/MCListboxTests/Assert/MCLB_AssertDisabledItems_Tests.vi"/>
+			</Item>
+		</Item>
 		<Item Name="KeyboardSimTests" Type="Folder">
 			<Item Name="KeyboardSimulation_Tests.vi" Type="VI" URL="../Tests/KeyboardSimTests/KeyboardSimulation_Tests.vi"/>
 			<Item Name="LatchBooleanKeyboardSimulation_Tests.vi" Type="VI" URL="../Tests/KeyboardSimTests/LatchBooleanKeyboardSimulation_Tests.vi"/>
