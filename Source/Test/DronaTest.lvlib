@@ -57,6 +57,21 @@
 				<Item Name="MCLB_AssertDisabledItems_Tests.vi" Type="VI" URL="../Tests/MCListboxTests/Assert/MCLB_AssertDisabledItems_Tests.vi"/>
 			</Item>
 		</Item>
+		<Item Name="Tree Tests" Type="Folder">
+			<Item Name="Stimulus" Type="Folder">
+				<Item Name="Tree_ItemTag_Tests.vi" Type="VI" URL="../Tests/Tree Tests/Stimulus/Tree_ItemTag_Tests.vi"/>
+				<Item Name="Tree_HierarchicalPath_Tests.vi" Type="VI" URL="../Tests/Tree Tests/Stimulus/Tree_HierarchicalPath_Tests.vi"/>
+				<Item Name="Tree_ItemArrayTag_Tests.vi" Type="VI" URL="../Tests/Tree Tests/Stimulus/Tree_ItemArrayTag_Tests.vi"/>
+				<Item Name="Tree_ArrayHierarchicalPath_Tests.vi" Type="VI" URL="../Tests/Tree Tests/Stimulus/Tree_ArrayHierarchicalPath_Tests.vi"/>
+			</Item>
+			<Item Name="Assert" Type="Folder">
+				<Item Name="Tree_FocusTag_Tests.vi" Type="VI" URL="../Tests/Tree Tests/Assert/Tree_FocusTag_Tests.vi"/>
+				<Item Name="Tree_FocusPath_Tests.vi" Type="VI" URL="../Tests/Tree Tests/Assert/Tree_FocusPath_Tests.vi"/>
+				<Item Name="Tree_FocusArrayTag_Tests.vi" Type="VI" URL="../Tests/Tree Tests/Assert/Tree_FocusArrayTag_Tests.vi"/>
+				<Item Name="Tree_FocusArrayPath_Tests.vi" Type="VI" URL="../Tests/Tree Tests/Assert/Tree_FocusArrayPath_Tests.vi"/>
+				<Item Name="Tree_AssertAllTags_Tests.vi" Type="VI" URL="../Tests/Tree Tests/Assert/Tree_AssertAllTags_Tests.vi"/>
+			</Item>
+		</Item>
 		<Item Name="KeyboardSimTests" Type="Folder">
 			<Item Name="KeyboardSimulation_Tests.vi" Type="VI" URL="../Tests/KeyboardSimTests/KeyboardSimulation_Tests.vi"/>
 			<Item Name="LatchBooleanKeyboardSimulation_Tests.vi" Type="VI" URL="../Tests/KeyboardSimTests/LatchBooleanKeyboardSimulation_Tests.vi"/>
