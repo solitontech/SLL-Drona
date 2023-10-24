@@ -16,6 +16,9 @@
 		<Item Name="Multicolumn Listbox" Type="Folder">
 			<Item Name="AssertMCListbox.lvlib" Type="Library" URL="../Controls/MC Listbox/AssertMCListbox.lvlib"/>
 		</Item>
+		<Item Name="Table" Type="Folder">
+			<Item Name="AssertTable.lvlib" Type="Library" URL="../Controls/Table/AssertTable.lvlib"/>
+		</Item>
 	</Item>
 	<Item Name="AlmostEqual.vi" Type="VI" URL="../AlmostEqual.vi"/>
 	<Item Name="Equal.vi" Type="VI" URL="../Equal.vi"/>
