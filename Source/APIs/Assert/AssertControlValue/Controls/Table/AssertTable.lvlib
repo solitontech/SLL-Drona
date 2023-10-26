@@ -6,8 +6,9 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="AssertAllItems.vi" Type="VI" URL="../AssertAllItems.vi"/>
+	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="AssertCellValue.vi" Type="VI" URL="../AssertCellValue.vi"/>
 	<Item Name="AssertColumnValue.vi" Type="VI" URL="../AssertColumnValue.vi"/>
 	<Item Name="AssertRowValue.vi" Type="VI" URL="../AssertRowValue.vi"/>
+	<Item Name="AssertAllItems.vi" Type="VI" URL="../AssertAllItems.vi"/>
 </Library>
