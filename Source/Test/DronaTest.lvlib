@@ -57,6 +57,11 @@
 				<Item Name="MCLB_AssertDisabledItems_Tests.vi" Type="VI" URL="../Tests/MCListboxTests/Assert/MCLB_AssertDisabledItems_Tests.vi"/>
 			</Item>
 		</Item>
+		<Item Name="KeyboardSimTests" Type="Folder">
+			<Item Name="KeyboardSimulation_Tests.vi" Type="VI" URL="../Tests/KeyboardSimTests/KeyboardSimulation_Tests.vi"/>
+			<Item Name="LatchBooleanKeyboardSimulation_Tests.vi" Type="VI" URL="../Tests/KeyboardSimTests/LatchBooleanKeyboardSimulation_Tests.vi"/>
+			<Item Name="StringInputKeyboardSimulation_Tests.vi" Type="VI" URL="../Tests/KeyboardSimTests/StringInputKeyboardSimulation_Tests.vi"/>
+		</Item>
 		<Item Name="SubPanelTests" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="AssertSubpanelExecStateBad_Tests.vi" Type="VI" URL="../Tests/SubPanelTests/AssertSubpanelExecStateBad_Tests.vi"/>
