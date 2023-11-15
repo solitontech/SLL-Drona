@@ -11,26 +11,10 @@
 	</Item>
 	<Item Name="Tests" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="ControlTests" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="AssertAlmostEqual_Tests.vi" Type="VI" URL="../Tests/ControlTests/AssertAlmostEqual_Tests.vi"/>
-			<Item Name="AssertEqual_Tests.vi" Type="VI" URL="../Tests/ControlTests/AssertEqual_Tests.vi"/>
-			<Item Name="AssertGreaterThan_Tests.vi" Type="VI" URL="../Tests/ControlTests/AssertGreaterThan_Tests.vi"/>
-			<Item Name="AssertLessThan_Tests.vi" Type="VI" URL="../Tests/ControlTests/AssertLessThan_Tests.vi"/>
-			<Item Name="AssertNotEqual_Tests.vi" Type="VI" URL="../Tests/ControlTests/AssertNotEqual_Tests.vi"/>
-			<Item Name="AssertTrueOrFalse_Tests.vi" Type="VI" URL="../Tests/ControlTests/AssertTrueOrFalse_Tests.vi"/>
-		</Item>
 		<Item Name="KeyboardSimTests" Type="Folder">
 			<Item Name="KeyboardSimulation_Tests.vi" Type="VI" URL="../Tests/KeyboardSimTests/KeyboardSimulation_Tests.vi"/>
 			<Item Name="LatchBooleanKeyboardSimulation_Tests.vi" Type="VI" URL="../Tests/KeyboardSimTests/LatchBooleanKeyboardSimulation_Tests.vi"/>
 			<Item Name="StringInputKeyboardSimulation_Tests.vi" Type="VI" URL="../Tests/KeyboardSimTests/StringInputKeyboardSimulation_Tests.vi"/>
-		</Item>
-		<Item Name="SubPanelTests" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="AssertSubpanelExecState_Tests.vi" Type="VI" URL="../Tests/SubPanelTests/AssertSubpanelExecState_Tests.vi"/>
-		</Item>
-		<Item Name="VITests" Type="Folder">
-			<Item Name="AssertVIExecState_Tests.vi" Type="VI" URL="../Tests/VITests/AssertVIExecState_Tests.vi"/>
 		</Item>
 	</Item>
 	<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
