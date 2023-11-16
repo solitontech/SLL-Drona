@@ -24,7 +24,10 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-
+      - name : Open LabVIEW
+        run: |
+          "C:\Program Files\National Instruments\LabVIEW 2016\LabVIEW.exe"
+        shell: cmd
 #      - name: Cleanup VIPM packages
 #        run: |
 #          "C:\Program Files\G-CLI\bin\g-cli.exe" --lv-ver 2016 --arch 64 "${{ github.workspace }}\Script\actions\VIPM Uninstall All VI Packages By Name\Run.vi" -- -pkgs-exclude wiresmith_technology_lib_g_cli-3.0.1.98 -lv-version "16.0 (64-bit)"
