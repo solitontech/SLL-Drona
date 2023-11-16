@@ -26,8 +26,13 @@ jobs:
       - uses: actions/checkout@v3
       - name : Open LabVIEW
         run: |
-          "C:\Program Files\National Instruments\LabVIEW 2016\LabVIEW.exe"
+          start "C:\Program Files\National Instruments\LabVIEW 2016\LabVIEW.exe"
+
+      - name: Run tests
+        run: |
+          "C:\Program Files\G-CLI\bin\g-cli.exe" --lv-ver 2016 --arch 64 "${{ github.workspace }}\Script\Drona Run Tests In Project.vi" -- -project-path "${{ github.workspace }}\Source\Drona.lvproj" -report-path "${{ github.workspace }}\report.xml"
         shell: cmd
+       
 #      - name: Cleanup VIPM packages
 #        run: |
 #          "C:\Program Files\G-CLI\bin\g-cli.exe" --lv-ver 2016 --arch 64 "${{ github.workspace }}\Script\actions\VIPM Uninstall All VI Packages By Name\Run.vi" -- -pkgs-exclude wiresmith_technology_lib_g_cli-3.0.1.98 -lv-version "16.0 (64-bit)"
@@ -48,10 +53,7 @@ jobs:
 #          "C:\Program Files\G-CLI\bin\g-cli.exe" --lv-ver 2016 --arch 64 "${{ github.workspace }}\Script\LV Mass Compile.vi" -- -dir "${{ github.workspace }}\Source\Examples"
 #        shell: cmd
         
-      - name: Run tests
-        run: |
-          "C:\Program Files\G-CLI\bin\g-cli.exe" --lv-ver 2016 --arch 64 "${{ github.workspace }}\Script\Drona Run Tests In Project.vi" -- -project-path "${{ github.workspace }}\Source\Drona.lvproj" -report-path "${{ github.workspace }}\report.xml"
-        shell: cmd
+      
 
 #     - name: Cleanup VIPM packages
 #        run: |
