@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-31 18:14:50" Modified_Date="2023-08-28 15:22:51" Creator="sudarshan.rajkumar" Comments="" ID="f2e6c94560380ae5f9bcd171e1c15339">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-31 18:14:50" Modified_Date="2023-11-16 17:43:54" Creator="sudarshan.rajkumar" Comments="" ID="744271f5b7a8114ad030d507f1acd273">
   <Library_General_Settings>
     <Package_File_Name>Soliton_Technologies_lib_SLL_Drona</Package_File_Name>
-    <Library_Version>0.5.0.2</Library_Version>
+    <Library_Version>1.1.1.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\Source</Library_Source_Folder>
     <Library_Output_Folder>..\Build</Library_Output_Folder>
@@ -159,6 +159,9 @@
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
+      <Exclusions>
+        <Path>Test</Path>
+      </Exclusions>
       <Place_Folder_Contents>
         <Path/>
       </Place_Folder_Contents>
@@ -374,7 +377,7 @@
         <Path>..\Source\APIs\QuickStartTemplate.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E2DD329A6FB27CCA158442D15494E0CC</GUID>
+      <GUID>DCAD8AB2B6B654FD50308E9563615F6F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
