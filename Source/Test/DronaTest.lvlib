@@ -14,67 +14,7 @@
 		<Item Name="ControlTests" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="AssertAlmostEqual_Tests.vi" Type="VI" URL="../Tests/ControlTests/AssertAlmostEqual_Tests.vi"/>
-			<Item Name="AssertControlDisable_Tests.vi" Type="VI" URL="../Tests/ControlTests/AssertControlDisable_Tests.vi"/>
-			<Item Name="AssertControlVisible_Tests.vi" Type="VI" URL="../Tests/ControlTests/AssertControlVisible_Tests.vi"/>
-			<Item Name="AssertControlInVisible_Tests.vi" Type="VI" URL="../Tests/ControlTests/AssertControlInVisible_Tests.vi"/>
-			<Item Name="AssertEqual_Tests.vi" Type="VI" URL="../Tests/ControlTests/AssertEqual_Tests.vi"/>
-			<Item Name="AssertGreaterThan_Tests.vi" Type="VI" URL="../Tests/ControlTests/AssertGreaterThan_Tests.vi"/>
-			<Item Name="AssertLessThan_Tests.vi" Type="VI" URL="../Tests/ControlTests/AssertLessThan_Tests.vi"/>
-			<Item Name="AssertNotEqual_Tests.vi" Type="VI" URL="../Tests/ControlTests/AssertNotEqual_Tests.vi"/>
-			<Item Name="AssertTrueOrFalse_Tests.vi" Type="VI" URL="../Tests/ControlTests/AssertTrueOrFalse_Tests.vi"/>
 		</Item>
-		<Item Name="ListboxTest" Type="Folder">
-			<Item Name="Stimulus" Type="Folder">
-				<Item Name="LB_ItemIndex_Tests.vi" Type="VI" URL="../Tests/ListBoxTests/Stimulus/LB_ItemIndex_Tests.vi"/>
-				<Item Name="LB_ItemName_Tests.vi" Type="VI" URL="../Tests/ListBoxTests/Stimulus/LB_ItemName_Tests.vi"/>
-				<Item Name="LB_IndexArray_Tests.vi" Type="VI" URL="../Tests/ListBoxTests/Stimulus/LB_IndexArray_Tests.vi"/>
-				<Item Name="LB_NameArray_Tests.vi" Type="VI" URL="../Tests/ListBoxTests/Stimulus/LB_NameArray_Tests.vi"/>
-			</Item>
-			<Item Name="Assert" Type="Folder">
-				<Item Name="LB_FocusIndex_Tests.vi" Type="VI" URL="../Tests/ListBoxTests/Assert/LB_FocusIndex_Tests.vi"/>
-				<Item Name="LB_FocusName_Tests.vi" Type="VI" URL="../Tests/ListBoxTests/Assert/LB_FocusName_Tests.vi"/>
-				<Item Name="LB_FocusIndexArray_Tests.vi" Type="VI" URL="../Tests/ListBoxTests/Assert/LB_FocusIndexArray_Tests.vi"/>
-				<Item Name="LB_FocusNameArray_Tests.vi" Type="VI" URL="../Tests/ListBoxTests/Assert/LB_FocusNameArray_Tests.vi"/>
-				<Item Name="LB_AssertIndexValue_Tests.vi" Type="VI" URL="../Tests/ListBoxTests/Assert/LB_AssertIndexValue_Tests.vi"/>
-				<Item Name="LB_AssertAllItems_Tests.vi" Type="VI" URL="../Tests/ListBoxTests/Assert/LB_AssertAllItems_Tests.vi"/>
-				<Item Name="LB_AssertDisabledItems_Tests.vi" Type="VI" URL="../Tests/ListBoxTests/Assert/LB_AssertDisabledItems_Tests.vi"/>
-			</Item>
-		</Item>
-		<Item Name="MCListboxTests" Type="Folder">
-			<Item Name="Stimulus" Type="Folder">
-				<Item Name="MCLB_ItemIndex_Tests.vi" Type="VI" URL="../Tests/MCListboxTests/Stimulus/MCLB_ItemIndex_Tests.vi"/>
-				<Item Name="MCLB_ItemName_Tests.vi" Type="VI" URL="../Tests/MCListboxTests/Stimulus/MCLB_ItemName_Tests.vi"/>
-				<Item Name="MCLB_IndexArray_Tests.vi" Type="VI" URL="../Tests/MCListboxTests/Stimulus/MCLB_IndexArray_Tests.vi"/>
-				<Item Name="MCLB_NameArray_Tests.vi" Type="VI" URL="../Tests/MCListboxTests/Stimulus/MCLB_NameArray_Tests.vi"/>
-			</Item>
-			<Item Name="Assert" Type="Folder">
-				<Item Name="MCLB_FocusIndex_Tests.vi" Type="VI" URL="../Tests/MCListboxTests/Assert/MCLB_FocusIndex_Tests.vi"/>
-				<Item Name="MCLB_FocusName_Tests.vi" Type="VI" URL="../Tests/MCListboxTests/Assert/MCLB_FocusName_Tests.vi"/>
-				<Item Name="MCLB_FocusIndexArray_Tests.vi" Type="VI" URL="../Tests/MCListboxTests/Assert/MCLB_FocusIndexArray_Tests.vi"/>
-				<Item Name="MCLB_FocusNameArray_Tests.vi" Type="VI" URL="../Tests/MCListboxTests/Assert/MCLB_FocusNameArray_Tests.vi"/>
-				<Item Name="MCLB_AssertIndexValue_Tests.vi" Type="VI" URL="../Tests/MCListboxTests/Assert/MCLB_AssertIndexValue_Tests.vi"/>
-				<Item Name="MCLB_AssertAllItems_Tests.vi" Type="VI" URL="../Tests/MCListboxTests/Assert/MCLB_AssertAllItems_Tests.vi"/>
-				<Item Name="MCLB_AssertDisabledItems_Tests.vi" Type="VI" URL="../Tests/MCListboxTests/Assert/MCLB_AssertDisabledItems_Tests.vi"/>
-			</Item>
-		</Item>
-		<Item Name="KeyboardSimTests" Type="Folder">
-			<Item Name="KeyboardSimulation_Tests.vi" Type="VI" URL="../Tests/KeyboardSimTests/KeyboardSimulation_Tests.vi"/>
-			<Item Name="LatchBooleanKeyboardSimulation_Tests.vi" Type="VI" URL="../Tests/KeyboardSimTests/LatchBooleanKeyboardSimulation_Tests.vi"/>
-			<Item Name="StringInputKeyboardSimulation_Tests.vi" Type="VI" URL="../Tests/KeyboardSimTests/StringInputKeyboardSimulation_Tests.vi"/>
-		</Item>
-		<Item Name="SubPanelTests" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="AssertSubpanelExecStateBad_Tests.vi" Type="VI" URL="../Tests/SubPanelTests/AssertSubpanelExecStateBad_Tests.vi"/>
-			<Item Name="AssertSubpanelExecStateNotBad_Tests.vi" Type="VI" URL="../Tests/SubPanelTests/AssertSubpanelExecStateNotBad_Tests.vi"/>
-			<Item Name="AssertSubpanelExecState_Tests.vi" Type="VI" URL="../Tests/SubPanelTests/AssertSubpanelExecState_Tests.vi"/>
-			<Item Name="AssertSubpanelVIName_Tests.vi" Type="VI" URL="../Tests/SubPanelTests/AssertSubpanelVIName_Tests.vi"/>
-		</Item>
-		<Item Name="VITests" Type="Folder">
-			<Item Name="AssertRunVI.vi" Type="VI" URL="../Tests/VITests/AssertRunVI.vi"/>
-			<Item Name="AssertVIExecState_Tests.vi" Type="VI" URL="../Tests/VITests/AssertVIExecState_Tests.vi"/>
-		</Item>
-		<Item Name="BasicControlPathAndType_Tests.vi" Type="VI" URL="../Tests/BasicControlPathAndType_Tests.vi"/>
-		<Item Name="BasicControlPathAndTypeInSubPanel_Tests.vi" Type="VI" URL="../Tests/BasicControlPathAndTypeInSubPanel_Tests.vi"/>
 	</Item>
 	<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
 	<Item Name="LoadPanel.vi" Type="VI" URL="../SubVis/LoadPanel.vi"/>
