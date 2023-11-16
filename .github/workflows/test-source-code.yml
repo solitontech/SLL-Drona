@@ -26,7 +26,8 @@ jobs:
       - uses: actions/checkout@v3
       - name : Open LabVIEW
         run: |
-          start "C:\Program Files\National Instruments\LabVIEW 2016\LabVIEW.exe"
+          "C:\Program Files\National Instruments\LabVIEW 2016\LabVIEW.exe"
+        shell: cmd
 
       - name: Run tests
         run: |
