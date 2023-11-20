@@ -44,7 +44,6 @@
 			</Item>
 			<Item Name="Drona.lvlib" Type="Library" URL="../Drona.lvlib"/>
 		</Item>
-		<Item Name="sample.vi" Type="VI" URL="/D/Workout Space/tests/sample.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
