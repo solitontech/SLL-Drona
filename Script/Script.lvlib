@@ -13,6 +13,7 @@
 	<Item Name="Drona Run Tests In Project.vi" Type="VI" URL="../Drona Run Tests In Project.vi"/>
 	<Item Name="ExampleScript.vi" Type="VI" URL="../ExampleScript.vi"/>
 	<Item Name="LV Mass Compile.vi" Type="VI" URL="../LV Mass Compile.vi"/>
+	<Item Name="Test PC Unlocker.vi" Type="VI" URL="../Test PC Unlocker.vi"/>
 	<Item Name="VIPM Install VI Packages By Name.vi" Type="VI" URL="../VIPM Install VI Packages By Name.vi"/>
 	<Item Name="VIPM Uninstall All VI Packages By Name.vi" Type="VI" URL="../VIPM Uninstall All VI Packages By Name.vi"/>
 	<Item Name="VIPM Uninstall VI Packages By Name.vi" Type="VI" URL="../VIPM Uninstall VI Packages By Name.vi"/>
