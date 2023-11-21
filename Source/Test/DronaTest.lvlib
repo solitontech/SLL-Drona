@@ -57,6 +57,20 @@
 				<Item Name="MCLB_AssertDisabledItems_Tests.vi" Type="VI" URL="../Tests/MCListboxTests/Assert/MCLB_AssertDisabledItems_Tests.vi"/>
 			</Item>
 		</Item>
+		<Item Name="Table Tests" Type="Folder">
+			<Item Name="Stimulus" Type="Folder">
+				<Item Name="Table_CellValue_Tests.vi" Type="VI" URL="../Tests/Table Tests/Stimulus/Table_CellValue_Tests.vi"/>
+				<Item Name="Table_RowValue_Tests.vi" Type="VI" URL="../Tests/Table Tests/Stimulus/Table_RowValue_Tests.vi"/>
+				<Item Name="Table_ColumnValue_Tests.vi" Type="VI" URL="../Tests/Table Tests/Stimulus/Table_ColumnValue_Tests.vi"/>
+				<Item Name="Table_AllItems_Tests.vi" Type="VI" URL="../Tests/Table Tests/Stimulus/Table_AllItems_Tests.vi"/>
+			</Item>
+			<Item Name="Assert" Type="Folder">
+				<Item Name="Table_AssertCellValue_Tests.vi" Type="VI" URL="../Tests/Table Tests/Assert/Table_AssertCellValue_Tests.vi"/>
+				<Item Name="Table_AssertRowValue_Tests.vi" Type="VI" URL="../Tests/Table Tests/Assert/Table_AssertRowValue_Tests.vi"/>
+				<Item Name="Table_AssertColumnValue_Tests.vi" Type="VI" URL="../Tests/Table Tests/Assert/Table_AssertColumnValue_Tests.vi"/>
+				<Item Name="Table_AssertAllItems_Tests.vi" Type="VI" URL="../Tests/Table Tests/Assert/Table_AssertAllItems_Tests.vi"/>
+			</Item>
+		</Item>
 		<Item Name="KeyboardSimTests" Type="Folder">
 			<Item Name="KeyboardSimulation_Tests.vi" Type="VI" URL="../Tests/KeyboardSimTests/KeyboardSimulation_Tests.vi"/>
 			<Item Name="LatchBooleanKeyboardSimulation_Tests.vi" Type="VI" URL="../Tests/KeyboardSimTests/LatchBooleanKeyboardSimulation_Tests.vi"/>
