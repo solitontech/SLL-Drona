@@ -24,10 +24,10 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-      # - name: Unlock PC
-      #   run: |
-      #     "C:\Program Files\G-CLI\bin\g-cli.exe" --lv-ver 2016 --arch 64 "${{ github.workspace }}\Script\Test PC Unlocker.vi"
-      #   shell: cmd
+      - name: Unlock PC
+        run: |
+          "C:\Program Files\G-CLI\bin\g-cli.exe" --lv-ver 2016 --arch 64 "${{ github.workspace }}\Script\Test PC Unlocker.vi"
+        shell: cmd
 
 #      - name: Cleanup VIPM packages
 #        run: |
