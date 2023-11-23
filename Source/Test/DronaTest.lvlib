@@ -86,6 +86,7 @@
 		<Item Name="VITests" Type="Folder">
 			<Item Name="AssertRunVI.vi" Type="VI" URL="../Tests/VITests/AssertRunVI.vi"/>
 			<Item Name="AssertVIExecState_Tests.vi" Type="VI" URL="../Tests/VITests/AssertVIExecState_Tests.vi"/>
+			<Item Name="AssertVIFPState_Tests.vi" Type="VI" URL="../Tests/VITests/AssertVIFPState_Tests.vi"/>
 		</Item>
 		<Item Name="BasicControlPathAndType_Tests.vi" Type="VI" URL="../Tests/BasicControlPathAndType_Tests.vi"/>
 		<Item Name="BasicControlPathAndTypeInSubPanel_Tests.vi" Type="VI" URL="../Tests/BasicControlPathAndTypeInSubPanel_Tests.vi"/>
