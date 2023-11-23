@@ -23,7 +23,7 @@
 					</Item>
 					<Item Name="ExecPanels" Type="Folder">
 						<Item Name="BrokenVI.vi" Type="VI" URL="../Test/TestHelper/ExecPanels/BrokenVI.vi"/>
-						<Item Name="TimerRun.vi" Type="VI" URL="../Test/TestHelper/ExecPanels/TimerRun.vi"/>
+						<Item Name="TimerRun.vi" Type="VI" URL="../../../SLL-Drona/Source/Test/TestHelper/ExecPanels/TimerRun.vi"/>
 					</Item>
 					<Item Name="Panels" Type="Folder">
 						<Item Name="_Template.vi" Type="VI" URL="../Test/TestHelper/Panels/_Template.vi"/>

@@ -6,9 +6,9 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="AssertVIExecBad.vi" Type="VI" URL="../AssertVIExecBad.vi"/>
-	<Item Name="AssertVIExecCore.vi" Type="VI" URL="../AssertVIExecCore.vi"/>
-	<Item Name="AssertVIExecIdle.vi" Type="VI" URL="../AssertVIExecIdle.vi"/>
-	<Item Name="AssertVIExecNotBad.vi" Type="VI" URL="../AssertVIExecNotBad.vi"/>
-	<Item Name="AssertVIExecRunning.vi" Type="VI" URL="../AssertVIExecRunning.vi"/>
+	<Item Name="AssertVIExecBad.vi" Type="VI" URL="../Exec/AssertVIExecBad.vi"/>
+	<Item Name="AssertVIExecCore.vi" Type="VI" URL="../Exec/AssertVIExecCore.vi"/>
+	<Item Name="AssertVIExecIdle.vi" Type="VI" URL="../Exec/AssertVIExecIdle.vi"/>
+	<Item Name="AssertVIExecNotBad.vi" Type="VI" URL="../Exec/AssertVIExecNotBad.vi"/>
+	<Item Name="AssertVIExecRunning.vi" Type="VI" URL="../Exec/AssertVIExecRunning.vi"/>
 </Library>

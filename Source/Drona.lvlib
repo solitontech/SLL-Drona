@@ -28,8 +28,8 @@
 			<Item Name="AssertControlDisable.lvlib" Type="Library" URL="../APIs/Assert/AssertControlDisable/AssertControlDisable.lvlib"/>
 			<Item Name="AssertControlValue.lvlib" Type="Library" URL="../APIs/Assert/AssertControlValue/AssertControlValue.lvlib"/>
 			<Item Name="AssertSubpanel.lvlib" Type="Library" URL="../APIs/Assert/AssertSubpanel/AssertSubpanel.lvlib"/>
-			<Item Name="AssertVI.lvlib" Type="Library" URL="../APIs/Assert/AssertVI/AssertVI.lvlib"/>
-			<Item Name="AssertControlVisible.lvlib" Type="Library" URL="../AssertControlVisible.lvlib"/>
+			<Item Name="AssertVI.lvlib" Type="Library" URL="/&lt;vilib&gt;/SLL Drona/APIs/Assert/AssertVI/AssertVI.lvlib"/>
+			<Item Name="AssertControlVisible.lvlib" Type="Library" URL="../APIs/Assert/AssertControlVisible/AssertControlVisible.lvlib"/>
 		</Item>
 		<Item Name="Get" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
