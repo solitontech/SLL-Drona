@@ -23,7 +23,7 @@
 					</Item>
 					<Item Name="ExecPanels" Type="Folder">
 						<Item Name="BrokenVI.vi" Type="VI" URL="../Test/TestHelper/ExecPanels/BrokenVI.vi"/>
-						<Item Name="TimerRun.vi" Type="VI" URL="../Test/TestHelper/ExecPanels/TimerRun.vi"/>
+						<Item Name="TimerRun.vi" Type="VI" URL="../../../SLL-Drona/Source/Test/TestHelper/ExecPanels/TimerRun.vi"/>
 					</Item>
 					<Item Name="Panels" Type="Folder">
 						<Item Name="_Template.vi" Type="VI" URL="../Test/TestHelper/Panels/_Template.vi"/>
@@ -280,10 +280,6 @@
 				<Item Name="VI Scripting - Traverse.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/traverseref.llb/VI Scripting - Traverse.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="AssertVIExecBad.vi" Type="VI" URL="../APIs/Assert/AssertVI/AssertVIExecBad.vi"/>
-			<Item Name="AssertVIExecIdle.vi" Type="VI" URL="../APIs/Assert/AssertVI/AssertVIExecIdle.vi"/>
-			<Item Name="AssertVIExecNotBad.vi" Type="VI" URL="../APIs/Assert/AssertVI/AssertVIExecNotBad.vi"/>
-			<Item Name="AssertVIExecRunning.vi" Type="VI" URL="../APIs/Assert/AssertVI/AssertVIExecRunning.vi"/>
 			<Item Name="user32.dll" Type="Document" URL="user32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>

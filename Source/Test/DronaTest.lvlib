@@ -59,16 +59,31 @@
 		</Item>
 		<Item Name="Table Tests" Type="Folder">
 			<Item Name="Stimulus" Type="Folder">
-				<Item Name="Table_CellValue_Tests.vi" Type="VI" URL="../Tests/Table Tests/Stimulus/Table_CellValue_Tests.vi"/>
-				<Item Name="Table_RowValue_Tests.vi" Type="VI" URL="../Tests/Table Tests/Stimulus/Table_RowValue_Tests.vi"/>
-				<Item Name="Table_ColumnValue_Tests.vi" Type="VI" URL="../Tests/Table Tests/Stimulus/Table_ColumnValue_Tests.vi"/>
 				<Item Name="Table_AllItems_Tests.vi" Type="VI" URL="../Tests/Table Tests/Stimulus/Table_AllItems_Tests.vi"/>
+				<Item Name="Table_CellValue_Tests.vi" Type="VI" URL="../Tests/Table Tests/Stimulus/Table_CellValue_Tests.vi"/>
+				<Item Name="Table_ColumnValue_Tests.vi" Type="VI" URL="../Tests/Table Tests/Stimulus/Table_ColumnValue_Tests.vi"/>
+				<Item Name="Table_RowValue_Tests.vi" Type="VI" URL="../Tests/Table Tests/Stimulus/Table_RowValue_Tests.vi"/>
 			</Item>
 			<Item Name="Assert" Type="Folder">
-				<Item Name="Table_AssertCellValue_Tests.vi" Type="VI" URL="../Tests/Table Tests/Assert/Table_AssertCellValue_Tests.vi"/>
-				<Item Name="Table_AssertRowValue_Tests.vi" Type="VI" URL="../Tests/Table Tests/Assert/Table_AssertRowValue_Tests.vi"/>
-				<Item Name="Table_AssertColumnValue_Tests.vi" Type="VI" URL="../Tests/Table Tests/Assert/Table_AssertColumnValue_Tests.vi"/>
 				<Item Name="Table_AssertAllItems_Tests.vi" Type="VI" URL="../Tests/Table Tests/Assert/Table_AssertAllItems_Tests.vi"/>
+				<Item Name="Table_AssertCellValue_Tests.vi" Type="VI" URL="../Tests/Table Tests/Assert/Table_AssertCellValue_Tests.vi"/>
+				<Item Name="Table_AssertColumnValue_Tests.vi" Type="VI" URL="../Tests/Table Tests/Assert/Table_AssertColumnValue_Tests.vi"/>
+				<Item Name="Table_AssertRowValue_Tests.vi" Type="VI" URL="../Tests/Table Tests/Assert/Table_AssertRowValue_Tests.vi"/>
+			</Item>
+		</Item>
+		<Item Name="Tree Tests" Type="Folder">
+			<Item Name="Stimulus" Type="Folder">
+				<Item Name="Tree_ItemTag_Tests.vi" Type="VI" URL="../Tests/Tree Tests/Stimulus/Tree_ItemTag_Tests.vi"/>
+				<Item Name="Tree_HierarchicalPath_Tests.vi" Type="VI" URL="../Tests/Tree Tests/Stimulus/Tree_HierarchicalPath_Tests.vi"/>
+				<Item Name="Tree_ItemArrayTag_Tests.vi" Type="VI" URL="../Tests/Tree Tests/Stimulus/Tree_ItemArrayTag_Tests.vi"/>
+				<Item Name="Tree_ArrayHierarchicalPath_Tests.vi" Type="VI" URL="../Tests/Tree Tests/Stimulus/Tree_ArrayHierarchicalPath_Tests.vi"/>
+			</Item>
+			<Item Name="Assert" Type="Folder">
+				<Item Name="Tree_FocusTag_Tests.vi" Type="VI" URL="../Tests/Tree Tests/Assert/Tree_FocusTag_Tests.vi"/>
+				<Item Name="Tree_FocusPath_Tests.vi" Type="VI" URL="../Tests/Tree Tests/Assert/Tree_FocusPath_Tests.vi"/>
+				<Item Name="Tree_FocusArrayTag_Tests.vi" Type="VI" URL="../Tests/Tree Tests/Assert/Tree_FocusArrayTag_Tests.vi"/>
+				<Item Name="Tree_FocusArrayPath_Tests.vi" Type="VI" URL="../Tests/Tree Tests/Assert/Tree_FocusArrayPath_Tests.vi"/>
+				<Item Name="Tree_AssertAllTags_Tests.vi" Type="VI" URL="../Tests/Tree Tests/Assert/Tree_AssertAllTags_Tests.vi"/>
 			</Item>
 		</Item>
 		<Item Name="KeyboardSimTests" Type="Folder">

@@ -6,21 +6,9 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Exec" Type="Folder">
-		<Item Name="AssertVIExecBad.vi" Type="VI" URL="../Exec/AssertVIExecBad.vi"/>
-		<Item Name="AssertVIExecCore.vi" Type="VI" URL="../Exec/AssertVIExecCore.vi"/>
-		<Item Name="AssertVIExecIdle.vi" Type="VI" URL="../Exec/AssertVIExecIdle.vi"/>
-		<Item Name="AssertVIExecNotBad.vi" Type="VI" URL="../Exec/AssertVIExecNotBad.vi"/>
-		<Item Name="AssertVIExecRunning.vi" Type="VI" URL="../Exec/AssertVIExecRunning.vi"/>
-	</Item>
-	<Item Name="FPState" Type="Folder">
-		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="AssertVIFPStateCore.vi" Type="VI" URL="../FPState/AssertVIFPStateCore.vi"/>
-		<Item Name="AssertVIFPStateInvalid.vi" Type="VI" URL="../FPState/AssertVIFPStateInvalid.vi"/>
-		<Item Name="AssertVIFPStateStandard.vi" Type="VI" URL="../FPState/AssertVIFPStateStandard.vi"/>
-		<Item Name="AssertVIFPStateClosed.vi" Type="VI" URL="../FPState/AssertVIFPStateClosed.vi"/>
-		<Item Name="AssertVIFPStateHidden.vi" Type="VI" URL="../FPState/AssertVIFPStateHidden.vi"/>
-		<Item Name="AssertVIFPStateMinimized.vi" Type="VI" URL="../FPState/AssertVIFPStateMinimized.vi"/>
-		<Item Name="AssertVIFPStateMaximized.vi" Type="VI" URL="../FPState/AssertVIFPStateMaximized.vi"/>
-	</Item>
+	<Item Name="AssertVIExecBad.vi" Type="VI" URL="../Exec/AssertVIExecBad.vi"/>
+	<Item Name="AssertVIExecCore.vi" Type="VI" URL="../Exec/AssertVIExecCore.vi"/>
+	<Item Name="AssertVIExecIdle.vi" Type="VI" URL="../Exec/AssertVIExecIdle.vi"/>
+	<Item Name="AssertVIExecNotBad.vi" Type="VI" URL="../Exec/AssertVIExecNotBad.vi"/>
+	<Item Name="AssertVIExecRunning.vi" Type="VI" URL="../Exec/AssertVIExecRunning.vi"/>
 </Library>

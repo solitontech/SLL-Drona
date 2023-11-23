@@ -13,6 +13,7 @@
 		<Item Name="ControlPathToArray.vi" Type="VI" URL="../_SubVIs/ControlPathToArray.vi"/>
 		<Item Name="ErrorControlMissing.vi" Type="VI" URL="../_SubVIs/ErrorControlMissing.vi"/>
 		<Item Name="ErrorSubPanelVIMissing.vi" Type="VI" URL="../_SubVIs/ErrorSubPanelVIMissing.vi"/>
+		<Item Name="GetTagFromPath.vi" Type="VI" URL="../_SubVIs/GetTagFromPath.vi"/>
 		<Item Name="GetTestsFromPackedProjectLibrary.vi" Type="VI" URL="../_SubVIs/GetTestsFromPackedProjectLibrary.vi"/>
 		<Item Name="RunEXE.vi" Type="VI" URL="../_SubVIs/RunEXE.vi"/>
 	</Item>
@@ -27,7 +28,7 @@
 			<Item Name="AssertControlDisable.lvlib" Type="Library" URL="../APIs/Assert/AssertControlDisable/AssertControlDisable.lvlib"/>
 			<Item Name="AssertControlValue.lvlib" Type="Library" URL="../APIs/Assert/AssertControlValue/AssertControlValue.lvlib"/>
 			<Item Name="AssertSubpanel.lvlib" Type="Library" URL="../APIs/Assert/AssertSubpanel/AssertSubpanel.lvlib"/>
-			<Item Name="AssertVI.lvlib" Type="Library" URL="../APIs/Assert/AssertVI/AssertVI.lvlib"/>
+			<Item Name="AssertVI.lvlib" Type="Library" URL="/&lt;vilib&gt;/SLL Drona/APIs/Assert/AssertVI/AssertVI.lvlib"/>
 			<Item Name="AssertControlVisible.lvlib" Type="Library" URL="../APIs/Assert/AssertControlVisible/AssertControlVisible.lvlib"/>
 		</Item>
 		<Item Name="Get" Type="Folder">
