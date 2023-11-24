@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-31 18:14:50" Modified_Date="2023-08-28 15:22:51" Creator="sudarshan.rajkumar" Comments="" ID="f2e6c94560380ae5f9bcd171e1c15339">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-31 18:14:50" Modified_Date="2023-11-24 17:50:34" Creator="sudarshan.rajkumar" Comments="" ID="795840150a258d1ca56352564cf6ee65">
   <Library_General_Settings>
     <Package_File_Name>Soliton_Technologies_lib_SLL_Drona</Package_File_Name>
-    <Library_Version>0.5.0.2</Library_Version>
+    <Library_Version>1.0.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\Source</Library_Source_Folder>
     <Library_Output_Folder>..\Build</Library_Output_Folder>
@@ -19,6 +19,7 @@
     <Package_Dependencies>
       <Additional_External_Dependencies>jki_lib_caraya &gt;=1.2.1.131</Additional_External_Dependencies>
       <Additional_External_Dependencies>jki_lib_state_machine &gt;=2018.0.7.45</Additional_External_Dependencies>
+      <Additional_External_Dependencies>oglib_array &gt;=4.1.1.14</Additional_External_Dependencies>
       <Additional_External_Dependencies>oglib_variantconfig &gt;=4.0.0.5</Additional_External_Dependencies>
       <Additional_External_Dependencies>soliton_technologies_lib_sll_toolkit &gt;=1.0.0.1</Additional_External_Dependencies>
     </Package_Dependencies>
@@ -37,13 +38,14 @@
       <Copyright/>
       <Packager>Soliton Technologies</Packager>
       <URL/>
-      <Release_Notes>v0.5.0
+      <Release_Notes>v1.0.0
 
-- [Feat:  7]  Addition to VI Stimulus Function - Check VI is running before trying to run it.
-- [Feat: 13] Updates to Assert APIs - The exact value used for final comparison in Assert API is taken out as an indicator.
-- [Feat: 69] Create access for a listbox control in stimulus and assert APIs.
-- [Feat: 76] Added assert API to check control visibility state.
-
+- [Feat:  90]  Create access for a MultiColumn ListBox control in stimulus and assert APIs.
+- [Feat:  93]  Create access for a Tree control in stimulus and assert APIs.
+- [Feat:  98]  Create access for a Table control in stimulus and assert APIs.
+- [Feat:  99]  Added assert API to check Front Panel state.
+- [Fix:  87] Generates error when trying to access disabled items from ListBox, MultiColumn ListBox and Tree
+- [Fix:  94] Timeot Error fix in ListBox and MultiColumn ListBox
 </Release_Notes>
     </Description>
     <Destinations>
@@ -149,6 +151,12 @@
         <Additional_Destination>true</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Examples/WeatherReport/Example bin3/WeatherReport.bin3</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>true</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
         <Password/>
@@ -159,6 +167,9 @@
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
+      <Exclusions>
+        <Path>Test</Path>
+      </Exclusions>
       <Place_Folder_Contents>
         <Path/>
       </Place_Folder_Contents>
@@ -374,7 +385,7 @@
         <Path>..\Source\APIs\QuickStartTemplate.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E2DD329A6FB27CCA158442D15494E0CC</GUID>
+      <GUID>A57BDDB9365E57FBE04D5FA242410A1C</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
