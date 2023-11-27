@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-31 18:14:50" Modified_Date="2023-11-24 20:11:21" Creator="sudarshan.rajkumar" Comments="" ID="6639abc861fcabaf9862f0764168a66c">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-31 18:14:50" Modified_Date="2023-11-27 18:35:06" Creator="sudarshan.rajkumar" Comments="" ID="34bbd1fe55f77a4b7350c20775acef72">
   <Library_General_Settings>
     <Package_File_Name>Soliton_Technologies_lib_SLL_Drona</Package_File_Name>
     <Library_Version>1.0.0.2</Library_Version>
@@ -40,12 +40,44 @@
       <URL/>
       <Release_Notes>Major Release v1.0.0
  
-- [Feat:  90]  Added support for MultiColumn ListBox.
-- [Feat:  93]  Added support for Tree.
-- [Feat:  98]  Added support for Table.
-- [Feat:  99]  Added assert API to check Front Panel state.
-- [Fix:  87] Generates Error when trying to access disabled items from ListBox.
-- [Fix:  94] Timeout Error fix in ListBox</Release_Notes>
+Drona is an open source LabVIEW UI Testing Framework to automate manual testing. 
+It helps in creating testcases and can be used to test any LabVIEW application.
+
+Available in Functions Palette -&gt; Addons -&gt; SLL Drona
+
+Offers support from LV2016.
+
+This has Stimulus and Assert features for basic controls like numeric , Boolean and string control.
+It offers support for the List box , multicolumn list box , table and tree control.
+
+# Stimulus [Poly] 
+
+##Ctrl
+Offers support for Numeric, Boolean, String, List box, Multicolumn List box ,Table and Tree control.
+This can be used to stimulate value change to the controls
+
+##Keyboard
+Extends support to key presses on keyboard to simulate typing when needed
+
+##VI
+VI specific functionalities like run , close , open front panel is also possible
+
+#Assert [Poly]
+
+##Ctrl value
+Control values and contents can be asserted for Numeric (also supports comparison), Boolean, String, List box, Multicolumn List box ,Table and Tree
+
+##Ctrl Properties
+Extends support to assert control properties like Visibility and enabled/disabled state
+
+##VI
+Renders to assert VI properties like Execution state and Front panel state
+
+##Subpanel Inserted VI
+Offers support to assert the Execution state and Name of the VI in the subpanel
+
+#Get [Poly]
+The reference for the controls, VIs and application can be acquired</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -384,7 +416,7 @@
         <Path>..\Source\APIs\QuickStartTemplate.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>01CE777D561BD2513C74A296F0E1308D</GUID>
+      <GUID>F80D1BF23DFFC06E71867C473998F8E8</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
