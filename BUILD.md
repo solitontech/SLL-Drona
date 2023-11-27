@@ -7,9 +7,10 @@
 ![Build Information](Images/VIPB%20Build%20Info.png)
 5. **Palette** - To edit the SLL Drona Palette, go to Palette category and right click on the Palette icon and choose "Edit Palette"
 ![Palette](Images/VIPB%20Palette.png)
-6. **Package Dependencies** - Update if there are any new dependencies added or removed in SLL Drona
+6. Make sure the newly created examples are available from **Help>>Find Examples** and configure the source file settings accordingly
+7. **Package Dependencies** - Update if there are any new dependencies added or removed in SLL Drona
 ![Package Dependencies](Images/VIPB%20Package%20Depen.png)
-7. **Package Filename** - Ensure the package name is proper with correct build version number
+8. **Package Filename** - Ensure the package name is proper with correct build version number
 ![Package Filename](Images/VIPB%20Package%20filename.png)
-8. Click on "Build Package" to start building the SLL Drona package <br/>
+9. Click on "Build Package" to start building the SLL Drona package <br/>
 ![Build Package](Images/VIPB%20Build%20package%20icon.png)
