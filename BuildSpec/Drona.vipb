@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-31 18:14:50" Modified_Date="2023-11-24 18:29:36" Creator="sudarshan.rajkumar" Comments="" ID="1db20d3d209b6e030a31e01d47c1d971">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-31 18:14:50" Modified_Date="2023-11-27 19:22:08" Creator="sudarshan.rajkumar" Comments="" ID="7b415534888eac72a6e76b48d2104c49">
   <Library_General_Settings>
     <Package_File_Name>Soliton_Technologies_lib_SLL_Drona</Package_File_Name>
-    <Library_Version>1.0.0.2</Library_Version>
+    <Library_Version>1.0.0.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\Source</Library_Source_Folder>
     <Library_Output_Folder>..\Build</Library_Output_Folder>
@@ -38,15 +38,37 @@
       <Copyright/>
       <Packager>Soliton Technologies</Packager>
       <URL/>
-      <Release_Notes>v1.0.0
+      <Release_Notes>&lt;b&gt;Major Release v1.0.0&lt;/b&gt;
+ 
+Drona is an open source LabVIEW UI Testing Framework to automate manual testing. 
+It helps in creating testcases and can be used to test any LabVIEW application.
 
-- [Feat:  90]  Create access for a MultiColumn ListBox control in stimulus and assert APIs.
-- [Feat:  93]  Create access for a Tree control in stimulus and assert APIs.
-- [Feat:  98]  Create access for a Table control in stimulus and assert APIs.
-- [Feat:  99]  Added assert API to check Front Panel state.
-- [Fix:  87] Generates error when trying to access disabled items from ListBox, MultiColumn ListBox and Tree
-- [Fix:  94] Timeot Error fix in ListBox and MultiColumn ListBox
-</Release_Notes>
+Available in Functions Palette -&gt; Addons -&gt; SLL Drona
+
+This has Stimulus and Assert features for basic controls like numeric , Boolean and string control.
+It offers support for the List box , multicolumn list box , table and tree control.
+
+&lt;b&gt;#Stimulus [Poly]&lt;/b&gt;
+&lt;b&gt;##Ctrl&lt;/b&gt;
+Offers support for Numeric, Boolean, String, List box, Multicolumn List box ,Table and Tree control.
+This can be used to stimulate value change to the controls
+&lt;b&gt;##Keyboard&lt;/b&gt;
+Extends support to key presses on keyboard to simulate typing when needed
+&lt;b&gt;##VI&lt;/b&gt;
+VI specific functionalities like run , close , open front panel is also possible
+
+&lt;b&gt;#Assert [Poly]&lt;/b&gt;
+&lt;b&gt;##Ctrl value&lt;/b&gt;
+Control values and contents can be asserted for Numeric (also supports comparison), Boolean, String, List box, Multicolumn List box ,Table and Tree
+&lt;b&gt;##Ctrl Properties&lt;/b&gt;
+Extends support to assert control properties like Visibility and enabled/disabled state
+&lt;b&gt;##VI&lt;/b&gt;
+Renders to assert VI properties like Execution state and Front panel state
+&lt;b&gt;##Subpanel Inserted VI&lt;/b&gt;
+Offers support to assert the Execution state and Name of the VI in the subpanel
+
+&lt;b&gt;#Get [Poly]&lt;/b&gt;
+The reference for the controls, VIs and application can be acquired</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -385,7 +407,7 @@
         <Path>..\Source\APIs\QuickStartTemplate.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>11AB3F924135D5D6C47A6AEC13A73A4C</GUID>
+      <GUID>9CD98B5349113EBF3FA284285B33655A</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
