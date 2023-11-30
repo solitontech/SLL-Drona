@@ -5,7 +5,7 @@ To provide an open-source Labview UI Testing Framework to automate manual UI tes
 UI testing plays an important part in the Overall testing process of each application/product. Drona allows Engineers to automate the UI test by writing test cases that involve the concept of setting values to UI controls and asserts it to check the test case. It increases the overall software quality, which is predominantly needed in today's existing or developing products. It also reduces the time taken by Engineers to test the UI.
 
 ## SLL Drona in GLA Summit
-SLL Drona as an Open Source LabVIEW UI testing framework was presented in GLA Summit 2022 organized by McQuillan, cbutcher, .aCe.. (Open group).  For more details please watch the [video](https://www.youtube.com/watch?v=4JryzEPQexM)
+SLL Drona as an Open Source LabVIEW UI testing framework was presented at GLA Summit 2022. For more details please watch the [video](https://www.youtube.com/watch?v=4JryzEPQexM)
 
 
 ## Minimum Compatible LabVIEW Version
@@ -38,11 +38,10 @@ You can find the related APIs to these steps in the SLL Drona palette
 <ul> The first step in creating the test case is setting up the project and creating a Drona configuration file parallel to the Project. The configuration file includes the Launcher VI path, which is relative to the INI file, and options for opening and running the VI while executing the test. Test cases can be created after configuring the file. The Application reference and VI reference obtained from Setup VI are used to create test cases.
 
 If you are using Drona for a LabVIEW application, then the INI file has to be created parallel to it.</ul>
-
+ <b>Sample folder structure for the Drona INI file</b><br/>
 ![Folder structure](Images/INI_File_Structure.png)
-Sample folder structure for the Drona INI file
-![Drona ini file](Images/Drona%20ini%20file.png) <br/>
-The above is the sample format required for creating a Drona configuration file.
+<b>Sample format required for creating a Drona configuration file</b>
+![Drona ini file](Images/Drona%20ini%20file.png)
 ### 2. Stimulus:
 <ul>Stimulus is used to assign values to the UI controls based on the need and provide instructions, for the operations to be performed. This poly API available in the SLL Drona palette provides a set of stimulus VIs that help you in assigning the value for various types of control. </ul>
 
