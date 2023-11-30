@@ -43,7 +43,7 @@ The above is the sample format required for creating a Drona configuration file.
 <ul>Stimulus is the step where you assign values to the UI controls based on the need and operations to perform. This poly API available in the SLL Drona palette provides a set of stimulus VIs that help you in assigning the value for various types of control. </ul>
 
 ![Stimulus Control](Images/Stimulus%20API%20control.png) ![Stimulus Keyboard](Images/Stimulus%20API%20keyboard.png) ![Stimulus VI](Images/Stimulus%20API%20VI.png) <br/>
-<ul>You can set values for a control that is inside a tab control or a sub panel, etc by giving a proper valid control path and value for that control. The control path contains the label name of the controls with delimiters to access the specific or target control. </ul>
+<ul>You can set values for a control that is inside a tab control or a sub panel, etc by giving a proper valid control path and value for that control. The control path contains the label name of the controls with delimiters to access the specific control. </ul>
 
 For example, To access the numeric control as in the below depicted UI you need to give the control path as: <br/>
 ![Stimulus control](Images/Stimulus%20control.png) <br/>
@@ -67,7 +67,7 @@ For example, To assert the value of the string in the below sample UI you need t
 ## Unit Tests
 You can find the examples for different use cases in the following path: <br/>
 <*LabVIEW>\vi.lib\SLL Drona\Examples*  <br/>
-There are 4 different types of examples available here based on the use case.
+There are 5 different types of examples available here based on the use case.
 To get to know more about the use cases please visit the test cases under the following path: <br/>
 <*LabVIEW>\vi.lib\SLL Drona\Test\Tests\SubTests* 
 
