@@ -7,7 +7,7 @@
 
 2.Update the dependencies list in the VIPB file  
 
-3.Update the README file with the latest images displaying the latest features added 
+3.Update the README file with the latest images displaying the features added 
 
 
 
