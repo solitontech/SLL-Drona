@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-31 18:14:50" Modified_Date="2023-11-27 19:22:08" Creator="sudarshan.rajkumar" Comments="" ID="7b415534888eac72a6e76b48d2104c49">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-31 18:14:50" Modified_Date="2023-11-29 18:38:22" Creator="sudarshan.rajkumar" Comments="" ID="1d6da5c5df5a6c5e52a890cd89cf181e">
   <Library_General_Settings>
     <Package_File_Name>Soliton_Technologies_lib_SLL_Drona</Package_File_Name>
     <Library_Version>1.0.0.4</Library_Version>
@@ -37,7 +37,7 @@
       <Description>Drona is a LabVIEW UI testing framework, which provides various APIs for testing LabVIEW UIs and GUIs.</Description>
       <Copyright/>
       <Packager>Soliton Technologies</Packager>
-      <URL/>
+      <URL>https://github.com/solitontech/SLL-Drona</URL>
       <Release_Notes>&lt;b&gt;Major Release v1.0.0&lt;/b&gt;
  
 Drona is an open source LabVIEW UI Testing Framework to automate manual testing. 
@@ -45,29 +45,29 @@ It helps in creating testcases and can be used to test any LabVIEW application.
 
 Available in Functions Palette -&gt; Addons -&gt; SLL Drona
 
-This has Stimulus and Assert features for basic controls like numeric , Boolean and string control.
-It offers support for the List box , multicolumn list box , table and tree control.
+This has Stimulus and Assert features for basic controls like Numeric, Boolean and String control.
+It offers support for the List box, Multicolumn List box, Table and Tree control.
 
-&lt;b&gt;#Stimulus [Poly]&lt;/b&gt;
-&lt;b&gt;##Ctrl&lt;/b&gt;
-Offers support for Numeric, Boolean, String, List box, Multicolumn List box ,Table and Tree control.
+&lt;b&gt;# Stimulus [Poly]&lt;/b&gt;
+&lt;b&gt;## Control&lt;/b&gt;
+Offers support for Numeric, Boolean, String, List box, Multicolumn List box, Table and Tree control.
 This can be used to stimulate value change to the controls
-&lt;b&gt;##Keyboard&lt;/b&gt;
+&lt;b&gt;## Keyboard&lt;/b&gt;
 Extends support to key presses on keyboard to simulate typing when needed
-&lt;b&gt;##VI&lt;/b&gt;
-VI specific functionalities like run , close , open front panel is also possible
+&lt;b&gt;## VI&lt;/b&gt;
+VI specific functionalities like run, close, open front panel is also possible
 
-&lt;b&gt;#Assert [Poly]&lt;/b&gt;
-&lt;b&gt;##Ctrl value&lt;/b&gt;
-Control values and contents can be asserted for Numeric (also supports comparison), Boolean, String, List box, Multicolumn List box ,Table and Tree
-&lt;b&gt;##Ctrl Properties&lt;/b&gt;
-Extends support to assert control properties like Visibility and enabled/disabled state
-&lt;b&gt;##VI&lt;/b&gt;
-Renders to assert VI properties like Execution state and Front panel state
-&lt;b&gt;##Subpanel Inserted VI&lt;/b&gt;
-Offers support to assert the Execution state and Name of the VI in the subpanel
+&lt;b&gt;# Assert [Poly]&lt;/b&gt;
+&lt;b&gt;## Control Value&lt;/b&gt;
+Control values and contents can be asserted for Numeric (also supports comparison), Boolean, String, List box, Multicolumn List box, Table and Tree
+&lt;b&gt;## Control Properties&lt;/b&gt;
+Extends support to assert control properties like visibility and enabled/disabled state
+&lt;b&gt;## VI&lt;/b&gt;
+Renders to assert VI properties like Execution State and Front Panel State
+&lt;b&gt;## Subpanel Inserted VI&lt;/b&gt;
+Offers support to assert the Execution State and Name of the VI in the subpanel
 
-&lt;b&gt;#Get [Poly]&lt;/b&gt;
+&lt;b&gt;# Get [Poly]&lt;/b&gt;
 The reference for the controls, VIs and application can be acquired</Release_Notes>
     </Description>
     <Destinations>
@@ -407,7 +407,7 @@ The reference for the controls, VIs and application can be acquired</Release_Not
         <Path>..\Source\APIs\QuickStartTemplate.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9CD98B5349113EBF3FA284285B33655A</GUID>
+      <GUID>3E8733A8BAA3E246A5FA00D5D4B5DC94</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
