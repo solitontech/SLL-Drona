@@ -10,6 +10,7 @@
 
 </Property>
 	<Item Name="Controls" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Listbox" Type="Folder">
 			<Item Name="AssertListbox.lvlib" Type="Library" URL="../Controls/Listbox/AssertListbox.lvlib"/>
 		</Item>
@@ -21,6 +22,9 @@
 		</Item>
 		<Item Name="Tree" Type="Folder">
 			<Item Name="AssertTree.lvlib" Type="Library" URL="../Controls/Tree/AssertTree.lvlib"/>
+		</Item>
+		<Item Name="Subpanel" Type="Folder">
+			<Item Name="AssertSubpanel.lvlib" Type="Library" URL="../Controls/Subpanel/AssertSubpanel.lvlib"/>
 		</Item>
 	</Item>
 	<Item Name="AlmostEqual.vi" Type="VI" URL="../AlmostEqual.vi"/>
