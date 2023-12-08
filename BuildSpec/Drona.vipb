@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-31 18:14:50" Modified_Date="2023-12-08 19:51:05" Creator="sudarshan.rajkumar" Comments="" ID="66c3b96dd2bee0673eefb2c5b113dc57">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-31 18:14:50" Modified_Date="2023-12-08 20:02:35" Creator="sudarshan.rajkumar" Comments="" ID="6862599c3f75f6bad35a84ac88c8a163">
   <Library_General_Settings>
     <Package_File_Name>Soliton_Technologies_lib_SLL_Drona</Package_File_Name>
     <Library_Version>1.0.1.1</Library_Version>
@@ -50,8 +50,7 @@ It also offers support for the Listbox, Multicolumn Listbox, Table and Tree cont
 
 &lt;b&gt;# Stimulus [Poly]&lt;/b&gt;
 &lt;b&gt;## Control&lt;/b&gt;
-Offers support for Numeric, Boolean, String, Listbox, Multicolumn Listbox, Table and Tree control.
-This can be used to stimulate value change to the controls.
+Value change can be stimulated for Numeric, Boolean, String, Listbox, Multicolumn Listbox, Table and Tree control.
 &lt;b&gt;## Keyboard&lt;/b&gt;
 Extends support to key presses on keyboard to simulate typing when needed.
 &lt;b&gt;## VI&lt;/b&gt;
@@ -406,7 +405,7 @@ The reference for the controls, VIs and application can be acquired.</Release_No
         <Path>..\Source\APIs\QuickStartTemplate.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>484DCD184D8F3C22E9A5A564BB3AEB8D</GUID>
+      <GUID>49DFCEE2A9B6BE193933755610824224</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
