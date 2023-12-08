@@ -6,12 +6,12 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Exec" Type="Folder">
-		<Item Name="AssertVIExecBad.vi" Type="VI" URL="../Exec/AssertVIExecBad.vi"/>
-		<Item Name="AssertVIExecCore.vi" Type="VI" URL="../Exec/AssertVIExecCore.vi"/>
-		<Item Name="AssertVIExecIdle.vi" Type="VI" URL="../Exec/AssertVIExecIdle.vi"/>
-		<Item Name="AssertVIExecNotBad.vi" Type="VI" URL="../Exec/AssertVIExecNotBad.vi"/>
-		<Item Name="AssertVIExecRunning.vi" Type="VI" URL="../Exec/AssertVIExecRunning.vi"/>
+	<Item Name="Execution" Type="Folder">
+		<Item Name="AssertVIExecBad.vi" Type="VI" URL="../Execution/AssertVIExecBad.vi"/>
+		<Item Name="AssertVIExecCore.vi" Type="VI" URL="../Execution/AssertVIExecCore.vi"/>
+		<Item Name="AssertVIExecIdle.vi" Type="VI" URL="../Execution/AssertVIExecIdle.vi"/>
+		<Item Name="AssertVIExecNotBad.vi" Type="VI" URL="../Execution/AssertVIExecNotBad.vi"/>
+		<Item Name="AssertVIExecRunning.vi" Type="VI" URL="../Execution/AssertVIExecRunning.vi"/>
 	</Item>
 	<Item Name="FPState" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
