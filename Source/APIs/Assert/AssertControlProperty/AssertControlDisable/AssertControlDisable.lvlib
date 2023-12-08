@@ -1,7 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="16008000">
-	<Property Name="NI.Lib.ContainingLib" Type="Str">Drona.lvlib</Property>
-	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../../../Drona.lvlib</Property>
+	<Property Name="NI.Lib.ContainingLib" Type="Str">Drona.lvlib:AssertControlProperty.lvlib</Property>
+	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../AssertControlProperty.lvlib</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*(!!!*Q(C=\&gt;5R&lt;NN!%)8BZ]#&amp;7^YAU27G=M]L[!K4/E!!NC\6KMPU3;-L+(7K17[A/JWO10_\'AI+9&amp;A'%C-J4'JI[OVS^R/ZI+7_X5GXGK^NHZ\&gt;8N,?_]SHM`F=S['K&gt;VY/]`*J&lt;@6FPBDNR&amp;L;#VG(J[_`H((_P@W0@^`T\6=WP7VPW\`&gt;(KYOUF&gt;@MT&gt;K,S)KK;#=-L7JZC20]C20]C20]C!0]C!0]C!0=C&gt;X=C&gt;X=C&gt;X=C-X=C-X=C-X]L[4CVTE)I?54*Z-F!S;$*"UBK,EE(A34_**0(R6YEE]C3@R*"[[+0%EHM34?")0FSHR**\%EXA3$U.V3@;&gt;(%`C98A&amp;HM!4?!*0Y'&amp;+":Y!%%Q7$"Q-!E."9X!3?!*0Y/&amp;5A3@Q"*\!%XBI6O!*0)%H]!1?,OFX*&lt;KG\?2Y'%;/R`%Y(M@D?"B;DM@R/"\(YXC94I\(]4A):U*H=!BS,H)[/&amp;]=D_0BDRS0YX%]DM@RU.3@E0=\UT2N*]&gt;D?!S0Y4%]BI=B:(A-D_%R0);(976Y$)`B-4S'B[FE?!S0Y4%ARK2-,W-QYU+DER%9(DZ^N6B`3N%FVH?J&amp;K^K5;I7GWI2K2;([K'L(K&lt;K);FOPOKGKG[7[C;I@JQ+L=+I*F&amp;&gt;X$LKS0&amp;!\;E&gt;N;%G;EW.V)I;WK6`O?0R?.4B=."_P^&gt;ON^.GM^%U46KPVRL(5;P63M-QH&amp;]$\^H0,Y44?_G"]V:@@EXX=4&gt;OP`\Y/(T`-'[``@S]8&gt;J;P&gt;,`UP`AX;BXOBS8?`1)7\L4BA!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
