@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-31 18:14:50" Modified_Date="2023-12-01 18:11:32" Creator="sudarshan.rajkumar" Comments="" ID="8e173bfbca98a97b1e4bd7c381adf73c">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-31 18:14:50" Modified_Date="2023-12-08 20:02:35" Creator="sudarshan.rajkumar" Comments="" ID="6862599c3f75f6bad35a84ac88c8a163">
   <Library_General_Settings>
     <Package_File_Name>Soliton_Technologies_lib_SLL_Drona</Package_File_Name>
-    <Library_Version>1.0.0.4</Library_Version>
+    <Library_Version>1.0.1.1</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\Source</Library_Source_Folder>
     <Library_Output_Folder>..\Build</Library_Output_Folder>
@@ -38,7 +38,7 @@
       <Copyright/>
       <Packager>Soliton Technologies</Packager>
       <URL>https://github.com/solitontech/SLL-Drona</URL>
-      <Release_Notes>&lt;b&gt;Major Release v1.0.0&lt;/b&gt;
+      <Release_Notes>&lt;b&gt;Major Release v1.0.1&lt;/b&gt;
  
 Drona is an open source LabVIEW UI Testing Framework to automate manual testing. 
 It helps in creating testcases and can be used to test any LabVIEW application.
@@ -50,25 +50,23 @@ It also offers support for the Listbox, Multicolumn Listbox, Table and Tree cont
 
 &lt;b&gt;# Stimulus [Poly]&lt;/b&gt;
 &lt;b&gt;## Control&lt;/b&gt;
-Offers support for Numeric, Boolean, String, Listbox, Multicolumn Listbox, Table and Tree control.
-This can be used to stimulate value change to the controls
+Value change can be stimulated for Numeric, Boolean, String, Listbox, Multicolumn Listbox, Table and Tree control.
 &lt;b&gt;## Keyboard&lt;/b&gt;
-Extends support to key presses on keyboard to simulate typing when needed
+Extends support to key presses on keyboard to simulate typing when needed.
 &lt;b&gt;## VI&lt;/b&gt;
-VI specific functionalities like run, close, open front panel is also possible
+VI specific functionalities like run, close, open front panel is also possible.
 
 &lt;b&gt;# Assert [Poly]&lt;/b&gt;
 &lt;b&gt;## Control Value&lt;/b&gt;
-Control values and contents can be asserted for Numeric (also supports comparison), Boolean, String, Listbox, Multicolumn Listbox, Table and Tree
+Control values and contents can be asserted for Numeric (also supports comparison), Boolean, String, Listbox, Multicolumn Listbox, Table and Tree.
+Offers support to assert the Execution State and Name of the VI in the subpanel.
 &lt;b&gt;## Control Properties&lt;/b&gt;
-Extends support to assert control properties like visibility and enabled/disabled state
+Extends support to assert control properties like visibility and enabled/disabled state.
 &lt;b&gt;## VI&lt;/b&gt;
-Renders to assert VI properties like Execution State and Front Panel State
-&lt;b&gt;## Subpanel Inserted VI&lt;/b&gt;
-Offers support to assert the Execution State and Name of the VI in the subpanel
+Renders to assert VI properties like Execution State and Front Panel State.
 
 &lt;b&gt;# Get [Poly]&lt;/b&gt;
-The reference for the controls, VIs and application can be acquired</Release_Notes>
+The reference for the controls, VIs and application can be acquired.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -407,7 +405,7 @@ The reference for the controls, VIs and application can be acquired</Release_Not
         <Path>..\Source\APIs\QuickStartTemplate.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D14FD117A23D9B073E5322DF36891DA7</GUID>
+      <GUID>49DFCEE2A9B6BE193933755610824224</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
