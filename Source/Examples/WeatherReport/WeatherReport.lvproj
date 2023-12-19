@@ -23,6 +23,7 @@
 			<Item Name="WeatherReportTests.lvlib" Type="Library" URL="../Tests/WeatherReportTests.lvlib"/>
 		</Item>
 		<Item Name="Drona.ini" Type="Document" URL="../Drona.ini"/>
+		<Item Name="Readme.txt" Type="Document" URL="../Readme.txt"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Add State(s) to Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__jki_lib_state_machine.vi"/>

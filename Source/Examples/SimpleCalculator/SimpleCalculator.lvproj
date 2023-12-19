@@ -26,6 +26,7 @@
 			<Item Name="SimpleCalculatorTests.lvlib" Type="Library" URL="../Tests/SimpleCalculatorTests.lvlib"/>
 		</Item>
 		<Item Name="Drona.ini" Type="Document" URL="../Drona.ini"/>
+		<Item Name="Readme.txt" Type="Document" URL="../Readme.txt"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
